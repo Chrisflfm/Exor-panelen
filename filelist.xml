@@ -1,41 +1,44 @@
 <JMFiles>
- <ProjectInfo Size="1393351" AllowedSize="251658240"/>
+ <ProjectInfo Size="1492812" AllowedSize="251658240"/>
  <files>
-  <file size="17191" md5="6a479d34329515c487cf699b01a549b1" name="gvl.jmxb"/>
-  <file size="8268" md5="c6552a9bde5506d6b45eea400519ca1f" name="home.jmxb"/>
-  <file size="10298" md5="1fe9871be0d1467076ba450105d22368" name="hvac overview.jmxb"/>
+  <file size="17191" md5="0a91ca5b6bbc4ce75ac10cdef4f4946d" name="gvl.jmxb"/>
+  <file size="5291" md5="cc53cb0630de1b2aefecea69dd6a20a3" name="home.jmxb"/>
+  <file size="10298" md5="a7e5da763ff0fb8d7232c688ce4ff880" name="hvac overview.jmxb"/>
   <file size="1310" md5="bbc8761e38e51441c5e9eb92b9605216" name="images/2-2_rev1.svg"/>
   <file size="790" md5="0918b4278031471643f19361b7585973" name="images/7-5.svg"/>
+  <file size="74932" md5="f0b592a5d69bcbe0ba84fa016a4d5b92" name="images/HVAC.jpg"/>
   <file size="2403" md5="249ce0607073e6ce25b840e67eff57fc" name="images/IC_fo1_002.svg"/>
+  <file size="1710" md5="69cdfdb51edb5220daa7e7e549d2b5b7" name="images/IC_fo1_031.svg"/>
+  <file size="1458" md5="5ca1f36fd384a35d8e88b5068f542e5a" name="images/IC_fo1_032.svg"/>
   <file size="8369" md5="370f0982ddae6e22fdbe25e44f398971" name="images/IC_fo1_036.svg"/>
   <file size="4567" md5="3735c93a8ad110c06185f2789a32100c" name="images/TOM.jpg"/>
   <file size="7322" md5="1854b05c5acd322690183c88239a3afc" name="images/bkgd_round_chrome.svg"/>
   <file size="486" md5="a8d386d6e976792b940752f8290af092" name="images/check_symbol.svg"/>
   <file size="1838" md5="4514ab29658938fe813b4887b566413a" name="images/clkticks_round_dots.svg"/>
   <file size="485" md5="6f873facc014f28267c9db4bb99bef74" name="images/downarrow_symbol_rev1.svg"/>
+  <file size="4447" md5="d061aca03f49085f2782aa6472691fc7" name="images/frame_rect_chrome.svg"/>
   <file size="89011" md5="d94b6ce495a17e05e09eb9e17f10917b" name="images/gelijkvloers.png"/>
   <file size="1424" md5="47586b5f3d37ae59ba8607530bb2aa0e" name="images/glass_round_dkgray.svg"/>
+  <file size="2590" md5="aa74c287b32dc6c48e6a7224f1184346" name="images/gvl-etage.png"/>
   <file size="3897" md5="9f0a3ce2aaa87a7b4e5eaf2ed0c2dd9a" name="images/ic_di1_144.svg"/>
+  <file size="1451" md5="c02d93788c272f1c5a40aa2c9134bfd7" name="images/ic_el1_38.svg"/>
   <file size="519" md5="f13cf16e0025c547028ecd8a3306c792" name="images/leftarrow_symbol_rev1.svg"/>
+  <file size="370" md5="5724659afbcb360b73bf4f4fbffd9512" name="images/li_inset_round.svg"/>
   <file size="1192" md5="c34ae0c20ea10534361241fafdae2570" name="images/ne_pointed_vert.svg"/>
   <file size="639" md5="c088fc6253088f7234861f3a64e62cf4" name="images/needle_solid_fathours.svg"/>
   <file size="1058" md5="940720b17a9eb6b2cfc00a0d70210d40" name="images/needle_solid_fatmins.svg"/>
   <file size="560" md5="c9190f6a48716263ca8dc635bee42fa9" name="images/needle_solid_secs2.svg"/>
-  <file size="488" md5="81bccd5c148d3f1edbe5063ba98a8159" name="images/rightarrow_symbol_rev1.svg"/>
   <file size="511" md5="f8f1dbc67814abfbe62d8e81c9e436ab" name="images/uparrow_symbol_rev1.svg"/>
+  <file size="41986" md5="e24361411fe1d4af1aa2f67af052dba5" name="images/velux.jpg"/>
   <file size="89069" md5="a4529c9ea741b1fc349b11dad5db092e" name="images/verdieping.png"/>
   <file size="12257" md5="16de21b555d1603fc22a540b36cfb9d1" name="images/vgau_rrect1_chrome.svg"/>
   <file size="2845" md5="c7e2d57c0ff501c30e2418715b49fc98" name="images/vslbk_rrect1_metal.svg"/>
   <file size="11070" md5="6d47704c1d66f731d80ec19c0e5b05e8" name="images/vthmb_blkpl_rect_2_rev1.svg"/>
   <file size="585" md5="123234b5418c1b71e94a4d3646f71dbc" name="images/x_symbol_rev1.svg"/>
-  <file size="74932" md5="f0b592a5d69bcbe0ba84fa016a4d5b92" name="images\HVAC.jpg"/>
   <file size="1886" md5="909aa107c9d06d82075288589166883f" name="images\btn_gray_down_rev2.svg"/>
   <file size="3798" md5="2a47e7ce974dfa872f5eaf983306f684" name="images\btn_gray_up_rev1.svg"/>
-  <file size="8495" md5="c31b736c653ec51f2d1c69ac52ed42d9" name="images\btn_kbdwht_std_1_rev1.svg"/>
-  <file size="8057" md5="c3938371fd7f387c3aa27dac8d1178e2" name="images\btn_kbdwht_std_2_rev1.svg"/>
-  <file size="2590" md5="aa74c287b32dc6c48e6a7224f1184346" name="images\gvl-etage.png"/>
-  <file size="41986" md5="e24361411fe1d4af1aa2f67af052dba5" name="images\velux.jpg"/>
-  <file size="89069" md5="a4529c9ea741b1fc349b11dad5db092e" name="images\verdieping.png"/>
+  <file size="1475" md5="374abadb35c96cbf0c57d3de68950fb7" name="images\btn_plastic_rect_1.svg"/>
+  <file size="490" md5="ae6e56ae281835e6bc1be7dc4805fbe6" name="images\btn_plastic_rect_2_rev2.svg"/>
   <file size="690" md5="be7f6627f4532827b35a7890da1855bf" name="keypads/images/Backspace_small.svg"/>
   <file size="8633" md5="15c777f7cd26b3c47d121f6f5c95395d" name="keypads/images/btn_kbdwht_long_1_rev1.svg"/>
   <file size="7800" md5="23fc4b4815b9593ae07bce83598646aa" name="keypads/images/btn_kbdwht_long_2_rev1.svg"/>
@@ -53,13 +56,15 @@
   <file size="28511" md5="83b1c85c4becab172301bca3b26a3050" name="keypads\alphabet.jmx"/>
   <file size="9329" md5="d53e2a814f755fb1b4a219738fda6166" name="keypads\calendar.jmx"/>
   <file size="11133" md5="6ef90a636c02cb112cd4a7349be4ca55" name="keypads\numeric.jmx"/>
-  <file size="6574" md5="5eaca17e305f5094a9b73e1acf7cd7a1" name="openclosevelux.jmxb"/>
-  <file size="135462" md5="1c5761f5f0b69829be8190b1576f6025" name="opt/GVL.png"/>
-  <file size="50148" md5="805c8f045f2e6d157daa8606938173a8" name="opt/HVAC overview.png"/>
-  <file size="50781" md5="e02cb094eb70c171e54b46e4be8de90c" name="opt/Home.png"/>
-  <file size="62740" md5="3ccc4e430a069afc69a4699e73a51ae9" name="opt/OpenCloseVelux.png"/>
-  <file size="141407" md5="f29c89d29041db98857fc82de491460d" name="opt/VERD.png"/>
-  <file size="124698" md5="f18d83962bc90c1f81e7208b66b31cb7" name="opt/Velux.png"/>
+  <file size="6619" md5="adca875a31cf529cdaa0bfd66f5e1826" name="licht.jmxb"/>
+  <file size="6338" md5="71f85d0898c708dd3f0ad7ffd2e84e48" name="openclosevelux.jmxb"/>
+  <file size="99483" md5="9914b7513f9d089ce26ef70c9a751c04" name="opt/Licht.png"/>
+  <file size="135462" md5="1c5761f5f0b69829be8190b1576f6025" name="opt/gvl.png"/>
+  <file size="141775" md5="968bd582ae9a05726d58e6468a0ff6d1" name="opt/home.png"/>
+  <file size="50148" md5="805c8f045f2e6d157daa8606938173a8" name="opt/hvac overview.png"/>
+  <file size="62740" md5="3ccc4e430a069afc69a4699e73a51ae9" name="opt/openclosevelux.png"/>
+  <file size="124698" md5="f18d83962bc90c1f81e7208b66b31cb7" name="opt/velux.png"/>
+  <file size="141407" md5="f29c89d29041db98857fc82de491460d" name="opt/verd.png"/>
   <file size="4586" md5="4137eb5b1c689967b920ea6cd217967b" name="usermgmttemplates/images/Button.svg"/>
   <file size="6250" md5="2a71e1093df90b1829b0296a58937a10" name="usermgmttemplates/images/ButtonFrame.svg"/>
   <file size="5244" md5="bb902146e5b22c6209291715e76fc66f" name="usermgmttemplates/images/ButtonPressed.svg"/>
@@ -84,9 +89,9 @@
   <file size="8050" md5="4b58d5191a2a2f561454c0a017c5f3b8" name="usermgmttemplates\switchuserloginpage.jmx"/>
   <file size="8331" md5="eafaaaa0cfe2b447e01223e27b6983b7" name="usermgmttemplates\switchuserloginpage_combo.jmx"/>
   <file size="12506" md5="91e7f8c8f8d1ecdac1d9e8357c1f5873" name="usermgmttemplates\usereditor.jmx"/>
-  <file size="16033" md5="3961907dc8659a2369577d0eb4fb3c22" name="velux.jmxb"/>
-  <file size="17195" md5="ab3248fa8dfe197b1f4094f787f29878" name="verd.jmxb"/>
-  <file size="8153" md5="7735daf8e18b9c89d3f092927216efd9" name="heimdall.jpr"/>
+  <file size="16033" md5="74fe56ad0f501e5cb9eb26fe20cad287" name="velux.jmxb"/>
+  <file size="17195" md5="71ee50ffdfb917369db58355a5528179" name="verd.jmxb"/>
+  <file size="8276" md5="314c829dc5fed4020d23ffeddda6b7a2" name="heimdall.jpr"/>
   <file size="328" md5="1cdc017b3c28ac4b3143ecf6614ce5f4" name="config\groups.xml"/>
   <file size="157" md5="817547b7240e03e1bfab1e9de9ae2318" name="config\engineconfig.xml"/>
   <file size="70" md5="9c686935bec5664c48af2db23cef4bb3" name="config\fastboot.xml"/>
@@ -115,7 +120,7 @@
   <file size="59" md5="22f2393ca4d87f6e330372761f7a0c01" name="config\dbconnector.xml"/>
   <file size="72" md5="195c2f284691f2e55e86413a482022c0" name="config\datatransfers.xml"/>
   <file size="229" md5="393498678e4be0b6c957df0f7c17610c" name="config\screensaver.xml"/>
-  <file size="6055" md5="1e448386ce8162fb13792e73a821e403" name="opt\imagecachelist.xml"/>
+  <file size="6218" md5="733dec13033bbf53c3e9b7eaadab1717" name="opt\imagecachelist.xml"/>
   <file size="311" md5="cee6fd1306d07bc8dacd867d5c2d2e9e" name="config\if_opcua.xml"/>
   <file size="5822" md5="10d3961757c569bbc3705f42a18183d4" name="config\opcserverconfig.ini"/>
   <file size="1018" md5="2ab67733d09edc4cf75d8fd8cd2d08aa" name="js/com/hmi/calendarkeypadmodule-1.2.0.js"/>

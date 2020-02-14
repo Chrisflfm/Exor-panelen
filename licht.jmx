@@ -1,0 +1,141 @@
+<wgtPage rev="1" projectType="HMI Project">
+ <object pageName="Licht" pageSize="1280,800" class="PageWgt" dataWndSize="0,70" downloadPrepDone="true" usedFonts="Tahoma" staticFile="opt/licht.png" id="Licht" staticOptEnable="true">
+  <wgtStyle width="1280" x="0" y="0" height="800" ver="020801314" v="02.08.01.314"/>
+  <object class="ImageWgt" id="image1" static="true">
+   <wgtStyle width="1033" imagePath="images/gelijkvloers.png" x="166.50" y="79" cx="516.50" cy="322.50" height="645"/>
+  </object>
+  <object class="PageMLTextMgrWgt" id="_PageMLTextMgrWgt" mgrType="Page" mlFileName="">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+   <langs defLangId="L1" curLangId="L1">
+    <lang removable="false" langCode="en-US" langId="L1" writingsystem="Any" name="Lang1" defaultFont="Tahoma"/>
+   </langs>
+   <MLTexts>
+    <MLText L1="" id="1"/>
+    <MLText L1="" id="3"/>
+   </MLTexts>
+  </object>
+  <object class="ImageWgt" id="bldgImg41" static="true">
+   <wgtStyle width="60" imagePath="images/7-5.svg" x="12" y="724" cx="28.97" cy="32.26" height="67"/>
+  </object>
+  <object class="ButtonWgt" hmiStyle="type:btn" id="gstArea2">
+   <wgtStyle width="70" x="7" y="718.50" fill="rgb(160,160,164)" dx="1" cx="34.46" form="gesture" dy="-1" cy="38.24" height="78" releasePath="../../shared/gallery/images/bu_other/win-like.svg" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+   <links>
+    <action pageName="home.jmx" class="LoadPageAction" attribute="onMouseClick" event="onMouseClick" actionID="0" actionWgt="_PageMgr"/>
+   </links>
+  </object>
+  <object class="GroupWgt" id="BtnIllum2" customType="Button With Light">
+   <wgtStyle width="52" x="265" y="636" cx="26" cy="26" height="52"/>
+   <links>
+    <attr attrName="bdrImage" alias="ButtonWgt.bdrImage;ImageWgt1.bdrImage"/>
+   </links>
+   <object class="ImageWgt" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd" id="BtnIllum2.frmImg" static="true">
+    <wgtStyle width="52" imagePath="images/frame_rect_chrome.svg" x="0" y="0" bdrImageSize="57.00,52.00" cx="25.54" cy="26" bdrSize="0.20,0.19,0.19,0.17" height="52" bdrEdges="0.13,0.14,0.13,0.13"/>
+   </object>
+   <object class="ButtonWgt" hmiStyle="hmi-name:shineyflat; hmi-shape:rect; hmi-type:btn; type:btn" id="BtnIllum2.btn">
+    <wgtStyle width="38" x="7" y="7" bdrImageSize="42.00,38.00" fill="rgb(120,120,120)" cx="19.02" form="standard" cy="19" height="38" releasePath="images\btn_plastic_rect_1.svg" needlePath="images\btn_plastic_rect_2_rev2.svg" type="momentary" value="0"/>
+   </object>
+   <object class="LabelWgt" hmiStyle="hmi-type:wgtlabel" id="BtnIllum2.lbl" static="true">
+    <wgtStyle width="35" font-color="rgb(40,40,40)" x="9" font-sizepx="13" y="19" font-family="Tahoma" wrapping="true" cx="23.08" cy="15.21" height="24" alignment="center" vert-align="middle" keypad-type="None" font-size="10"/>
+    <links>
+     <lang class="MLTextLink" textid="1"/>
+    </links>
+   </object>
+   <object class="ImageWgt" hmiStyle="hmi-name:solid; hmi-shape:rect; hmi-type:icon" id="BtnIllum2.icoImg" static="true">
+    <wgtStyle width="22" x="15" y="21" cx="11" cy="8" height="18"/>
+   </object>
+   <object class="IndicatorWgt" hmiStyle="type:light" id="BtnIllum2.ind">
+    <wgtStyle width="12" imagePath="images/li_inset_round.svg" x="29" forcePaint="1" y="10" cx="5.54" cy="5" bkgColor="rgb(0,255,0);rgb(255,0,0)" height="12" stroke="rgb(255,255,255)" stroke-width="0"/>
+   </object>
+  </object>
+  <object class="ImageWgt" id="elctImg38">
+   <wgtStyle width="35" imagePath="images/ic_el1_38.svg" x="273.50" forcePaint="1" y="647.25" cx="17.50" cy="14.75" height="29.50"/>
+  </object>
+  <object class="GroupWgt" id="BtnIllum3" customType="Button With Light">
+   <wgtStyle width="52" x="256" y="31" cx="26" cy="26" height="52"/>
+   <links>
+    <attr attrName="bdrImage" alias="ButtonWgt.bdrImage;ImageWgt1.bdrImage"/>
+   </links>
+   <object class="ImageWgt" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd" id="BtnIllum3.frmImg" static="true">
+    <wgtStyle width="52" imagePath="images/frame_rect_chrome.svg" x="0" y="0" bdrImageSize="57.00,52.00" cx="25.54" cy="26" bdrSize="0.20,0.19,0.19,0.17" height="52" bdrEdges="0.13,0.14,0.13,0.13"/>
+   </object>
+   <object class="ButtonWgt" hmiStyle="hmi-name:shineyflat; hmi-shape:rect; hmi-type:btn; type:btn" id="BtnIllum3.btn">
+    <wgtStyle width="38" x="7" y="7" bdrImageSize="42.00,38.00" fill="rgb(120,120,120)" cx="19.02" form="standard" cy="19" height="38" releasePath="images\btn_plastic_rect_1.svg" needlePath="images\btn_plastic_rect_2_rev2.svg" type="momentary" value="0"/>
+   </object>
+   <object class="LabelWgt" hmiStyle="hmi-type:wgtlabel" id="BtnIllum3.lbl" static="true">
+    <wgtStyle width="35" font-color="rgb(40,40,40)" x="9" font-sizepx="13" y="19" font-family="Tahoma" wrapping="true" cx="23.08" cy="15.21" height="24" alignment="center" vert-align="middle" keypad-type="None" font-size="10"/>
+    <links>
+     <lang class="MLTextLink" textid="3"/>
+    </links>
+   </object>
+   <object class="ImageWgt" hmiStyle="hmi-name:solid; hmi-shape:rect; hmi-type:icon" id="BtnIllum3.icoImg" static="true">
+    <wgtStyle width="22" x="15" y="21" cx="11" cy="8" height="18"/>
+   </object>
+   <object class="IndicatorWgt" hmiStyle="type:light" id="BtnIllum3.ind">
+    <wgtStyle width="12" imagePath="images/li_inset_round.svg" x="29" forcePaint="1" y="10" cx="5.54" cy="5" bkgColor="rgb(0,255,0);rgb(255,0,0)" height="12" stroke="rgb(255,255,255)" stroke-width="0"/>
+   </object>
+  </object>
+  <object class="ImageWgt" id="elctImg1">
+   <wgtStyle width="35" imagePath="images/ic_el1_38.svg" x="264.50" forcePaint="1" y="42.25" cx="17.50" cy="14.75" height="29.50"/>
+  </object>
+  <object class="GroupWgt" id="BtnIllum4" customType="Button With Light">
+   <wgtStyle width="52" x="1164" y="139" cx="26" cy="26" height="52"/>
+   <links>
+    <attr attrName="bdrImage" alias="ButtonWgt.bdrImage;ImageWgt1.bdrImage"/>
+   </links>
+   <object class="ImageWgt" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd" id="BtnIllum4.frmImg" static="true">
+    <wgtStyle width="52" imagePath="images/frame_rect_chrome.svg" x="0" y="0" bdrImageSize="57.00,52.00" cx="25.54" cy="26" bdrSize="0.20,0.19,0.19,0.17" height="52" bdrEdges="0.13,0.14,0.13,0.13"/>
+   </object>
+   <object class="ButtonWgt" hmiStyle="hmi-name:shineyflat; hmi-shape:rect; hmi-type:btn; type:btn" id="BtnIllum4.btn">
+    <wgtStyle width="38" x="7" y="7" bdrImageSize="42.00,38.00" fill="rgb(120,120,120)" cx="19.02" form="standard" cy="19" height="38" releasePath="images\btn_plastic_rect_1.svg" needlePath="images\btn_plastic_rect_2_rev2.svg" type="momentary" value="0"/>
+   </object>
+   <object class="LabelWgt" hmiStyle="hmi-type:wgtlabel" id="BtnIllum4.lbl" static="true">
+    <wgtStyle width="35" font-color="rgb(40,40,40)" x="9" font-sizepx="13" y="19" font-family="Tahoma" wrapping="true" cx="23.08" cy="15.21" height="24" alignment="center" vert-align="middle" keypad-type="None" font-size="10"/>
+    <links>
+     <lang class="MLTextLink" textid="3"/>
+    </links>
+   </object>
+   <object class="ImageWgt" hmiStyle="hmi-name:solid; hmi-shape:rect; hmi-type:icon" id="BtnIllum4.icoImg" static="true">
+    <wgtStyle width="22" x="15" y="21" cx="11" cy="8" height="18"/>
+   </object>
+   <object class="IndicatorWgt" hmiStyle="type:light" id="BtnIllum4.ind">
+    <wgtStyle width="12" imagePath="images/li_inset_round.svg" x="29" forcePaint="1" y="10" cx="5.54" cy="5" bkgColor="rgb(0,255,0);rgb(255,0,0)" height="12" stroke="rgb(255,255,255)" stroke-width="0"/>
+   </object>
+  </object>
+  <object class="ImageWgt" id="elctImg2">
+   <wgtStyle width="35" imagePath="images/ic_el1_38.svg" x="1172.50" forcePaint="1" y="150.25" cx="17.50" cy="14.75" height="29.50"/>
+  </object>
+  <object class="GroupWgt" id="BtnIllum5" customType="Button With Light">
+   <wgtStyle width="52" x="1166" y="655" cx="26" cy="26" height="52"/>
+   <links>
+    <attr attrName="bdrImage" alias="ButtonWgt.bdrImage;ImageWgt1.bdrImage"/>
+   </links>
+   <object class="ImageWgt" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd" id="BtnIllum5.frmImg" static="true">
+    <wgtStyle width="52" imagePath="images/frame_rect_chrome.svg" x="0" y="0" bdrImageSize="57.00,52.00" cx="25.54" cy="26" bdrSize="0.20,0.19,0.19,0.17" height="52" bdrEdges="0.13,0.14,0.13,0.13"/>
+   </object>
+   <object class="ButtonWgt" hmiStyle="hmi-name:shineyflat; hmi-shape:rect; hmi-type:btn; type:btn" id="BtnIllum5.btn">
+    <wgtStyle width="38" x="7" y="7" bdrImageSize="42.00,38.00" fill="rgb(120,120,120)" cx="19.02" form="standard" cy="19" height="38" releasePath="images\btn_plastic_rect_1.svg" needlePath="images\btn_plastic_rect_2_rev2.svg" type="momentary" value="0"/>
+   </object>
+   <object class="LabelWgt" hmiStyle="hmi-type:wgtlabel" id="BtnIllum5.lbl" static="true">
+    <wgtStyle width="35" font-color="rgb(40,40,40)" x="9" font-sizepx="13" y="19" font-family="Tahoma" wrapping="true" cx="23.08" cy="15.21" height="24" alignment="center" vert-align="middle" keypad-type="None" font-size="10"/>
+    <links>
+     <lang class="MLTextLink" textid="3"/>
+    </links>
+   </object>
+   <object class="ImageWgt" hmiStyle="hmi-name:solid; hmi-shape:rect; hmi-type:icon" id="BtnIllum5.icoImg" static="true">
+    <wgtStyle width="22" x="15" y="21" cx="11" cy="8" height="18"/>
+   </object>
+   <object class="IndicatorWgt" hmiStyle="type:light" id="BtnIllum5.ind">
+    <wgtStyle width="12" imagePath="images/li_inset_round.svg" x="29" forcePaint="1" y="10" cx="5.54" cy="5" bkgColor="rgb(0,255,0);rgb(255,0,0)" height="12" stroke="rgb(255,255,255)" stroke-width="0"/>
+   </object>
+  </object>
+  <object class="ImageWgt" id="elctImg3">
+   <wgtStyle width="35" imagePath="images/ic_el1_38.svg" x="1174.50" forcePaint="1" y="666.25" cx="17.50" cy="14.75" height="29.50"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg48" static="true">
+   <wgtStyle width="55" imagePath="images/IC_fo1_031.svg" x="53" y="470" cx="27.50" cy="23" height="46"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg57" static="true">
+   <wgtStyle width="55" imagePath="images/IC_fo1_032.svg" x="53" y="545" cx="27.50" cy="27" height="54"/>
+  </object>
+ </object>
+</wgtPage>

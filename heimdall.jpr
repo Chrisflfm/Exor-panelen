@@ -13,6 +13,7 @@
     <page class="PageWgt" size="1280,800" exportType="255" type="normal" precache="false" name="GVL" file="gvl.jmx"/>
     <page class="PageWgt" size="1280,800" exportType="255" type="normal" precache="false" name="VERD" file="verd.jmx"/>
     <page class="PageWgt" size="1280,800" exportType="255" type="normal" precache="false" name="OpenCloseVelux" file="openclosevelux.jmx"/>
+    <page class="PageWgt" size="1280,800" exportType="255" type="normal" precache="false" name="Licht" file="licht.jmx"/>
    </pages>
   </object>
   <object class="PageMLTextMgrWgt" id="_ProjectMLTextMgr" mgrType="Project" mlFileName="">
