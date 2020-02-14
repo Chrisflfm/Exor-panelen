@@ -1,0 +1,305 @@
+<wgtPage rev="1" projectType="HMI Project">
+ <object pageName="Velux" pageSize="1280,800" class="PageWgt" dataWndSize="0,70" downloadPrepDone="true" usedFonts="Tahoma" staticFile="opt/velux.png" id="Velux" staticOptEnable="true">
+  <wgtStyle width="1280" x="0" y="0" height="800" ver="020801314" v="02.08.01.314"/>
+  <object class="PageMLTextMgrWgt" id="_PageMLTextMgrWgt" mgrType="Page" mlFileName="">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+   <langs defLangId="L1" curLangId="L1">
+    <lang removable="false" langCode="en-US" langId="L1" writingsystem="Any" name="Lang1" defaultFont="Tahoma"/>
+   </langs>
+   <MLTexts>
+    <MLText L1="Alle vensters dicht" id="0"/>
+   </MLTexts>
+  </object>
+  <object class="ImageWgt" id="image1" static="true">
+   <wgtStyle width="1280" imagePath="images/verdieping.png" x="9" y="-48" cx="640" cy="400" height="800"/>
+  </object>
+  <object class="ImageWgt" id="bldgImg41" static="true">
+   <wgtStyle width="60" imagePath="images/7-5.svg" x="9" y="724" cx="28.97" cy="32.26" height="67"/>
+  </object>
+  <object class="ButtonWgt" hmiStyle="type:btn" id="gstArea2">
+   <wgtStyle width="70" x="4" y="718.50" fill="rgb(160,160,164)" dx="1" cx="34.46" form="gesture" dy="-1" cy="38.24" height="78" releasePath="../../shared/gallery/images/bu_other/win-like.svg" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+   <links>
+    <action pageName="home.jmx" class="LoadPageAction" attribute="onMouseClick" event="onMouseClick" actionID="0" actionWgt="_PageMgr"/>
+   </links>
+  </object>
+  <object class="GroupWgt" id="BtnComp13" customType="Button Computer">
+   <wgtStyle width="39" x="878" y="499" cx="20" cy="16" height="32"/>
+   <object class="ImageWgt" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd" id="BtnComp13.frmImg" static="true">
+    <wgtStyle width="60" enableCache="true" x="-10" y="-9" visibility="false" bdrImageSize="60.00,46.00" cx="37.06" cy="31.12" bdrSize="0.19,0.18,0.17,0.17" height="50" bdrEdges="0.14,0.16,0.14,0.14"/>
+   </object>
+   <object class="ButtonWgt" hmiStyle="hmi-filltype:none; hmi-name:kbd1; hmi-shape:custom; hmi-type:btn; type:btn" id="BtnComp13.btn">
+    <wgtStyle width="39" x="0" y="0" fill="rgb(160,160,160)" dx="1" form="standard" dy="-1" height="32" releasePath="images\btn_gray_up_rev1.svg" needlePath="images\btn_gray_down_rev2.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+    <links>
+     <action pageName="openclosevelux.jmx" class="LoadPageAction" attribute="onMouseClick" event="onMouseClick" actionID="0" actionWgt="_PageMgr"/>
+    </links>
+   </object>
+   <object class="ImageWgt" id="BtnComp13.icoImg">
+    <wgtStyle width="17" imagePath="images/check_symbol.svg" x="11" forcePaint="1" y="10" cx="8" cy="5" height="15"/>
+   </object>
+  </object>
+  <object class="GroupWgt" id="BtnComp1" customType="Button Computer">
+   <wgtStyle width="39" x="1103" y="238" cx="20" cy="16" height="32"/>
+   <object class="ImageWgt" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd" id="BtnComp1.frmImg" static="true">
+    <wgtStyle width="60" enableCache="true" x="-10" y="-9" visibility="false" bdrImageSize="60.00,46.00" cx="37.06" cy="31.12" bdrSize="0.19,0.18,0.17,0.17" height="50" bdrEdges="0.14,0.16,0.14,0.14"/>
+   </object>
+   <object class="ButtonWgt" hmiStyle="hmi-filltype:none; hmi-name:kbd1; hmi-shape:custom; hmi-type:btn; type:btn" id="BtnComp1.btn">
+    <wgtStyle width="39" x="0" y="0" fill="rgb(160,160,160)" dx="1" form="standard" dy="-1" height="32" releasePath="images\btn_gray_up_rev1.svg" needlePath="images\btn_gray_down_rev2.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+    <links>
+     <action pageName="openclosevelux.jmx" class="LoadPageAction" attribute="onMouseClick" event="onMouseClick" actionID="0" actionWgt="_PageMgr"/>
+    </links>
+   </object>
+   <object class="ImageWgt" id="BtnComp1.icoImg">
+    <wgtStyle width="17" imagePath="images/check_symbol.svg" x="11" forcePaint="1" y="10" cx="8" cy="5" height="15"/>
+   </object>
+  </object>
+  <object class="GroupWgt" id="BtnComp2" customType="Button Computer">
+   <wgtStyle width="39" x="989" y="325" cx="20" cy="16" height="32"/>
+   <object class="ImageWgt" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd" id="BtnComp2.frmImg" static="true">
+    <wgtStyle width="60" enableCache="true" x="-10" y="-9" visibility="false" bdrImageSize="60.00,46.00" cx="37.06" cy="31.12" bdrSize="0.19,0.18,0.17,0.17" height="50" bdrEdges="0.14,0.16,0.14,0.14"/>
+   </object>
+   <object class="ButtonWgt" hmiStyle="hmi-filltype:none; hmi-name:kbd1; hmi-shape:custom; hmi-type:btn; type:btn" id="BtnComp2.btn">
+    <wgtStyle width="39" x="0" y="0" fill="rgb(160,160,160)" dx="1" form="standard" dy="-1" height="32" releasePath="images\btn_gray_up_rev1.svg" needlePath="images\btn_gray_down_rev2.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+    <links>
+     <action pageName="openclosevelux.jmx" class="LoadPageAction" attribute="onMouseClick" event="onMouseClick" actionID="0" actionWgt="_PageMgr"/>
+    </links>
+   </object>
+   <object class="ImageWgt" id="BtnComp2.icoImg">
+    <wgtStyle width="17" imagePath="images/check_symbol.svg" x="11" forcePaint="1" y="10" cx="8" cy="5" height="15"/>
+   </object>
+  </object>
+  <object class="GroupWgt" id="BtnComp3" customType="Button Computer">
+   <wgtStyle width="39" x="1008.50" y="535" cx="20" cy="16" height="32"/>
+   <object class="ImageWgt" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd" id="BtnComp3.frmImg" static="true">
+    <wgtStyle width="60" enableCache="true" x="-10" y="-9" visibility="false" bdrImageSize="60.00,46.00" cx="37.06" cy="31.12" bdrSize="0.19,0.18,0.17,0.17" height="50" bdrEdges="0.14,0.16,0.14,0.14"/>
+   </object>
+   <object class="ButtonWgt" hmiStyle="hmi-filltype:none; hmi-name:kbd1; hmi-shape:custom; hmi-type:btn; type:btn" id="BtnComp3.btn">
+    <wgtStyle width="39" x="0" y="0" fill="rgb(160,160,160)" dx="1" form="standard" dy="-1" height="32" releasePath="images\btn_gray_up_rev1.svg" needlePath="images\btn_gray_down_rev2.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+    <links>
+     <action pageName="openclosevelux.jmx" class="LoadPageAction" attribute="onMouseClick" event="onMouseClick" actionID="0" actionWgt="_PageMgr"/>
+    </links>
+   </object>
+   <object class="ImageWgt" id="BtnComp3.icoImg">
+    <wgtStyle width="17" imagePath="images/check_symbol.svg" x="11" forcePaint="1" y="10" cx="8" cy="5" height="15"/>
+   </object>
+  </object>
+  <object class="GroupWgt" id="BtnComp4" customType="Button Computer">
+   <wgtStyle width="39" x="1172" y="576" cx="20" cy="16" height="32"/>
+   <object class="ImageWgt" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd" id="BtnComp4.frmImg" static="true">
+    <wgtStyle width="60" enableCache="true" x="-10" y="-9" visibility="false" bdrImageSize="60.00,46.00" cx="37.06" cy="31.12" bdrSize="0.19,0.18,0.17,0.17" height="50" bdrEdges="0.14,0.16,0.14,0.14"/>
+   </object>
+   <object class="ButtonWgt" hmiStyle="hmi-filltype:none; hmi-name:kbd1; hmi-shape:custom; hmi-type:btn; type:btn" id="BtnComp4.btn">
+    <wgtStyle width="39" x="0" y="0" fill="rgb(160,160,160)" dx="1" form="standard" dy="-1" height="32" releasePath="images\btn_gray_up_rev1.svg" needlePath="images\btn_gray_down_rev2.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+    <links>
+     <action pageName="openclosevelux.jmx" class="LoadPageAction" attribute="onMouseClick" event="onMouseClick" actionID="0" actionWgt="_PageMgr"/>
+    </links>
+   </object>
+   <object class="ImageWgt" id="BtnComp4.icoImg">
+    <wgtStyle width="17" imagePath="images/check_symbol.svg" x="11" forcePaint="1" y="10" cx="8" cy="5" height="15"/>
+   </object>
+  </object>
+  <object class="GroupWgt" id="BtnComp5" customType="Button Computer">
+   <wgtStyle width="39" x="810" y="279" cx="20" cy="16" height="32"/>
+   <object class="ImageWgt" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd" id="BtnComp5.frmImg" static="true">
+    <wgtStyle width="60" enableCache="true" x="-10" y="-9" visibility="false" bdrImageSize="60.00,46.00" cx="37.06" cy="31.12" bdrSize="0.19,0.18,0.17,0.17" height="50" bdrEdges="0.14,0.16,0.14,0.14"/>
+   </object>
+   <object class="ButtonWgt" hmiStyle="hmi-filltype:none; hmi-name:kbd1; hmi-shape:custom; hmi-type:btn; type:btn" id="BtnComp5.btn">
+    <wgtStyle width="39" x="0" y="0" fill="rgb(160,160,160)" dx="1" form="standard" dy="-1" height="32" releasePath="images\btn_gray_up_rev1.svg" needlePath="images\btn_gray_down_rev2.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+    <links>
+     <action pageName="openclosevelux.jmx" class="LoadPageAction" attribute="onMouseClick" event="onMouseClick" actionID="0" actionWgt="_PageMgr"/>
+    </links>
+   </object>
+   <object class="ImageWgt" id="BtnComp5.icoImg">
+    <wgtStyle width="17" imagePath="images/check_symbol.svg" x="11" forcePaint="1" y="10" cx="8" cy="5" height="15"/>
+   </object>
+  </object>
+  <object class="GroupWgt" id="BtnComp6" customType="Button Computer">
+   <wgtStyle width="39" x="760" y="515" cx="20" cy="16" height="32"/>
+   <object class="ImageWgt" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd" id="BtnComp6.frmImg" static="true">
+    <wgtStyle width="60" enableCache="true" x="-10" y="-9" visibility="false" bdrImageSize="60.00,46.00" cx="37.06" cy="31.12" bdrSize="0.19,0.18,0.17,0.17" height="50" bdrEdges="0.14,0.16,0.14,0.14"/>
+   </object>
+   <object class="ButtonWgt" hmiStyle="hmi-filltype:none; hmi-name:kbd1; hmi-shape:custom; hmi-type:btn; type:btn" id="BtnComp6.btn">
+    <wgtStyle width="39" x="0" y="0" fill="rgb(160,160,160)" dx="1" form="standard" dy="-1" height="32" releasePath="images\btn_gray_up_rev1.svg" needlePath="images\btn_gray_down_rev2.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+    <links>
+     <action pageName="openclosevelux.jmx" class="LoadPageAction" attribute="onMouseClick" event="onMouseClick" actionID="0" actionWgt="_PageMgr"/>
+    </links>
+   </object>
+   <object class="ImageWgt" id="BtnComp6.icoImg">
+    <wgtStyle width="17" imagePath="images/check_symbol.svg" x="11" forcePaint="1" y="10" cx="8" cy="5" height="15"/>
+   </object>
+  </object>
+  <object class="GroupWgt" id="BtnComp7" customType="Button Computer">
+   <wgtStyle width="39" x="562" y="591" cx="20" cy="16" height="32"/>
+   <object class="ImageWgt" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd" id="BtnComp7.frmImg" static="true">
+    <wgtStyle width="60" enableCache="true" x="-10" y="-9" visibility="false" bdrImageSize="60.00,46.00" cx="37.06" cy="31.12" bdrSize="0.19,0.18,0.17,0.17" height="50" bdrEdges="0.14,0.16,0.14,0.14"/>
+   </object>
+   <object class="ButtonWgt" hmiStyle="hmi-filltype:none; hmi-name:kbd1; hmi-shape:custom; hmi-type:btn; type:btn" id="BtnComp7.btn">
+    <wgtStyle width="39" x="0" y="0" fill="rgb(160,160,160)" dx="1" form="standard" dy="-1" height="32" releasePath="images\btn_gray_up_rev1.svg" needlePath="images\btn_gray_down_rev2.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+    <links>
+     <action pageName="openclosevelux.jmx" class="LoadPageAction" attribute="onMouseClick" event="onMouseClick" actionID="0" actionWgt="_PageMgr"/>
+    </links>
+   </object>
+   <object class="ImageWgt" id="BtnComp7.icoImg">
+    <wgtStyle width="17" imagePath="images/check_symbol.svg" x="11" forcePaint="1" y="10" cx="8" cy="5" height="15"/>
+   </object>
+  </object>
+  <object class="GroupWgt" id="BtnComp8" customType="Button Computer">
+   <wgtStyle width="39" x="562" y="403" cx="20" cy="16" height="32"/>
+   <object class="ImageWgt" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd" id="BtnComp8.frmImg" static="true">
+    <wgtStyle width="60" enableCache="true" x="-10" y="-9" visibility="false" bdrImageSize="60.00,46.00" cx="37.06" cy="31.12" bdrSize="0.19,0.18,0.17,0.17" height="50" bdrEdges="0.14,0.16,0.14,0.14"/>
+   </object>
+   <object class="ButtonWgt" hmiStyle="hmi-filltype:none; hmi-name:kbd1; hmi-shape:custom; hmi-type:btn; type:btn" id="BtnComp8.btn">
+    <wgtStyle width="39" x="0" y="0" fill="rgb(160,160,160)" dx="1" form="standard" dy="-1" height="32" releasePath="images\btn_gray_up_rev1.svg" needlePath="images\btn_gray_down_rev2.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+    <links>
+     <action pageName="openclosevelux.jmx" class="LoadPageAction" attribute="onMouseClick" event="onMouseClick" actionID="0" actionWgt="_PageMgr"/>
+    </links>
+   </object>
+   <object class="ImageWgt" id="BtnComp8.icoImg">
+    <wgtStyle width="17" imagePath="images/check_symbol.svg" x="11" forcePaint="1" y="10" cx="8" cy="5" height="15"/>
+   </object>
+  </object>
+  <object class="GroupWgt" id="BtnComp9" customType="Button Computer">
+   <wgtStyle width="39" x="562" y="203" cx="20" cy="16" height="32"/>
+   <object class="ImageWgt" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd" id="BtnComp9.frmImg" static="true">
+    <wgtStyle width="60" enableCache="true" x="-10" y="-9" visibility="false" bdrImageSize="60.00,46.00" cx="37.06" cy="31.12" bdrSize="0.19,0.18,0.17,0.17" height="50" bdrEdges="0.14,0.16,0.14,0.14"/>
+   </object>
+   <object class="ButtonWgt" hmiStyle="hmi-filltype:none; hmi-name:kbd1; hmi-shape:custom; hmi-type:btn; type:btn" id="BtnComp9.btn">
+    <wgtStyle width="39" x="0" y="0" fill="rgb(160,160,160)" dx="1" form="standard" dy="-1" height="32" releasePath="images\btn_gray_up_rev1.svg" needlePath="images\btn_gray_down_rev2.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+    <links>
+     <action pageName="openclosevelux.jmx" class="LoadPageAction" attribute="onMouseClick" event="onMouseClick" actionID="0" actionWgt="_PageMgr"/>
+    </links>
+   </object>
+   <object class="ImageWgt" id="BtnComp9.icoImg">
+    <wgtStyle width="17" imagePath="images/check_symbol.svg" x="11" forcePaint="1" y="10" cx="8" cy="5" height="15"/>
+   </object>
+  </object>
+  <object class="GroupWgt" id="BtnComp10" customType="Button Computer">
+   <wgtStyle width="39" x="374" y="203" cx="20" cy="16" height="32"/>
+   <object class="ImageWgt" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd" id="BtnComp10.frmImg" static="true">
+    <wgtStyle width="60" enableCache="true" x="-10" y="-9" visibility="false" bdrImageSize="60.00,46.00" cx="37.06" cy="31.12" bdrSize="0.19,0.18,0.17,0.17" height="50" bdrEdges="0.14,0.16,0.14,0.14"/>
+   </object>
+   <object class="ButtonWgt" hmiStyle="hmi-filltype:none; hmi-name:kbd1; hmi-shape:custom; hmi-type:btn; type:btn" id="BtnComp10.btn">
+    <wgtStyle width="39" x="0" y="0" fill="rgb(160,160,160)" dx="1" form="standard" dy="-1" height="32" releasePath="images\btn_gray_up_rev1.svg" needlePath="images\btn_gray_down_rev2.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+    <links>
+     <action pageName="openclosevelux.jmx" class="LoadPageAction" attribute="onMouseClick" event="onMouseClick" actionID="0" actionWgt="_PageMgr"/>
+    </links>
+   </object>
+   <object class="ImageWgt" id="BtnComp10.icoImg">
+    <wgtStyle width="17" imagePath="images/check_symbol.svg" x="11" forcePaint="1" y="10" cx="8" cy="5" height="15"/>
+   </object>
+  </object>
+  <object class="GroupWgt" id="BtnComp11" customType="Button Computer">
+   <wgtStyle width="39" x="916.50" y="222" cx="20" cy="16" height="32"/>
+   <object class="ImageWgt" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd" id="BtnComp11.frmImg" static="true">
+    <wgtStyle width="60" enableCache="true" x="-10" y="-9" visibility="false" bdrImageSize="60.00,46.00" cx="37.06" cy="31.12" bdrSize="0.19,0.18,0.17,0.17" height="50" bdrEdges="0.14,0.16,0.14,0.14"/>
+   </object>
+   <object class="ButtonWgt" hmiStyle="hmi-filltype:none; hmi-name:kbd1; hmi-shape:custom; hmi-type:btn; type:btn" id="BtnComp11.btn">
+    <wgtStyle width="39" x="0" y="0" fill="rgb(160,160,160)" dx="1" form="standard" dy="-1" height="32" releasePath="images\btn_gray_up_rev1.svg" needlePath="images\btn_gray_down_rev2.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+    <links>
+     <action pageName="openclosevelux.jmx" class="LoadPageAction" attribute="onMouseClick" event="onMouseClick" actionID="0" actionWgt="_PageMgr"/>
+    </links>
+   </object>
+   <object class="ImageWgt" id="BtnComp11.icoImg">
+    <wgtStyle width="17" imagePath="images/check_symbol.svg" x="11" forcePaint="1" y="10" cx="8" cy="5" height="15"/>
+   </object>
+  </object>
+  <object class="GroupWgt" id="BtnComp12" customType="Button Computer">
+   <wgtStyle width="39" x="374" y="591" cx="20" cy="16" height="32"/>
+   <object class="ImageWgt" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd" id="BtnComp12.frmImg" static="true">
+    <wgtStyle width="60" enableCache="true" x="-10" y="-9" visibility="false" bdrImageSize="60.00,46.00" cx="37.06" cy="31.12" bdrSize="0.19,0.18,0.17,0.17" height="50" bdrEdges="0.14,0.16,0.14,0.14"/>
+   </object>
+   <object class="ButtonWgt" hmiStyle="hmi-filltype:none; hmi-name:kbd1; hmi-shape:custom; hmi-type:btn; type:btn" id="BtnComp12.btn">
+    <wgtStyle width="39" x="0" y="0" fill="rgb(160,160,160)" dx="1" form="standard" dy="-1" height="32" releasePath="images\btn_gray_up_rev1.svg" needlePath="images\btn_gray_down_rev2.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+    <links>
+     <action pageName="openclosevelux.jmx" class="LoadPageAction" attribute="onMouseClick" event="onMouseClick" actionID="0" actionWgt="_PageMgr"/>
+    </links>
+   </object>
+   <object class="ImageWgt" id="BtnComp12.icoImg">
+    <wgtStyle width="17" imagePath="images/check_symbol.svg" x="11" forcePaint="1" y="10" cx="8" cy="5" height="15"/>
+   </object>
+  </object>
+  <object class="GroupWgt" id="BtnComp14" customType="Button Computer">
+   <wgtStyle width="39" x="176.50" y="591" cx="20" cy="16" height="32"/>
+   <object class="ImageWgt" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd" id="BtnComp14.frmImg" static="true">
+    <wgtStyle width="60" enableCache="true" x="-10" y="-9" visibility="false" bdrImageSize="60.00,46.00" cx="37.06" cy="31.12" bdrSize="0.19,0.18,0.17,0.17" height="50" bdrEdges="0.14,0.16,0.14,0.14"/>
+   </object>
+   <object class="ButtonWgt" hmiStyle="hmi-filltype:none; hmi-name:kbd1; hmi-shape:custom; hmi-type:btn; type:btn" id="BtnComp14.btn">
+    <wgtStyle width="39" x="0" y="0" fill="rgb(160,160,160)" dx="1" form="standard" dy="-1" height="32" releasePath="images\btn_gray_up_rev1.svg" needlePath="images\btn_gray_down_rev2.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+    <links>
+     <action pageName="openclosevelux.jmx" class="LoadPageAction" attribute="onMouseClick" event="onMouseClick" actionID="0" actionWgt="_PageMgr"/>
+    </links>
+   </object>
+   <object class="ImageWgt" id="BtnComp14.icoImg">
+    <wgtStyle width="17" imagePath="images/check_symbol.svg" x="11" forcePaint="1" y="10" cx="8" cy="5" height="15"/>
+   </object>
+  </object>
+  <object class="GroupWgt" id="BtnComp15" customType="Button Computer">
+   <wgtStyle width="39" x="176.50" y="403" cx="20" cy="16" height="32"/>
+   <object class="ImageWgt" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd" id="BtnComp15.frmImg" static="true">
+    <wgtStyle width="60" enableCache="true" x="-10" y="-9" visibility="false" bdrImageSize="60.00,46.00" cx="37.06" cy="31.12" bdrSize="0.19,0.18,0.17,0.17" height="50" bdrEdges="0.14,0.16,0.14,0.14"/>
+   </object>
+   <object class="ButtonWgt" hmiStyle="hmi-filltype:none; hmi-name:kbd1; hmi-shape:custom; hmi-type:btn; type:btn" id="BtnComp15.btn">
+    <wgtStyle width="39" x="0" y="0" fill="rgb(160,160,160)" dx="1" form="standard" dy="-1" height="32" releasePath="images\btn_gray_up_rev1.svg" needlePath="images\btn_gray_down_rev2.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+    <links>
+     <action pageName="openclosevelux.jmx" class="LoadPageAction" attribute="onMouseClick" event="onMouseClick" actionID="0" actionWgt="_PageMgr"/>
+    </links>
+   </object>
+   <object class="ImageWgt" id="BtnComp15.icoImg">
+    <wgtStyle width="17" imagePath="images/check_symbol.svg" x="11" forcePaint="1" y="10" cx="8" cy="5" height="15"/>
+   </object>
+  </object>
+  <object class="GroupWgt" id="BtnComp16" customType="Button Computer">
+   <wgtStyle width="39" x="176.50" y="203" cx="20" cy="16" height="32"/>
+   <object class="ImageWgt" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd" id="BtnComp16.frmImg" static="true">
+    <wgtStyle width="60" enableCache="true" x="-10" y="-9" visibility="false" bdrImageSize="60.00,46.00" cx="37.06" cy="31.12" bdrSize="0.19,0.18,0.17,0.17" height="50" bdrEdges="0.14,0.16,0.14,0.14"/>
+   </object>
+   <object class="ButtonWgt" hmiStyle="hmi-filltype:none; hmi-name:kbd1; hmi-shape:custom; hmi-type:btn; type:btn" id="BtnComp16.btn">
+    <wgtStyle width="39" x="0" y="0" fill="rgb(160,160,160)" dx="1" form="standard" dy="-1" height="32" releasePath="images\btn_gray_up_rev1.svg" needlePath="images\btn_gray_down_rev2.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+    <links>
+     <action pageName="openclosevelux.jmx" class="LoadPageAction" attribute="onMouseClick" event="onMouseClick" actionID="0" actionWgt="_PageMgr"/>
+    </links>
+   </object>
+   <object class="ImageWgt" id="BtnComp16.icoImg">
+    <wgtStyle width="17" imagePath="images/check_symbol.svg" x="11" forcePaint="1" y="10" cx="8" cy="5" height="15"/>
+   </object>
+  </object>
+  <object class="GroupWgt" id="BtnComp17" customType="Button Computer">
+   <wgtStyle width="39" x="374" y="403" cx="20" cy="16" height="32"/>
+   <object class="ImageWgt" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd" id="BtnComp17.frmImg" static="true">
+    <wgtStyle width="60" enableCache="true" x="-10" y="-9" visibility="false" bdrImageSize="60.00,46.00" cx="37.06" cy="31.12" bdrSize="0.19,0.18,0.17,0.17" height="50" bdrEdges="0.14,0.16,0.14,0.14"/>
+   </object>
+   <object class="ButtonWgt" hmiStyle="hmi-filltype:none; hmi-name:kbd1; hmi-shape:custom; hmi-type:btn; type:btn" id="BtnComp17.btn">
+    <wgtStyle width="39" x="0" y="0" fill="rgb(160,160,160)" dx="1" form="standard" dy="-1" height="32" releasePath="images\btn_gray_up_rev1.svg" needlePath="images\btn_gray_down_rev2.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+    <links>
+     <action pageName="openclosevelux.jmx" class="LoadPageAction" attribute="onMouseClick" event="onMouseClick" actionID="0" actionWgt="_PageMgr"/>
+    </links>
+   </object>
+   <object class="ImageWgt" id="BtnComp17.icoImg">
+    <wgtStyle width="17" imagePath="images/check_symbol.svg" x="11" forcePaint="1" y="10" cx="8" cy="5" height="15"/>
+   </object>
+  </object>
+  <object class="GroupWgt" id="BtnComp25" customType="Button Computer">
+   <wgtStyle width="62" x="502.50" y="30" cx="31.79" cy="29.50" height="59"/>
+   <object class="ImageWgt" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd" id="BtnComp25.frmImg" static="true">
+    <wgtStyle width="95.38" enableCache="true" x="-15.90" y="-16.59" visibility="false" bdrImageSize="60.00,46.00" cx="58.92" cy="57.38" bdrSize="0.19,0.18,0.17,0.17" height="92.19" bdrEdges="0.14,0.16,0.14,0.14"/>
+   </object>
+   <object class="ButtonWgt" hmiStyle="hmi-filltype:none; hmi-name:kbd1; hmi-shape:custom; hmi-type:btn; type:btn" id="BtnComp25.btn">
+    <wgtStyle width="62" x="0" y="0" fill="rgb(110,110,110)" dx="1" form="standard" dy="-1" height="59" releasePath="images\btn_gray_up_rev1.svg" needlePath="images\btn_gray_down_rev2.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+   </object>
+   <object class="ImageWgt" id="BtnComp25.icoImg">
+    <wgtStyle width="25.44" imagePath="images/downarrow_symbol_rev1.svg" x="17.49" forcePaint="1" y="14.75" cx="12.72" cy="12.91" height="27.66"/>
+   </object>
+  </object>
+  <object class="LabelWgt" id="label1" static="true">
+   <wgtStyle width="279" font-color="rgb(23,30,40)" x="205" font-sizepx="32" y="36" font-family="Tahoma" wrapping="true" cx="139.50" cy="22.26" height="47" vert-align="top" marker="true" keypad-type="None" font-size="24"/>
+   <links>
+    <lang class="MLTextLink" textid="0"/>
+   </links>
+  </object>
+  <object class="ImageWgt" id="wthrImg3" static="true">
+   <wgtStyle width="77" imagePath="images/IC_fo1_002.svg" x="801" y="15.41" cx="38.50" cy="34" height="68"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg69" static="true">
+   <wgtStyle width="71" imagePath="images/IC_fo1_036.svg" x="649" y="7.75" cx="35.50" cy="37.50" height="75"/>
+  </object>
+ </object>
+</wgtPage>

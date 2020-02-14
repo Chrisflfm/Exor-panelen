@@ -1,0 +1,179 @@
+<wgtPage rev="1" projectType="HMI Project">
+ <object pageName="Home" pageSize="1280,800" class="PageWgt" dataWndSize="0,70" downloadPrepDone="true" usedFonts="Tahoma,Arial" staticFile="opt/home.png" id="Home" staticOptEnable="true">
+  <wgtStyle width="1280" x="0" y="0" height="800" ver="020801314" color="none" v="02.08.01.314"/>
+  <links>
+   <action class="SendEmailAction" attribute="onActivate" event="onActivate" actionID="1" EmailConfig="eMailServer1" actionWgt="MailActionWgt" EmailInfo="eMail1"/>
+  </links>
+  <object class="ImageWgt" id="image2" static="true">
+   <wgtStyle width="133" imagePath="images/velux.jpg" x="1069.50" y="215" cx="66.50" cy="61" height="122"/>
+  </object>
+  <object class="PageMLTextMgrWgt" id="_PageMLTextMgrWgt" mgrType="Page" mlFileName="">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+   <langs defLangId="L1" curLangId="L1">
+    <lang removable="false" langCode="en-US" langId="L1" writingsystem="Any" name="Lang1" defaultFont="Tahoma"/>
+   </langs>
+   <MLTexts/>
+  </object>
+  <object class="GroupSubscribeWgt" id="Home@$GroupSubscrWgt@$0">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+  </object>
+  <object class="ImageWgt" id="image1" static="true">
+   <wgtStyle width="210" imagePath="images/TOM.jpg" x="17" y="7" cx="105" cy="65" height="130"/>
+  </object>
+  <object class="GroupWgt" id="RSSFeed" customType="RSS Feed">
+   <wgtStyle width="916" x="140" y="178.50" cx="456.46" cy="303.35" height="609.50"/>
+   <object titleSeparator="" RSSSource="http://projects.knmi.nl/RSSread/rss_KNMIverwachtingen.php" class="RSSFeedWgt" CurItem="0" id="RSSFeed.FeedWgt" UpdateRate="15">
+    <wgtStyle width="98" x="0" forcePaint="1024" y="514" cx="49" cy="44" height="92"/>
+    <Sources>
+     <Source enable="false" name="CNN" resource="http://rss.cnn.com/rss/cnn_topstories"/>
+     <Source enable="false" name="ESPN" resource="http://sports.espn.go.com/espn/rss/news"/>
+     <Source enable="false" name="NewsWeek" resource="http://feeds.newsweek.com/newsweek/TopNews"/>
+     <Source enable="false" name="MSN Money" resource="http://articles.moneycentral.msn.com/Feeds/RSS/latestrss.aspx"/>
+     <Source enable="false" name="nos algemeen" resource="http://feeds.nos.nl/nosnieuwsalgemeen"/>
+     <Source enable="true" name="weer NL knmi" resource="http://projects.knmi.nl/RSSread/rss_KNMIverwachtingen.php"/>
+    </Sources>
+   </object>
+   <object class="LabelWgt" id="RSSFeed.feedTitle">
+    <wgtStyle width="524.31" x="3.08" forcePaint="8" font-sizepx="40" y="0" font-family="Tahoma" wrapping="true" cx="259.07" cy="25.28" height="92.69" vert-align="top" text="RSSFeed" keypad-type="None" font-size="30"/>
+    <dataLinks>
+     <dataLink readWrite="R" attribute="text" tag="CurTitle" sourceType="Data" dataSource="RSSFeed.FeedWgt"/>
+    </dataLinks>
+   </object>
+   <object class="LabelWgt" id="RSSFeed.feedDesc">
+    <wgtStyle width="916" x="0" forcePaint="8" font-sizepx="26" y="115.16" font-family="Tahoma" wrapping="true" height="376.37" vert-align="top" text="Feed Description" keypad-type="None" font-size="20"/>
+    <dataLinks>
+     <dataLink readWrite="R" attribute="text" tag="CurDesc" sourceType="Data" dataSource="RSSFeed.FeedWgt"/>
+    </dataLinks>
+   </object>
+   <object class="NumericWgt" id="RSSFeed.curFeed">
+    <wgtStyle forcePaint="8" font-family="Tahoma" font-sizepx="13" cx="70.94" cy="33.71" step="1" timeSpec="local" alignment="center" x="524.31" y="550.52" vert-align="middle" text="99" max="4096" usingFormat="#" value="99" keypad-type="None" font-color="rgb(40,40,40)" min="0" width="80.19" numberFormat="6" height="47.75" form="Numeric" font-size="10"/>
+    <dataLinks>
+     <dataLink readWrite="R" attribute="value" tag="CurItem" sourceType="Data" dataSource="RSSFeed.FeedWgt">
+      <xForms>
+       <xForm Offset="1" class="ScaleXForm" Scale="1" name="Offset" Mod="1"/>
+      </xForms>
+     </dataLink>
+    </dataLinks>
+   </object>
+   <object class="NumericWgt" id="RSSFeed.numFeeds">
+    <wgtStyle forcePaint="8" font-family="Tahoma" font-sizepx="13" cx="43.18" cy="25.28" step="1" timeSpec="local" alignment="center" x="619.92" y="550.52" vert-align="middle" text="99" max="4096" usingFormat="#" value="99" keypad-type="None" font-color="rgb(40,40,40)" min="0" width="80.19" numberFormat="6" height="47.75" form="Numeric" font-size="10"/>
+    <dataLinks>
+     <dataLink readWrite="R" attribute="value" tag="NumItems" sourceType="Data" dataSource="RSSFeed.FeedWgt"/>
+    </dataLinks>
+   </object>
+   <object class="ButtonWgt" hmiStyle="type:btn" id="RSSFeed.openBtn">
+    <wgtStyle width="894.41" x="0" forcePaint="1" y="95.50" fill="rgb(160,160,164)" dx="1" cx="444.12" form="hotspot" dy="-1" cy="199.42" height="415.70" releasePath=":/Resources/hotspot_stripe.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+    <links>
+     <action class="LaunchRSSFeedAction" attribute="onClick" event="onClick" actionID="0" widgetId="RSSFeed.FeedWgt" actionWgt="_PageMgr"/>
+    </links>
+   </object>
+   <object class="NumericWgt" id="RSSFeed.seperator">
+    <wgtStyle forcePaint="65" font-family="Tahoma" font-sizepx="16" cx="10.79" cy="23.87" step="1" timeSpec="local" alignment="center" x="604.50" y="550.52" vert-align="middle" text="/" max="4096" usingFormat="" value="/" keypad-type="Numeric" font-color="rgb(40,40,40)" min="0" width="21.59" numberFormat="0" readWrite="true" height="47.75" form="Numeric" font-size="12"/>
+   </object>
+   <object class="GroupWgt" id="RSSFeed.prevfeedBtn">
+    <wgtStyle width="89.44" x="697.02" forcePaint="65" y="539.28" cx="43.18" cy="33.71" height="70.22"/>
+    <object class="ButtonWgt" hmiStyle="type:btn" id="RSSFeed.prevfeedBtn.btn">
+     <wgtStyle width="89.44" x="0" forcePaint="65" y="0" fill="rgb(255,255,255)" dx="1" cx="0" form="standard" dy="-1" cy="0" height="70.22" releasePath="images\btn_kbdwht_std_1_rev1.svg" needlePath="images\btn_kbdwht_std_2_rev1.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+     <links>
+      <action StepOverLimit="true" class="StepTagAction" attribute="onMouseRelease" event="onMouseUp" actionID="0" Step="-1" StepLimit="0" actionWgt="_TagMgr">
+       <dataLinks>
+        <dataLink readWrite="R" attribute="tagSrc" tag="CurItem" sourceType="Widget" dataSource="RSSFeed.FeedWgt"/>
+       </dataLinks>
+      </action>
+     </links>
+    </object>
+    <object class="ImageWgt" id="RSSFeed.prevfeedBtn.icoImg">
+     <wgtStyle width="43.18" imagePath="images/leftarrow_symbol_rev1.svg" x="24.67" forcePaint="1" y="14.04" cx="12.34" cy="8.43" height="30.90"/>
+    </object>
+   </object>
+   <object class="GroupWgt" id="RSSFeed.nextfeedBtn">
+    <wgtStyle width="89.44" x="808.05" y="539.28" cx="58.60" cy="44.94" height="70.22"/>
+    <object class="ButtonWgt" hmiStyle="type:btn" id="RSSFeed.nextfeedBtn.btn">
+     <wgtStyle width="89.44" x="0" y="0" fill="rgb(255,255,255)" dx="1" form="standard" dy="-1" height="70.22" releasePath="images\btn_kbdwht_std_1_rev1.svg" needlePath="images\btn_kbdwht_std_2_rev1.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+     <links>
+      <action StepOverLimit="false" class="StepTagAction" attribute="onMouseRelease" event="onMouseUp" actionID="0" Step="1" StepLimit="0" actionWgt="_TagMgr">
+       <dataLinks>
+        <dataLink readWrite="R" attribute="tagSrc" tag="CurItem" sourceType="Widget" dataSource="RSSFeed.FeedWgt"/>
+       </dataLinks>
+      </action>
+     </links>
+    </object>
+    <object class="ImageWgt" id="RSSFeed.nextfeedBtn.icoImg">
+     <wgtStyle width="43.18" imagePath="images/rightarrow_symbol_rev1.svg" x="21.59" forcePaint="1" y="14.04" cx="30.84" cy="19.66" height="30.90"/>
+    </object>
+   </object>
+  </object>
+  <object class="ButtonWgt" hmiStyle="type:btn" id="gstArea1">
+   <wgtStyle width="105.50" x="1083.25" y="230" fill="rgb(160,160,164)" dx="1" cx="51.94" form="gesture" dy="-1" cy="45.10" height="92" releasePath="../../shared/gallery/images/bu_other/win-like.svg" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+   <links>
+    <action pageName="velux.jmx" class="LoadPageAction" attribute="onMouseClick" event="onMouseClick" actionID="1" actionWgt="_PageMgr"/>
+   </links>
+  </object>
+  <object class="ImageWgt" id="image3" static="true">
+   <wgtStyle width="210" imagePath="images/HVAC.jpg" x="1031" y="40" cx="210" cy="65" height="130"/>
+  </object>
+  <object class="ButtonWgt" hmiStyle="type:btn" id="gstArea2">
+   <wgtStyle width="105.50" x="1083.25" y="59" fill="rgb(160,160,164)" dx="1" cx="51.94" form="gesture" dy="-1" cy="45.10" height="92" releasePath="../../shared/gallery/images/bu_other/win-like.svg" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+   <links>
+    <action pageName="hvac overview.jmx" class="LoadPageAction" attribute="onMouseClick" event="onMouseClick" actionID="1" actionWgt="_PageMgr"/>
+   </links>
+  </object>
+  <object class="GroupWgt" id="AnalogClockWithDayDate" customType="AnalogClock with DayDate">
+   <wgtStyle width="165" x="1087" y="625" cx="72" cy="72" height="173" mtx="0.8788,0,0,0,0.8382,0,0,0,1" groupStyle="xform-scaling"/>
+   <links>
+    <attr attrName="timeSpec" alias="AnalogClockWgt.timeSpec;NumericWgt2.timeSpec"/>
+   </links>
+   <object class="ImageWgt" id="AnalogClockWithDayDate.bkgfrmImg" static="true">
+    <wgtStyle width="165" imagePath="images/bkgd_round_chrome.svg" x="0" y="8" cx="75" cy="82" height="165"/>
+   </object>
+   <object class="ImageWgt" hmiStyle="hmi-name:solid; hmi-shape:none; hmi-type:icon" id="AnalogClockWithDayDate.iconImg" static="true">
+    <wgtStyle width="26" imagePath="images/ic_di1_144.svg" x="45" y="56" fill="rgb(127,255,212)" cx="12" cy="11" height="23"/>
+   </object>
+   <object class="NumericWgt" id="AnalogClockWithDayDate.date">
+    <wgtStyle font-bold="true" font-family="Tahoma" font-sizepx="10" cx="69" cy="10" timeSpec="local" alignment="center" x="26" y="103" vert-align="top" text="-1" usingFormat="MM/DD/YY" value="-1" keypad-type="None" font-color="rgb(127,255,212)" width="117" numberFormat="0" height="15" form="date-time" font-size="8"/>
+   </object>
+   <object class="NumericWgt" id="AnalogClockWithDayDate.time">
+    <wgtStyle font-bold="true" forcePaint="65" font-family="Tahoma" font-sizepx="13" cx="57" cy="8" timeSpec="local" alignment="center" x="40" y="117" vert-align="middle" text="-1" usingFormat="hh:mm" value="-1" keypad-type="None" font-color="rgb(127,255,212)" width="85" numberFormat="0" height="16" form="date-time" font-size="10"/>
+   </object>
+   <object class="AnalogClockWgt" id="AnalogClockWithDayDate.Clock">
+    <wgtStyle width="160" x="2" forcePaint="65" y="8" cx="80" cy="80" height="160" groupStyle="xform-scaling" timeSpec="local"/>
+    <object class="ImageWgt" id="AnalogClockWithDayDate.Clock.clkticks">
+     <wgtStyle width="165" imagePath="images/clkticks_round_dots.svg" x="-1" forcePaint="1" y="-1" fill="rgb(127,255,212)" cx="63" cy="59" height="165"/>
+    </object>
+    <object class="NeedleWgt" id="AnalogClockWithDayDate.Clock.hourndl">
+     <wgtStyle forcePaint="73" cx="80" startAngle="90" cy="80" reverseScale="true" endAngle="-270" x="0" y="0" discrete="true" max="12" initAngle="90" width="160" toolTipFontSize="12" toolTipFontName="Arial" toolTipTextColor="rgb(0,0,0)" writeMode="0" height="160" toolTipBgColor="rgb(255,255,255)" form="round"/>
+     <dataLinks>
+      <dataLink readWrite="R" attribute="value" tag="hour" sourceType="Widget" dataSource="AnalogClockWithDayDate.Clock"/>
+     </dataLinks>
+     <object class="ImageWgt" id="AnalogClockWithDayDate.Clock.hourndl.img">
+      <wgtStyle width="19" imagePath="images/needle_solid_fathours.svg" x="71" forcePaint="65" y="35" fill="rgb(127,255,212)" cx="9" cy="45" height="54"/>
+     </object>
+    </object>
+    <object class="NeedleWgt" id="AnalogClockWithDayDate.Clock.minutendl">
+     <wgtStyle forcePaint="73" cx="80" startAngle="90" cy="80" reverseScale="true" endAngle="-270" x="0" y="0" discrete="true" max="60" initAngle="90" width="160" toolTipFontSize="12" toolTipFontName="Arial" toolTipTextColor="rgb(0,0,0)" writeMode="0" height="160" toolTipBgColor="rgb(255,255,255)" form="round"/>
+     <dataLinks>
+      <dataLink readWrite="R" attribute="value" tag="minute" sourceType="Widget" dataSource="AnalogClockWithDayDate.Clock"/>
+     </dataLinks>
+     <object class="ImageWgt" id="AnalogClockWithDayDate.Clock.minutendl.img">
+      <wgtStyle width="18" imagePath="images/needle_solid_fatmins.svg" x="72" forcePaint="65" y="23" fill="rgb(127,255,212)" cx="8" cy="57" height="66"/>
+     </object>
+    </object>
+    <object class="NeedleWgt" id="AnalogClockWithDayDate.Clock.secondndl">
+     <wgtStyle forcePaint="73" cx="81" startAngle="90" cy="77" reverseScale="true" endAngle="-270" x="-1" y="3" discrete="true" max="60" initAngle="90" width="164" toolTipFontSize="12" toolTipFontName="Arial" toolTipTextColor="rgb(0,0,0)" writeMode="0" height="156" toolTipBgColor="rgb(255,255,255)" form="round"/>
+     <dataLinks>
+      <dataLink readWrite="R" attribute="value" tag="second" sourceType="Widget" dataSource="AnalogClockWithDayDate.Clock"/>
+     </dataLinks>
+     <object class="ImageWgt" id="AnalogClockWithDayDate.Clock.secondndl.img">
+      <wgtStyle width="7" imagePath="images/needle_solid_secs2.svg" x="77" forcePaint="65" y="19" fill="rgb(60,179,113)" cx="3" cy="58" height="61"/>
+     </object>
+    </object>
+   </object>
+   <object class="ImageWgt" hmiStyle="hmi-name:none; hmi-shape:round; hmi-type:top" id="AnalogClockWithDayDate.clockglassimg">
+    <wgtStyle width="165" imagePath="images/glass_round_dkgray.svg" x="0" forcePaint="1" y="0" cx="82" cy="88" height="165"/>
+   </object>
+   <object class="ShapeWgt" id="AnalogClockWithDayDate.pinShape">
+    <wgtStyle width="12" x="77" forcePaint="65" y="82" cx="5" cy="6" rx="22" height="13" nodeName="ellipse" ry="19" stroke="rgb(127,127,127)"/>
+   </object>
+  </object>
+ </object>
+</wgtPage>

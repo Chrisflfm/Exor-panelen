@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags>
+    <tag>
+        <name>Tag1</name>
+        <resourceLocator>prot1://0?REG?1000000?unsignedInt</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://Tag1?unsignedInt</simulator>
+        <enableScaling>false</enableScaling>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+    </tag>
+</tags>

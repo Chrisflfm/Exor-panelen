@@ -1,0 +1,13 @@
+<groups>
+ <group Type="Auto">
+  <name>AddUser@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>Force Change Initial Password</tag>
+  <tag>Force Logoff Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>Calendar@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>System Time</tag>
+ </group>
+</groups>

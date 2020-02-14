@@ -1,0 +1,24 @@
+<emailInfos>
+ <emailInfo>
+  <id>eMail1</id>
+  <enable>true</enable>
+  <name>Started</name>
+  <description>Panel started</description>
+  <from>Pannel@Heimdal.nl</from>
+  <to>chris.dries@posteo.net</to>
+  <subject>Heimdall pannel started</subject>
+  <message>Het Heimdall pannel is opnieuw opgestart</message>
+  <taglist></taglist>
+ </emailInfo>
+ <emailInfo>
+  <id>eMail2</id>
+  <enable>true</enable>
+  <name>Test</name>
+  <description>Mail test</description>
+  <from>Pannel@heimdall.nl</from>
+  <to>chris.dries@posteo.net</to>
+  <subject>Test Mail</subject>
+  <message>Dit is een ontwikkel test</message>
+  <taglist></taglist>
+ </emailInfo>
+</emailInfos>

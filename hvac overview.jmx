@@ -1,0 +1,240 @@
+<wgtPage rev="1" projectType="HMI Project">
+ <object pageName="HVAC overview" pageSize="1280,800" class="PageWgt" dataWndSize="0,70" downloadPrepDone="true" usedFonts="Tahoma" staticFile="opt/hvac overview.png" id="HVAC overview" staticOptEnable="true">
+  <wgtStyle width="1280" x="0" y="0" height="800" ver="020801314" v="02.08.01.314"/>
+  <object class="PageMLTextMgrWgt" id="_PageMLTextMgrWgt" mgrType="Page" mlFileName="">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+   <langs defLangId="L1" curLangId="L1">
+    <lang removable="false" langCode="en-US" langId="L1" writingsystem="Any" name="Lang1" defaultFont="Tahoma"/>
+   </langs>
+   <MLTexts>
+    <MLText L1="ruimte 0.17 en 0.14" id="0"/>
+    <MLText L1="Lokaal" id="1"/>
+    <MLText L1="Setpunt" id="5"/>
+    <MLText L1="Actueel" id="6"/>
+    <MLText L1="ruimte 0.2 en 0.1" id="7"/>
+    <MLText L1="ruimte 0.8 en 0.5 en 0.9 en Conv3+4" id="8"/>
+    <MLText L1="ruimte 0.4 A en conv 1+2" id="9"/>
+    <MLText L1="ruimte 0.11 en 0.12 en 0.6" id="10"/>
+    <MLText L1="ruimte 0.15" id="11"/>
+    <MLText L1="ruimte 1.3" id="12"/>
+    <MLText L1="ruimte 1.1 en 1.4 en 1.6" id="13"/>
+    <MLText L1="ruimte 1.2" id="14"/>
+    <MLText L1="ruimte 0.4 B" id="15"/>
+    <MLText L1="woning links 1.10" id="16"/>
+    <MLText L1="slaapkamer 2" id="17"/>
+    <MLText L1="server 1.7" id="18"/>
+    <MLText L1="woning rechts 1.10" id="19"/>
+   </MLTexts>
+  </object>
+  <object class="LabelWgt" id="label1" static="true">
+   <wgtStyle width="411" font-color="rgb(23,30,40)" x="137" font-sizepx="24" y="92.91" font-family="Tahoma" wrapping="true" cx="205.50" cy="15.87" height="33.50" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
+   <links>
+    <lang class="MLTextLink" textid="0"/>
+   </links>
+  </object>
+  <object class="NumericWgt" id="field1">
+   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="20.25" step="1" timeSpec="local" alignment="right" x="577" y="92.91" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="45" form="Numeric" font-size="18"/>
+  </object>
+  <object class="NumericWgt" id="field2">
+   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.86" cy="15.03" step="1" timeSpec="local" alignment="right" x="756" y="92.91" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="41" numberFormat="1" readWrite="true" height="33.41" form="Numeric" font-size="18"/>
+  </object>
+  <object class="LabelWgt" id="label2" static="true">
+   <wgtStyle width="199" font-color="rgb(23,30,40)" x="194" font-sizepx="32" y="31" font-family="Tahoma" font-bold="true" wrapping="true" cx="99.50" cy="21.79" height="46" vert-align="top" marker="true" keypad-type="None" font-size="24"/>
+   <links>
+    <lang class="MLTextLink" textid="1"/>
+   </links>
+  </object>
+  <object class="LabelWgt" id="label3" static="true">
+   <wgtStyle width="199" font-color="rgb(23,30,40)" x="710" font-sizepx="32" y="31" font-family="Tahoma" font-bold="true" wrapping="true" cx="99.50" cy="21.79" height="46" vert-align="top" marker="true" keypad-type="None" font-size="24"/>
+   <links>
+    <lang class="MLTextLink" textid="6"/>
+   </links>
+  </object>
+  <object class="LabelWgt" id="label4" static="true">
+   <wgtStyle width="150" font-color="rgb(23,30,40)" x="529" font-sizepx="32" y="31" font-family="Tahoma" font-bold="true" wrapping="true" cx="75" cy="21.79" height="46" vert-align="top" marker="true" keypad-type="None" font-size="24"/>
+   <links>
+    <lang class="MLTextLink" textid="5"/>
+   </links>
+  </object>
+  <object class="LabelWgt" id="label5" static="true">
+   <wgtStyle width="411" font-color="rgb(23,30,40)" x="137" font-sizepx="24" y="133" font-family="Tahoma" wrapping="true" cx="205.50" cy="15.63" height="33" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
+   <links>
+    <lang class="MLTextLink" textid="7"/>
+   </links>
+  </object>
+  <object class="NumericWgt" id="field3">
+   <wgtStyle forcePaint="65" font-family="Tahoma" font-sizepx="24" cx="17.94" cy="14.40" step="1" timeSpec="local" alignment="right" x="577" y="133" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="39" numberFormat="1" readWrite="true" height="32" form="Numeric" font-size="18"/>
+  </object>
+  <object class="NumericWgt" id="field4">
+   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="16.20" step="1" timeSpec="local" alignment="right" x="757" y="133" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="36" form="Numeric" font-size="18"/>
+  </object>
+  <object class="LabelWgt" id="label6" static="true">
+   <wgtStyle width="411" font-color="rgb(23,30,40)" x="137" font-sizepx="24" y="171" font-family="Tahoma" wrapping="true" cx="205.50" cy="15.63" height="33" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
+   <links>
+    <lang class="MLTextLink" textid="8"/>
+   </links>
+  </object>
+  <object class="NumericWgt" id="field5">
+   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="17.48" cy="14.85" step="1" timeSpec="local" alignment="right" x="577" y="171" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="38" numberFormat="1" readWrite="true" height="33" form="Numeric" font-size="18"/>
+  </object>
+  <object class="NumericWgt" id="field6">
+   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.86" cy="15.30" step="1" timeSpec="local" alignment="right" x="756" y="171" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="41" numberFormat="1" readWrite="true" height="34" form="Numeric" font-size="18"/>
+  </object>
+  <object class="LabelWgt" id="label7" static="true">
+   <wgtStyle width="411" font-color="rgb(23,30,40)" x="137" font-sizepx="24" y="207" font-family="Tahoma" wrapping="true" cx="205.50" cy="15.63" height="33" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
+   <links>
+    <lang class="MLTextLink" textid="9"/>
+   </links>
+  </object>
+  <object class="NumericWgt" id="field7">
+   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="17.94" cy="14.85" step="1" timeSpec="local" alignment="right" x="577" y="207" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="39" numberFormat="1" readWrite="true" height="33" form="Numeric" font-size="18"/>
+  </object>
+  <object class="NumericWgt" id="field8">
+   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="18.90" step="1" timeSpec="local" alignment="right" x="757" y="207" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="42" form="Numeric" font-size="18"/>
+  </object>
+  <object class="LabelWgt" id="label8" static="true">
+   <wgtStyle width="411" font-color="rgb(23,30,40)" x="137" font-sizepx="24" y="243" font-family="Tahoma" wrapping="true" cx="205.50" cy="15.63" height="33" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
+   <links>
+    <lang class="MLTextLink" textid="10"/>
+   </links>
+  </object>
+  <object class="NumericWgt" id="field9">
+   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="17.94" cy="14.85" step="1" timeSpec="local" alignment="right" x="577" y="243" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="39" numberFormat="1" readWrite="true" height="33" form="Numeric" font-size="18"/>
+  </object>
+  <object class="NumericWgt" id="field10">
+   <wgtStyle forcePaint="65" font-family="Tahoma" font-sizepx="24" cx="18.40" cy="16.20" step="1" timeSpec="local" alignment="right" x="757" y="243" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="36" form="Numeric" font-size="18"/>
+  </object>
+  <object class="LabelWgt" id="label9" static="true">
+   <wgtStyle width="411" font-color="rgb(23,30,40)" x="137" font-sizepx="24" y="284" font-family="Tahoma" wrapping="true" cx="205.50" cy="15.63" height="33" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
+   <links>
+    <lang class="MLTextLink" textid="11"/>
+   </links>
+  </object>
+  <object class="NumericWgt" id="field11">
+   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="14.85" step="1" timeSpec="local" alignment="right" x="577" y="284" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="33" form="Numeric" font-size="18"/>
+  </object>
+  <object class="NumericWgt" id="field12">
+   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="15.30" step="1" timeSpec="local" alignment="right" x="757" y="284" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="34" form="Numeric" font-size="18"/>
+  </object>
+  <object class="LabelWgt" id="label10" static="true">
+   <wgtStyle width="411" font-color="rgb(23,30,40)" x="137" font-sizepx="24" y="324" font-family="Tahoma" wrapping="true" cx="205.50" cy="15.63" height="33" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
+   <links>
+    <lang class="MLTextLink" textid="12"/>
+   </links>
+  </object>
+  <object class="NumericWgt" id="field13">
+   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="14.85" step="1" timeSpec="local" alignment="right" x="577" y="324" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="33" form="Numeric" font-size="18"/>
+  </object>
+  <object class="NumericWgt" id="field14">
+   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="16.65" step="1" timeSpec="local" alignment="right" x="757" y="324" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="37" form="Numeric" font-size="18"/>
+  </object>
+  <object class="LabelWgt" id="label17" static="true">
+   <wgtStyle width="411" font-color="rgb(23,30,40)" x="137" font-sizepx="24" y="369" font-family="Tahoma" wrapping="true" cx="205.50" cy="15.63" height="33" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
+   <links>
+    <lang class="MLTextLink" textid="13"/>
+   </links>
+  </object>
+  <object class="NumericWgt" id="field27">
+   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="14.85" step="1" timeSpec="local" alignment="right" x="577" y="369" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="33" form="Numeric" font-size="18"/>
+  </object>
+  <object class="NumericWgt" id="field28">
+   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="16.65" step="1" timeSpec="local" alignment="right" x="757" y="369" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="37" form="Numeric" font-size="18"/>
+  </object>
+  <object class="LabelWgt" id="label11" static="true">
+   <wgtStyle width="411" font-color="rgb(23,30,40)" x="137" font-sizepx="24" y="412" font-family="Tahoma" wrapping="true" cx="205.50" cy="15.63" height="33" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
+   <links>
+    <lang class="MLTextLink" textid="14"/>
+   </links>
+  </object>
+  <object class="NumericWgt" id="field15">
+   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="14.85" step="1" timeSpec="local" alignment="right" x="577" y="412" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="33" form="Numeric" font-size="18"/>
+  </object>
+  <object class="NumericWgt" id="field16">
+   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="16.65" step="1" timeSpec="local" alignment="right" x="757" y="412" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="37" form="Numeric" font-size="18"/>
+  </object>
+  <object class="LabelWgt" id="label12" static="true">
+   <wgtStyle width="411" font-color="rgb(23,30,40)" x="137" font-sizepx="24" y="457" font-family="Tahoma" wrapping="true" cx="205.50" cy="15.63" height="33" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
+   <links>
+    <lang class="MLTextLink" textid="15"/>
+   </links>
+  </object>
+  <object class="NumericWgt" id="field17">
+   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="14.85" step="1" timeSpec="local" alignment="right" x="577" y="457" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="33" form="Numeric" font-size="18"/>
+  </object>
+  <object class="NumericWgt" id="field18">
+   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="16.65" step="1" timeSpec="local" alignment="right" x="757" y="457" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="37" form="Numeric" font-size="18"/>
+  </object>
+  <object class="LabelWgt" id="label13" static="true">
+   <wgtStyle width="411" font-color="rgb(23,30,40)" x="137" font-sizepx="24" y="505" font-family="Tahoma" wrapping="true" cx="205.50" cy="15.63" height="33" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
+   <links>
+    <lang class="MLTextLink" textid="16"/>
+   </links>
+  </object>
+  <object class="NumericWgt" id="field19">
+   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="14.85" step="1" timeSpec="local" alignment="right" x="577" y="505" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="33" form="Numeric" font-size="18"/>
+  </object>
+  <object class="NumericWgt" id="field20">
+   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="16.65" step="1" timeSpec="local" alignment="right" x="757" y="505" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="37" form="Numeric" font-size="18"/>
+  </object>
+  <object class="LabelWgt" id="label14" static="true">
+   <wgtStyle width="411" font-color="rgb(23,30,40)" x="137" font-sizepx="24" y="553" font-family="Tahoma" wrapping="true" cx="205.50" cy="15.63" height="33" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
+   <links>
+    <lang class="MLTextLink" textid="17"/>
+   </links>
+  </object>
+  <object class="NumericWgt" id="field21">
+   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="14.85" step="1" timeSpec="local" alignment="right" x="577" y="553" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="33" form="Numeric" font-size="18"/>
+  </object>
+  <object class="NumericWgt" id="field22">
+   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="16.65" step="1" timeSpec="local" alignment="right" x="757" y="553" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="37" form="Numeric" font-size="18"/>
+  </object>
+  <object class="LabelWgt" id="label15" static="true">
+   <wgtStyle width="411" font-color="rgb(23,30,40)" x="137" font-sizepx="24" y="604" font-family="Tahoma" wrapping="true" cx="205.50" cy="15.63" height="33" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
+   <links>
+    <lang class="MLTextLink" textid="18"/>
+   </links>
+  </object>
+  <object class="NumericWgt" id="field23">
+   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="14.85" step="1" timeSpec="local" alignment="right" x="577" y="604" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="33" form="Numeric" font-size="18"/>
+  </object>
+  <object class="NumericWgt" id="field24">
+   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="16.65" step="1" timeSpec="local" alignment="right" x="757" y="604" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="37" form="Numeric" font-size="18"/>
+  </object>
+  <object class="LabelWgt" id="label16" static="true">
+   <wgtStyle width="411" font-color="rgb(23,30,40)" x="137" font-sizepx="24" y="649" font-family="Tahoma" wrapping="true" cx="205.50" cy="15.63" height="33" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
+   <links>
+    <lang class="MLTextLink" textid="19"/>
+   </links>
+  </object>
+  <object class="NumericWgt" id="field25">
+   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="14.85" step="1" timeSpec="local" alignment="right" x="577" y="649" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="33" form="Numeric" font-size="18"/>
+  </object>
+  <object class="NumericWgt" id="field26">
+   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="16.65" step="1" timeSpec="local" alignment="right" x="757" y="649" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="37" form="Numeric" font-size="18"/>
+  </object>
+  <object class="ImageWgt" id="bldgImg41" static="true">
+   <wgtStyle width="60" imagePath="images/7-5.svg" x="7" y="725" cx="28.97" cy="32.26" height="67"/>
+  </object>
+  <object class="ButtonWgt" hmiStyle="type:btn" id="gstArea2">
+   <wgtStyle width="62" x="6" y="721" fill="rgb(160,160,164)" dx="1" cx="30.52" form="gesture" dy="-1" cy="36.76" height="75" releasePath="../../shared/gallery/images/bu_other/win-like.svg" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+   <links>
+    <action pageName="home.jmx" class="LoadPageAction" attribute="onMouseClick" event="onMouseClick" actionID="0" actionWgt="_PageMgr"/>
+   </links>
+  </object>
+  <object class="ImageWgt" id="image1" static="true">
+   <wgtStyle width="259" imagePath="images/gvl-etage.png" x="966" y="61.50" cx="129.50" cy="142.50" height="285"/>
+  </object>
+  <object class="ButtonWgt" hmiStyle="type:btn" id="gstArea">
+   <wgtStyle width="176" x="1008" y="223.50" fill="rgb(160,160,164)" dx="1" cx="86.65" form="gesture" dy="-1" cy="49.02" height="100" releasePath="../../shared/gallery/images/bu_other/win-like.svg" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+   <links>
+    <action pageName="gvl.jmx" class="LoadPageAction" attribute="onMouseClick" event="onMouseClick" actionID="0" actionWgt="_PageMgr"/>
+   </links>
+  </object>
+  <object class="ButtonWgt" hmiStyle="type:btn" id="gstArea1">
+   <wgtStyle width="176" x="1008" y="101" fill="rgb(160,160,164)" dx="1" cx="86.65" form="gesture" dy="-1" cy="49.02" height="100" releasePath="../../shared/gallery/images/bu_other/win-like.svg" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+   <links>
+    <action pageName="verd.jmx" class="LoadPageAction" attribute="onMouseClick" event="onMouseClick" actionID="1" actionWgt="_PageMgr"/>
+   </links>
+  </object>
+ </object>
+</wgtPage>
