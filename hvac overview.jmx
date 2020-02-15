@@ -1,5 +1,5 @@
 <wgtPage rev="1" projectType="HMI Project">
- <object pageName="HVAC overview" pageSize="1280,800" class="PageWgt" dataWndSize="0,70" downloadPrepDone="true" usedFonts="Tahoma" staticFile="opt/hvac overview.png" id="HVAC overview" staticOptEnable="true">
+ <object pageName="HVAC overview" pageSize="1280,800" class="PageWgt" dataWndSize="0,70" downloadPrepDone="false" usedFonts="Tahoma" staticFile="opt/hvac overview.png" id="HVAC overview" staticOptEnable="true">
   <wgtStyle width="1280" x="0" y="0" height="800" ver="020801314" v="02.08.01.314"/>
   <object class="PageMLTextMgrWgt" id="_PageMLTextMgrWgt" mgrType="Page" mlFileName="">
    <wgtStyle width="0" x="0" y="0" height="0"/>
@@ -36,7 +36,7 @@
    <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="20.25" step="1" timeSpec="local" alignment="right" x="577" y="92.91" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="45" form="Numeric" font-size="18"/>
   </object>
   <object class="NumericWgt" id="field2">
-   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.86" cy="15.03" step="1" timeSpec="local" alignment="right" x="756" y="92.91" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="41" numberFormat="1" readWrite="true" height="33.41" form="Numeric" font-size="18"/>
+   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.86" cy="15.03" step="1" timeSpec="local" alignment="right" x="708" y="92.91" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="41" numberFormat="1" readWrite="true" height="33.41" form="Numeric" font-size="18"/>
   </object>
   <object class="LabelWgt" id="label2" static="true">
    <wgtStyle width="199" font-color="rgb(23,30,40)" x="194" font-sizepx="32" y="31" font-family="Tahoma" font-bold="true" wrapping="true" cx="99.50" cy="21.79" height="46" vert-align="top" marker="true" keypad-type="None" font-size="24"/>
@@ -45,7 +45,7 @@
    </links>
   </object>
   <object class="LabelWgt" id="label3" static="true">
-   <wgtStyle width="199" font-color="rgb(23,30,40)" x="710" font-sizepx="32" y="31" font-family="Tahoma" font-bold="true" wrapping="true" cx="99.50" cy="21.79" height="46" vert-align="top" marker="true" keypad-type="None" font-size="24"/>
+   <wgtStyle width="199" font-color="rgb(23,30,40)" x="679" font-sizepx="32" y="31" font-family="Tahoma" font-bold="true" wrapping="true" cx="99.50" cy="21.79" height="46" vert-align="top" marker="true" keypad-type="None" font-size="24"/>
    <links>
     <lang class="MLTextLink" textid="6"/>
    </links>
@@ -66,7 +66,7 @@
    <wgtStyle forcePaint="65" font-family="Tahoma" font-sizepx="24" cx="17.94" cy="14.40" step="1" timeSpec="local" alignment="right" x="577" y="133" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="39" numberFormat="1" readWrite="true" height="32" form="Numeric" font-size="18"/>
   </object>
   <object class="NumericWgt" id="field4">
-   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="16.20" step="1" timeSpec="local" alignment="right" x="757" y="133" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="36" form="Numeric" font-size="18"/>
+   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="16.20" step="1" timeSpec="local" alignment="right" x="709" y="133" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="36" form="Numeric" font-size="18"/>
   </object>
   <object class="LabelWgt" id="label6" static="true">
    <wgtStyle width="411" font-color="rgb(23,30,40)" x="137" font-sizepx="24" y="171" font-family="Tahoma" wrapping="true" cx="205.50" cy="15.63" height="33" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
@@ -78,7 +78,7 @@
    <wgtStyle font-family="Tahoma" font-sizepx="24" cx="17.48" cy="14.85" step="1" timeSpec="local" alignment="right" x="577" y="171" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="38" numberFormat="1" readWrite="true" height="33" form="Numeric" font-size="18"/>
   </object>
   <object class="NumericWgt" id="field6">
-   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.86" cy="15.30" step="1" timeSpec="local" alignment="right" x="756" y="171" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="41" numberFormat="1" readWrite="true" height="34" form="Numeric" font-size="18"/>
+   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.86" cy="15.30" step="1" timeSpec="local" alignment="right" x="708" y="171" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="41" numberFormat="1" readWrite="true" height="34" form="Numeric" font-size="18"/>
   </object>
   <object class="LabelWgt" id="label7" static="true">
    <wgtStyle width="411" font-color="rgb(23,30,40)" x="137" font-sizepx="24" y="207" font-family="Tahoma" wrapping="true" cx="205.50" cy="15.63" height="33" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
@@ -90,7 +90,7 @@
    <wgtStyle font-family="Tahoma" font-sizepx="24" cx="17.94" cy="14.85" step="1" timeSpec="local" alignment="right" x="577" y="207" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="39" numberFormat="1" readWrite="true" height="33" form="Numeric" font-size="18"/>
   </object>
   <object class="NumericWgt" id="field8">
-   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="18.90" step="1" timeSpec="local" alignment="right" x="757" y="207" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="42" form="Numeric" font-size="18"/>
+   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="18.90" step="1" timeSpec="local" alignment="right" x="709" y="207" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="42" form="Numeric" font-size="18"/>
   </object>
   <object class="LabelWgt" id="label8" static="true">
    <wgtStyle width="411" font-color="rgb(23,30,40)" x="137" font-sizepx="24" y="243" font-family="Tahoma" wrapping="true" cx="205.50" cy="15.63" height="33" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
@@ -102,7 +102,7 @@
    <wgtStyle font-family="Tahoma" font-sizepx="24" cx="17.94" cy="14.85" step="1" timeSpec="local" alignment="right" x="577" y="243" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="39" numberFormat="1" readWrite="true" height="33" form="Numeric" font-size="18"/>
   </object>
   <object class="NumericWgt" id="field10">
-   <wgtStyle forcePaint="65" font-family="Tahoma" font-sizepx="24" cx="18.40" cy="16.20" step="1" timeSpec="local" alignment="right" x="757" y="243" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="36" form="Numeric" font-size="18"/>
+   <wgtStyle forcePaint="65" font-family="Tahoma" font-sizepx="24" cx="18.40" cy="16.20" step="1" timeSpec="local" alignment="right" x="709" y="243" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="36" form="Numeric" font-size="18"/>
   </object>
   <object class="LabelWgt" id="label9" static="true">
    <wgtStyle width="411" font-color="rgb(23,30,40)" x="137" font-sizepx="24" y="284" font-family="Tahoma" wrapping="true" cx="205.50" cy="15.63" height="33" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
@@ -114,7 +114,7 @@
    <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="14.85" step="1" timeSpec="local" alignment="right" x="577" y="284" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="33" form="Numeric" font-size="18"/>
   </object>
   <object class="NumericWgt" id="field12">
-   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="15.30" step="1" timeSpec="local" alignment="right" x="757" y="284" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="34" form="Numeric" font-size="18"/>
+   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="15.30" step="1" timeSpec="local" alignment="right" x="709" y="284" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="34" form="Numeric" font-size="18"/>
   </object>
   <object class="LabelWgt" id="label10" static="true">
    <wgtStyle width="411" font-color="rgb(23,30,40)" x="137" font-sizepx="24" y="324" font-family="Tahoma" wrapping="true" cx="205.50" cy="15.63" height="33" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
@@ -126,7 +126,7 @@
    <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="14.85" step="1" timeSpec="local" alignment="right" x="577" y="324" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="33" form="Numeric" font-size="18"/>
   </object>
   <object class="NumericWgt" id="field14">
-   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="16.65" step="1" timeSpec="local" alignment="right" x="757" y="324" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="37" form="Numeric" font-size="18"/>
+   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="16.65" step="1" timeSpec="local" alignment="right" x="709" y="324" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="37" form="Numeric" font-size="18"/>
   </object>
   <object class="LabelWgt" id="label17" static="true">
    <wgtStyle width="411" font-color="rgb(23,30,40)" x="137" font-sizepx="24" y="369" font-family="Tahoma" wrapping="true" cx="205.50" cy="15.63" height="33" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
@@ -138,7 +138,7 @@
    <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="14.85" step="1" timeSpec="local" alignment="right" x="577" y="369" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="33" form="Numeric" font-size="18"/>
   </object>
   <object class="NumericWgt" id="field28">
-   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="16.65" step="1" timeSpec="local" alignment="right" x="757" y="369" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="37" form="Numeric" font-size="18"/>
+   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="16.65" step="1" timeSpec="local" alignment="right" x="709" y="369" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="37" form="Numeric" font-size="18"/>
   </object>
   <object class="LabelWgt" id="label11" static="true">
    <wgtStyle width="411" font-color="rgb(23,30,40)" x="137" font-sizepx="24" y="412" font-family="Tahoma" wrapping="true" cx="205.50" cy="15.63" height="33" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
@@ -150,7 +150,7 @@
    <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="14.85" step="1" timeSpec="local" alignment="right" x="577" y="412" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="33" form="Numeric" font-size="18"/>
   </object>
   <object class="NumericWgt" id="field16">
-   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="16.65" step="1" timeSpec="local" alignment="right" x="757" y="412" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="37" form="Numeric" font-size="18"/>
+   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="16.65" step="1" timeSpec="local" alignment="right" x="709" y="412" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="37" form="Numeric" font-size="18"/>
   </object>
   <object class="LabelWgt" id="label12" static="true">
    <wgtStyle width="411" font-color="rgb(23,30,40)" x="137" font-sizepx="24" y="457" font-family="Tahoma" wrapping="true" cx="205.50" cy="15.63" height="33" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
@@ -162,7 +162,7 @@
    <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="14.85" step="1" timeSpec="local" alignment="right" x="577" y="457" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="33" form="Numeric" font-size="18"/>
   </object>
   <object class="NumericWgt" id="field18">
-   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="16.65" step="1" timeSpec="local" alignment="right" x="757" y="457" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="37" form="Numeric" font-size="18"/>
+   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="16.65" step="1" timeSpec="local" alignment="right" x="709" y="457" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="37" form="Numeric" font-size="18"/>
   </object>
   <object class="LabelWgt" id="label13" static="true">
    <wgtStyle width="411" font-color="rgb(23,30,40)" x="137" font-sizepx="24" y="505" font-family="Tahoma" wrapping="true" cx="205.50" cy="15.63" height="33" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
@@ -174,7 +174,7 @@
    <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="14.85" step="1" timeSpec="local" alignment="right" x="577" y="505" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="33" form="Numeric" font-size="18"/>
   </object>
   <object class="NumericWgt" id="field20">
-   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="16.65" step="1" timeSpec="local" alignment="right" x="757" y="505" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="37" form="Numeric" font-size="18"/>
+   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="16.65" step="1" timeSpec="local" alignment="right" x="709" y="505" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="37" form="Numeric" font-size="18"/>
   </object>
   <object class="LabelWgt" id="label14" static="true">
    <wgtStyle width="411" font-color="rgb(23,30,40)" x="137" font-sizepx="24" y="553" font-family="Tahoma" wrapping="true" cx="205.50" cy="15.63" height="33" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
@@ -186,7 +186,7 @@
    <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="14.85" step="1" timeSpec="local" alignment="right" x="577" y="553" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="33" form="Numeric" font-size="18"/>
   </object>
   <object class="NumericWgt" id="field22">
-   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="16.65" step="1" timeSpec="local" alignment="right" x="757" y="553" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="37" form="Numeric" font-size="18"/>
+   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="16.65" step="1" timeSpec="local" alignment="right" x="709" y="553" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="37" form="Numeric" font-size="18"/>
   </object>
   <object class="LabelWgt" id="label15" static="true">
    <wgtStyle width="411" font-color="rgb(23,30,40)" x="137" font-sizepx="24" y="604" font-family="Tahoma" wrapping="true" cx="205.50" cy="15.63" height="33" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
@@ -198,7 +198,7 @@
    <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="14.85" step="1" timeSpec="local" alignment="right" x="577" y="604" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="33" form="Numeric" font-size="18"/>
   </object>
   <object class="NumericWgt" id="field24">
-   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="16.65" step="1" timeSpec="local" alignment="right" x="757" y="604" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="37" form="Numeric" font-size="18"/>
+   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="16.65" step="1" timeSpec="local" alignment="right" x="709" y="604" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="37" form="Numeric" font-size="18"/>
   </object>
   <object class="LabelWgt" id="label16" static="true">
    <wgtStyle width="411" font-color="rgb(23,30,40)" x="137" font-sizepx="24" y="649" font-family="Tahoma" wrapping="true" cx="205.50" cy="15.63" height="33" vert-align="top" marker="true" keypad-type="None" font-size="18"/>
@@ -210,7 +210,7 @@
    <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="14.85" step="1" timeSpec="local" alignment="right" x="577" y="649" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="33" form="Numeric" font-size="18"/>
   </object>
   <object class="NumericWgt" id="field26">
-   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="16.65" step="1" timeSpec="local" alignment="right" x="757" y="649" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="37" form="Numeric" font-size="18"/>
+   <wgtStyle font-family="Tahoma" font-sizepx="24" cx="18.40" cy="16.65" step="1" timeSpec="local" alignment="right" x="709" y="649" vert-align="top" text="20" max="32767" usingFormat="" value="20" keypad-type="Numeric" font-color="rgb(23,30,40)" min="-32768" width="40" numberFormat="1" readWrite="true" height="37" form="Numeric" font-size="18"/>
   </object>
   <object class="ImageWgt" id="bldgImg41" static="true">
    <wgtStyle width="60" imagePath="images/7-5.svg" x="7" y="725" cx="28.97" cy="32.26" height="67"/>
@@ -235,6 +235,141 @@
    <links>
     <action pageName="verd.jmx" class="LoadPageAction" attribute="onMouseClick" event="onMouseClick" actionID="1" actionWgt="_PageMgr"/>
    </links>
+  </object>
+  <object class="ImageWgt" id="wthrImg48" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_031.svg" x="858" y="87" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg57" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_032.svg" x="913" y="87" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg26" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_025.svg" x="800" y="87" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg1" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_031.svg" x="858" y="130" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg2" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_032.svg" x="913" y="130" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg3" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_025.svg" x="800" y="130" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg4" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_031.svg" x="858" y="171" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg5" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_032.svg" x="913" y="171" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg6" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_025.svg" x="800" y="171" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg7" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_031.svg" x="858" y="210" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg8" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_032.svg" x="913" y="210" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg9" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_025.svg" x="800" y="210" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg10" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_031.svg" x="858" y="245" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg11" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_032.svg" x="913" y="245" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg12" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_025.svg" x="800" y="245" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg13" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_031.svg" x="858" y="286" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg14" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_032.svg" x="913" y="286" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg15" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_025.svg" x="800" y="286" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg16" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_031.svg" x="858" y="326" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg17" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_032.svg" x="913" y="326" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg18" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_025.svg" x="800" y="326" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg19" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_031.svg" x="858" y="367" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg20" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_032.svg" x="913" y="367" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg21" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_025.svg" x="800" y="367" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg22" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_031.svg" x="858" y="407" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg23" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_032.svg" x="913" y="407" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg24" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_025.svg" x="800" y="407" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg25" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_031.svg" x="858" y="451" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg27" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_032.svg" x="913" y="451" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg28" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_025.svg" x="800" y="451" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg29" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_031.svg" x="858" y="500" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg30" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_032.svg" x="913" y="500" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg31" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_025.svg" x="800" y="500" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg32" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_031.svg" x="858" y="546" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg33" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_032.svg" x="913" y="546" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg34" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_025.svg" x="800" y="546" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg35" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_031.svg" x="858" y="604" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg36" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_032.svg" x="913" y="604" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg37" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_025.svg" x="800" y="604" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg38" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_031.svg" x="858" y="653" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg39" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_032.svg" x="913" y="653" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg40" static="true">
+   <wgtStyle width="32" imagePath="images/IC_fo1_025.svg" x="800" y="653" cx="16" cy="16" height="32"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg41" static="true">
+   <wgtStyle width="79" imagePath="images/IC_fo1_031.svg" x="1056" y="505.25" cx="39.50" cy="32.75" height="65.50"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg42" static="true">
+   <wgtStyle width="71.50" imagePath="images/IC_fo1_032.svg" x="1059.75" y="614" cx="35.75" cy="39" height="78"/>
+  </object>
+  <object class="ImageWgt" id="wthrImg43" static="true">
+   <wgtStyle width="86" imagePath="images/IC_fo1_025.svg" x="1052.50" y="388" cx="43" cy="40.50" height="81"/>
   </object>
  </object>
 </wgtPage>
