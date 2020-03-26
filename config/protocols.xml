@@ -3,7 +3,7 @@
   <id>prot1</id>
   <name>JEE2</name>
   <file>JEE2</file>
-  <configuration>CfgVer=1 prefix=Jetter ipAddress=192.168.10.1 localPort=50001 model=1 </configuration>
+  <configuration>CfgVer=1 prefix=Jetter ipAddress=192.168.5.20 localPort=50001 model=1 </configuration>
   <autoImport></autoImport>
   <enableOptimization>true</enableOptimization>
   <enableDatagram>false</enableDatagram>

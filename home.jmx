@@ -12,13 +12,15 @@
    <langs defLangId="L1" curLangId="L1">
     <lang removable="false" langCode="en-US" langId="L1" writingsystem="Any" name="Lang1" defaultFont="Tahoma"/>
    </langs>
-   <MLTexts/>
+   <MLTexts>
+    <MLText L1="© J &amp; M Maas" id="5"/>
+   </MLTexts>
   </object>
   <object class="GroupSubscribeWgt" id="Home@$GroupSubscrWgt@$0">
    <wgtStyle width="0" x="0" y="0" height="0"/>
   </object>
   <object class="ImageWgt" id="image1" static="true">
-   <wgtStyle width="210" imagePath="images/TOM.jpg" x="17" y="7" cx="105" cy="65" height="130"/>
+   <wgtStyle width="310" imagePath="images/TOM-LOGO-zonder bv-01-01.png" x="17" y="7" cx="155" cy="62.50" height="125"/>
   </object>
   <object class="ButtonWgt" hmiStyle="type:btn" id="gstArea1">
    <wgtStyle width="105.50" x="56.25" y="369" fill="rgb(160,160,164)" dx="1" cx="51.94" form="gesture" dy="-1" cy="45.10" height="92" releasePath="../../shared/gallery/images/bu_other/win-like.svg" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
@@ -27,7 +29,7 @@
    </links>
   </object>
   <object class="ImageWgt" id="image3" static="true">
-   <wgtStyle width="210" imagePath="images/HVAC.jpg" x="6" y="179" cx="210" cy="65" height="130"/>
+   <wgtStyle width="210" imagePath="images/HVAC.jpg" x="4" y="179" cx="210" cy="65" height="130"/>
   </object>
   <object class="ButtonWgt" hmiStyle="type:btn" id="gstArea2">
    <wgtStyle width="105.50" x="53.25" y="199" fill="rgb(160,160,164)" dx="1" cx="51.94" form="gesture" dy="-1" cy="45.10" height="92" releasePath="../../shared/gallery/images/bu_other/win-like.svg" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
@@ -36,7 +38,7 @@
    </links>
   </object>
   <object class="GroupWgt" id="AnalogClockWithDayDate" customType="AnalogClock with DayDate">
-   <wgtStyle width="165" x="426" y="43.50" cx="356.02" cy="354.02" height="173" mtx="4.34545,0,0,0,4.12139,0,0,0,1" groupStyle="xform-scaling"/>
+   <wgtStyle width="165" x="281.50" y="58.50" cx="356.02" cy="354.02" height="173" mtx="4.34545,0,0,0,4.12139,0,0,0,1" groupStyle="xform-scaling"/>
    <links>
     <attr attrName="timeSpec" alias="AnalogClockWgt.timeSpec;NumericWgt2.timeSpec"/>
    </links>
@@ -96,9 +98,33 @@
    <wgtStyle width="103.50" imagePath="images/ic_el1_38.svg" x="41.75" y="529.25" cx="51.75" cy="55" height="110"/>
   </object>
   <object class="ButtonWgt" hmiStyle="type:btn" id="gstArea3">
-   <wgtStyle width="106" x="40.75" y="529.50" fill="rgb(160,160,164)" dx="1" cx="52.19" form="gesture" dy="-1" cy="53.56" height="109.25" releasePath="../../shared/gallery/images/bu_other/win-like.svg" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+   <wgtStyle width="106" x="56" y="529.50" fill="rgb(160,160,164)" dx="1" cx="52.19" form="gesture" dy="-1" cy="53.56" height="109.25" releasePath="../../shared/gallery/images/bu_other/win-like.svg" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
    <links>
     <action pageName="licht.jmx" class="LoadPageAction" attribute="onMouseClick" event="onMouseClick" actionID="1" actionWgt="_PageMgr"/>
+   </links>
+  </object>
+  <object class="LabelWgt" id="label1">
+   <wgtStyle width="282" font-color="rgb(75,0,130)" x="984" forcePaint="65" font-sizepx="42" y="739" font-family="Tahoma" wrapping="true" cx="141" cy="31.26" height="66" vert-align="top" marker="true" keypad-type="None" font-size="32"/>
+   <links>
+    <lang class="MLTextLink" textid="5"/>
+   </links>
+  </object>
+  <object class="ImageWgt" id="image4" static="true">
+   <wgtStyle width="150" imagePath="images/Water ontharder.jpg" x="1112" y="603.12" cx="75" cy="53.62" height="107.25"/>
+  </object>
+  <object class="ButtonWgt" hmiStyle="type:btn" id="gstArea4">
+   <wgtStyle width="106" x="1134" y="602.12" fill="rgb(160,160,164)" dx="1" cx="52.19" form="gesture" dy="-1" cy="53.56" height="109.25" releasePath="../../shared/gallery/images/bu_other/win-like.svg" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+   <links>
+    <action pageName="waterontharder.jmx" class="LoadPageAction" attribute="onMouseClick" event="onMouseClick" actionID="1" actionWgt="_PageMgr"/>
+   </links>
+  </object>
+  <object class="ImageWgt" id="image5" static="true">
+   <wgtStyle width="132" imagePath="images/Alarm.png" x="1121" y="25" cx="66" cy="44.50" height="89"/>
+  </object>
+  <object class="ButtonWgt" hmiStyle="type:btn" id="gstArea5">
+   <wgtStyle width="106" x="1134" y="14.88" fill="rgb(160,160,164)" dx="1" cx="52.19" form="gesture" dy="-1" cy="53.56" height="109.25" releasePath="../../shared/gallery/images/bu_other/win-like.svg" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
+   <links>
+    <action pageName="alarm.jmx" class="LoadPageAction" attribute="onMouseClick" event="onMouseClick" actionID="1" actionWgt="_PageMgr"/>
    </links>
   </object>
  </object>

@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<events/>
+<events>
+    <event id="1" name="Ft01_ZoutniveauLaag" group="Ft01_ZoutniveauLaag" trigger="bitMaskAlarm" description="[7@Alarm]"/>
+    <event id="2" name="Ft02_GeenComunicatie" group="Ft02_GeenComunicatie" trigger="bitMaskAlarm" description="[7@Alarm]"/>
+    <event id="3" name="Ft03_Brand" group="Ft03_Brand" trigger="bitMaskAlarm" description="[7@Alarm]"/>
+    <event id="4" name="Ft04_Inbraak" group="Ft04_Inbraak" trigger="bitMaskAlarm" description="[7@Alarm]"/>
+    <event id="5" name="Ft05_DeurPlatinaOpen" group="Ft05_DeurPlatinaOpen" trigger="bitMaskAlarm" description="[7@Alarm]"/>
+    <event id="6" name="Ft06_WaterlekZoutvat" group="Ft06_WaterlekZoutvat" trigger="bitMaskAlarm" description="[7@Alarm]"/>
+</events>

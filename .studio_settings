@@ -1,7 +1,7 @@
 [General]
 FTPPort=21
 HTTPPort=80
-OldIPRuntime=192.168.10.2
+OldIPRuntime=192.168.5.134
 FTPTimeout=25
 
 [CustomWgtCatalog]
@@ -12,8 +12,8 @@ filterByCurrentText=
 showGlobalTypes=true
 
 [Heimdall]
-windowState=@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\x1\0\0\0\x3\0\0\x4\x87\0\0\0\x19\xfc\x1\0\0\0\x1\xfc\0\0\0\0\0\0\x4\x87\0\0\0\xff\0\0\0x\xfa\0\0\0\0\x1\0\0\0\x2\xfb\0\0\0*\0h\0m\0i\0s\0t\0u\0\x64\0i\0o\0_\0\x64\0o\0\x63\0k\0_\0s\0\x63\0r\0i\0p\0t\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\xff\0\0\0\xff\xfb\0\0\0.\0h\0m\0i\0s\0t\0u\0\x64\0i\0o\0_\0\x64\0o\0\x63\0k\0_\0k\0\x65\0y\0\x62\0o\0\x61\0r\0\x64\x1\0\0\0\0\xff\xff\xff\xff\0\0\0x\0\0\0x\0\0\x4\x87\0\0\x3z\0\0\0\x4\0\0\0\x4\0\0\0\b\0\0\0\b\xfc\0\0\0\0)
-windowGeom=@ByteArray(\x1\xd9\xd0\xcb\0\x1\0\0\0\0\0\0\0\0\0\0\0\0\x4\x86\0\0\x3\x96\0\0\0\0\0\0\0\0\xff\xff\xff\xff\xff\xff\xff\xff\0\0\0\x1\0\0)
+windowState=@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\x1\0\0\0\x3\0\0\x5Z\0\0\0\x19\xfc\x1\0\0\0\x1\xfc\0\0\0\0\0\0\x5Z\0\0\0\xff\0\0\0x\xfa\0\0\0\0\x1\0\0\0\x2\xfb\0\0\0*\0h\0m\0i\0s\0t\0u\0\x64\0i\0o\0_\0\x64\0o\0\x63\0k\0_\0s\0\x63\0r\0i\0p\0t\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\xff\0\0\0\xff\xfb\0\0\0.\0h\0m\0i\0s\0t\0u\0\x64\0i\0o\0_\0\x64\0o\0\x63\0k\0_\0k\0\x65\0y\0\x62\0o\0\x61\0r\0\x64\x1\0\0\0\0\xff\xff\xff\xff\0\0\0x\0\0\0x\0\0\x5Z\0\0\x3z\0\0\0\x4\0\0\0\x4\0\0\0\b\0\0\0\b\xfc\0\0\0\0)
+windowGeom=@ByteArray(\x1\xd9\xd0\xcb\0\x1\0\0\0\0\0\0\0\0\0\0\0\0\x5Y\0\0\x3\x96\0\0\0\0\0\0\0\0\xff\xff\xff\xff\xff\xff\xff\xff\0\0\0\x1\0\0)
 hmistudio_dock_keyboard=@ByteArray(\x1\0\0\0x\0\0\0\x19)
 hmistudio_dock_script=@ByteArray(\x1\0\0\0\xff\0\0\0\x19)
 
@@ -42,43 +42,61 @@ hmistudio_dock_keyboard=@ByteArray(\x1\0\0\0x\0\0\0\x19)
 hmistudio_dock_script=@ByteArray(\x1\0\0\0\xff\0\0\0\x19)
 
 [Home]
-windowState=@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\x1\0\0\0\x3\0\0\x5Z\0\0\0\x19\xfc\x1\0\0\0\x1\xfc\0\0\0\0\0\0\x5Z\0\0\0\xff\0\0\0x\xfa\0\0\0\0\x1\0\0\0\x2\xfb\0\0\0*\0h\0m\0i\0s\0t\0u\0\x64\0i\0o\0_\0\x64\0o\0\x63\0k\0_\0s\0\x63\0r\0i\0p\0t\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\xff\0\0\0\xff\xfb\0\0\0.\0h\0m\0i\0s\0t\0u\0\x64\0i\0o\0_\0\x64\0o\0\x63\0k\0_\0k\0\x65\0y\0\x62\0o\0\x61\0r\0\x64\x1\0\0\0\0\xff\xff\xff\xff\0\0\0x\0\0\0x\0\0\x5Z\0\0\x3z\0\0\0\x4\0\0\0\x4\0\0\0\b\0\0\0\b\xfc\0\0\0\0)
-windowGeom=@ByteArray(\x1\xd9\xd0\xcb\0\x1\0\0\0\0\0\0\0\0\0\0\0\0\x5Y\0\0\x3\x96\0\0\0\0\0\0\0\0\xff\xff\xff\xff\xff\xff\xff\xff\0\0\0\x1\0\0)
+windowState=@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\x1\0\0\0\x3\0\0\x4\x82\0\0\0\x19\xfc\x1\0\0\0\x1\xfc\0\0\0\0\0\0\x4\x82\0\0\0\xff\0\0\0x\xfa\0\0\0\0\x1\0\0\0\x2\xfb\0\0\0*\0h\0m\0i\0s\0t\0u\0\x64\0i\0o\0_\0\x64\0o\0\x63\0k\0_\0s\0\x63\0r\0i\0p\0t\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\xff\0\0\0\xff\xfb\0\0\0.\0h\0m\0i\0s\0t\0u\0\x64\0i\0o\0_\0\x64\0o\0\x63\0k\0_\0k\0\x65\0y\0\x62\0o\0\x61\0r\0\x64\x1\0\0\0\0\xff\xff\xff\xff\0\0\0x\0\0\0x\0\0\x4\x82\0\0\x3z\0\0\0\x4\0\0\0\x4\0\0\0\b\0\0\0\b\xfc\0\0\0\0)
+windowGeom=@ByteArray(\x1\xd9\xd0\xcb\0\x1\0\0\0\0\0\0\0\0\0\0\0\0\x4\x81\0\0\x3\x96\0\0\0\0\0\0\0\0\xff\xff\xff\xff\xff\xff\xff\xff\0\0\0\x1\0\0)
 hmistudio_dock_keyboard=@ByteArray(\x1\0\0\0x\0\0\0\x19)
 hmistudio_dock_script=@ByteArray(\x1\0\0\0\xff\0\0\0\x19)
 
 [Velux]
-windowState=@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\x1\0\0\0\x3\0\0\x5Z\0\0\0(\xfc\x1\0\0\0\x1\xfc\0\0\0\0\0\0\x5Z\0\0\0\xff\0\0\0x\xfa\0\0\0\0\x1\0\0\0\x2\xfb\0\0\0*\0h\0m\0i\0s\0t\0u\0\x64\0i\0o\0_\0\x64\0o\0\x63\0k\0_\0s\0\x63\0r\0i\0p\0t\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\xff\0\0\0\xff\xfb\0\0\0.\0h\0m\0i\0s\0t\0u\0\x64\0i\0o\0_\0\x64\0o\0\x63\0k\0_\0k\0\x65\0y\0\x62\0o\0\x61\0r\0\x64\x1\0\0\0\0\xff\xff\xff\xff\0\0\0x\0\0\0x\0\0\x5Z\0\0\x3k\0\0\0\x4\0\0\0\x4\0\0\0\b\0\0\0\b\xfc\0\0\0\0)
-windowGeom=@ByteArray(\x1\xd9\xd0\xcb\0\x1\0\0\0\0\0\0\0\0\0\0\0\0\x5Y\0\0\x3\x96\0\0\0\0\0\0\0\0\xff\xff\xff\xff\xff\xff\xff\xff\0\0\0\x1\0\0)
+windowState=@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\x1\0\0\0\x3\0\0\x4\x82\0\0\0\x19\xfc\x1\0\0\0\x1\xfc\0\0\0\0\0\0\x4\x82\0\0\0\xff\0\0\0x\xfa\0\0\0\0\x1\0\0\0\x2\xfb\0\0\0*\0h\0m\0i\0s\0t\0u\0\x64\0i\0o\0_\0\x64\0o\0\x63\0k\0_\0s\0\x63\0r\0i\0p\0t\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\xff\0\0\0\xff\xfb\0\0\0.\0h\0m\0i\0s\0t\0u\0\x64\0i\0o\0_\0\x64\0o\0\x63\0k\0_\0k\0\x65\0y\0\x62\0o\0\x61\0r\0\x64\x1\0\0\0\0\xff\xff\xff\xff\0\0\0x\0\0\0x\0\0\x4\x82\0\0\x3z\0\0\0\x4\0\0\0\x4\0\0\0\b\0\0\0\b\xfc\0\0\0\0)
+windowGeom=@ByteArray(\x1\xd9\xd0\xcb\0\x1\0\0\0\0\0\0\0\0\0\0\0\0\x4\x81\0\0\x3\x96\0\0\0\0\0\0\0\0\xff\xff\xff\xff\xff\xff\xff\xff\0\0\0\x1\0\0)
 hmistudio_dock_keyboard=@ByteArray(\x1\0\0\0x\0\0\0\x19)
 hmistudio_dock_script=@ByteArray(\x1\0\0\0\xff\0\0\0\x19)
 
 [HVAC%20overview]
-windowState=@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\x1\0\0\0\x3\0\0\x5Z\0\0\0\x19\xfc\x1\0\0\0\x1\xfc\0\0\0\0\0\0\x5Z\0\0\0\xff\0\0\0x\xfa\0\0\0\0\x1\0\0\0\x2\xfb\0\0\0*\0h\0m\0i\0s\0t\0u\0\x64\0i\0o\0_\0\x64\0o\0\x63\0k\0_\0s\0\x63\0r\0i\0p\0t\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\xff\0\0\0\xff\xfb\0\0\0.\0h\0m\0i\0s\0t\0u\0\x64\0i\0o\0_\0\x64\0o\0\x63\0k\0_\0k\0\x65\0y\0\x62\0o\0\x61\0r\0\x64\x1\0\0\0\0\xff\xff\xff\xff\0\0\0x\0\0\0x\0\0\x5Z\0\0\x3z\0\0\0\x4\0\0\0\x4\0\0\0\b\0\0\0\b\xfc\0\0\0\0)
-windowGeom=@ByteArray(\x1\xd9\xd0\xcb\0\x1\0\0\0\0\0\0\0\0\0\0\0\0\x5Y\0\0\x3\x96\0\0\0\0\0\0\0\0\xff\xff\xff\xff\xff\xff\xff\xff\0\0\0\x1\0\0)
+windowState=@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\x1\0\0\0\x3\0\0\x4\x82\0\0\0\x19\xfc\x1\0\0\0\x1\xfc\0\0\0\0\0\0\x4\x82\0\0\0\xff\0\0\0x\xfa\0\0\0\0\x1\0\0\0\x2\xfb\0\0\0*\0h\0m\0i\0s\0t\0u\0\x64\0i\0o\0_\0\x64\0o\0\x63\0k\0_\0s\0\x63\0r\0i\0p\0t\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\xff\0\0\0\xff\xfb\0\0\0.\0h\0m\0i\0s\0t\0u\0\x64\0i\0o\0_\0\x64\0o\0\x63\0k\0_\0k\0\x65\0y\0\x62\0o\0\x61\0r\0\x64\x1\0\0\0\0\xff\xff\xff\xff\0\0\0x\0\0\0x\0\0\x4\x82\0\0\x3z\0\0\0\x4\0\0\0\x4\0\0\0\b\0\0\0\b\xfc\0\0\0\0)
+windowGeom=@ByteArray(\x1\xd9\xd0\xcb\0\x1\0\0\0\0\0\0\0\0\0\0\0\0\x4\x81\0\0\x3\x96\0\0\0\0\0\0\0\0\xff\xff\xff\xff\xff\xff\xff\xff\0\0\0\x1\0\0)
 hmistudio_dock_keyboard=@ByteArray(\x1\0\0\0x\0\0\0\x19)
 hmistudio_dock_script=@ByteArray(\x1\0\0\0\xff\0\0\0\x19)
 
 [GVL]
-windowState=@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\x1\0\0\0\x3\0\0\x5Z\0\0\0\x19\xfc\x1\0\0\0\x1\xfc\0\0\0\0\0\0\x5Z\0\0\0\xff\0\0\0x\xfa\0\0\0\0\x1\0\0\0\x2\xfb\0\0\0*\0h\0m\0i\0s\0t\0u\0\x64\0i\0o\0_\0\x64\0o\0\x63\0k\0_\0s\0\x63\0r\0i\0p\0t\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\xff\0\0\0\xff\xfb\0\0\0.\0h\0m\0i\0s\0t\0u\0\x64\0i\0o\0_\0\x64\0o\0\x63\0k\0_\0k\0\x65\0y\0\x62\0o\0\x61\0r\0\x64\x1\0\0\0\0\xff\xff\xff\xff\0\0\0x\0\0\0x\0\0\x5Z\0\0\x3z\0\0\0\x4\0\0\0\x4\0\0\0\b\0\0\0\b\xfc\0\0\0\0)
-windowGeom=@ByteArray(\x1\xd9\xd0\xcb\0\x1\0\0\0\0\0\0\0\0\0\0\0\0\x5Y\0\0\x3\x96\0\0\0\0\0\0\0\0\xff\xff\xff\xff\xff\xff\xff\xff\0\0\0\x1\0\0)
+windowState=@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\x1\0\0\0\x3\0\0\x4\x82\0\0\0\x19\xfc\x1\0\0\0\x1\xfc\0\0\0\0\0\0\x4\x82\0\0\0\xff\0\0\0x\xfa\0\0\0\0\x1\0\0\0\x2\xfb\0\0\0*\0h\0m\0i\0s\0t\0u\0\x64\0i\0o\0_\0\x64\0o\0\x63\0k\0_\0s\0\x63\0r\0i\0p\0t\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\xff\0\0\0\xff\xfb\0\0\0.\0h\0m\0i\0s\0t\0u\0\x64\0i\0o\0_\0\x64\0o\0\x63\0k\0_\0k\0\x65\0y\0\x62\0o\0\x61\0r\0\x64\x1\0\0\0\0\xff\xff\xff\xff\0\0\0x\0\0\0x\0\0\x4\x82\0\0\x3z\0\0\0\x4\0\0\0\x4\0\0\0\b\0\0\0\b\xfc\0\0\0\0)
+windowGeom=@ByteArray(\x1\xd9\xd0\xcb\0\x1\0\0\0\0\0\0\0\0\0\0\0\0\x4\x81\0\0\x3\x96\0\0\0\0\0\0\0\0\xff\xff\xff\xff\xff\xff\xff\xff\0\0\0\x1\0\0)
 hmistudio_dock_keyboard=@ByteArray(\x1\0\0\0x\0\0\0\x19)
 hmistudio_dock_script=@ByteArray(\x1\0\0\0\xff\0\0\0\x19)
 
 [VERD]
-windowState=@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\x1\0\0\0\x3\0\0\x5Z\0\0\0(\xfc\x1\0\0\0\x1\xfc\0\0\0\0\0\0\x5Z\0\0\0\xff\0\0\0x\xfa\0\0\0\0\x1\0\0\0\x2\xfb\0\0\0*\0h\0m\0i\0s\0t\0u\0\x64\0i\0o\0_\0\x64\0o\0\x63\0k\0_\0s\0\x63\0r\0i\0p\0t\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\xff\0\0\0\xff\xfb\0\0\0.\0h\0m\0i\0s\0t\0u\0\x64\0i\0o\0_\0\x64\0o\0\x63\0k\0_\0k\0\x65\0y\0\x62\0o\0\x61\0r\0\x64\x1\0\0\0\0\xff\xff\xff\xff\0\0\0x\0\0\0x\0\0\x5Z\0\0\x3k\0\0\0\x4\0\0\0\x4\0\0\0\b\0\0\0\b\xfc\0\0\0\0)
-windowGeom=@ByteArray(\x1\xd9\xd0\xcb\0\x1\0\0\0\0\0\0\0\0\0\0\0\0\x5Y\0\0\x3\x96\0\0\0\0\0\0\0\0\xff\xff\xff\xff\xff\xff\xff\xff\0\0\0\x1\0\0)
+windowState=@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\x1\0\0\0\x3\0\0\x4\x82\0\0\0\x19\xfc\x1\0\0\0\x1\xfc\0\0\0\0\0\0\x4\x82\0\0\0\xff\0\0\0x\xfa\0\0\0\0\x1\0\0\0\x2\xfb\0\0\0*\0h\0m\0i\0s\0t\0u\0\x64\0i\0o\0_\0\x64\0o\0\x63\0k\0_\0s\0\x63\0r\0i\0p\0t\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\xff\0\0\0\xff\xfb\0\0\0.\0h\0m\0i\0s\0t\0u\0\x64\0i\0o\0_\0\x64\0o\0\x63\0k\0_\0k\0\x65\0y\0\x62\0o\0\x61\0r\0\x64\x1\0\0\0\0\xff\xff\xff\xff\0\0\0x\0\0\0x\0\0\x4\x82\0\0\x3z\0\0\0\x4\0\0\0\x4\0\0\0\b\0\0\0\b\xfc\0\0\0\0)
+windowGeom=@ByteArray(\x1\xd9\xd0\xcb\0\x1\0\0\0\0\0\0\0\0\0\0\0\0\x4\x81\0\0\x3\x96\0\0\0\0\0\0\0\0\xff\xff\xff\xff\xff\xff\xff\xff\0\0\0\x1\0\0)
 hmistudio_dock_keyboard=@ByteArray(\x1\0\0\0x\0\0\0\x19)
 hmistudio_dock_script=@ByteArray(\x1\0\0\0\xff\0\0\0\x19)
 
 [OpenCloseVelux]
-windowState=@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\x1\0\0\0\x3\0\0\x5Z\0\0\0(\xfc\x1\0\0\0\x1\xfc\0\0\0\0\0\0\x5Z\0\0\0\xff\0\0\0x\xfa\0\0\0\0\x1\0\0\0\x2\xfb\0\0\0*\0h\0m\0i\0s\0t\0u\0\x64\0i\0o\0_\0\x64\0o\0\x63\0k\0_\0s\0\x63\0r\0i\0p\0t\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\xff\0\0\0\xff\xfb\0\0\0.\0h\0m\0i\0s\0t\0u\0\x64\0i\0o\0_\0\x64\0o\0\x63\0k\0_\0k\0\x65\0y\0\x62\0o\0\x61\0r\0\x64\x1\0\0\0\0\xff\xff\xff\xff\0\0\0x\0\0\0x\0\0\x5Z\0\0\x3k\0\0\0\x4\0\0\0\x4\0\0\0\b\0\0\0\b\xfc\0\0\0\0)
-windowGeom=@ByteArray(\x1\xd9\xd0\xcb\0\x1\0\0\0\0\0\0\0\0\0\0\0\0\x5Y\0\0\x3\x96\0\0\0\0\0\0\0\0\xff\xff\xff\xff\xff\xff\xff\xff\0\0\0\x1\0\0)
+windowState=@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\x1\0\0\0\x3\0\0\x4\x82\0\0\0\x19\xfc\x1\0\0\0\x1\xfc\0\0\0\0\0\0\x4\x82\0\0\0\xff\0\0\0x\xfa\0\0\0\0\x1\0\0\0\x2\xfb\0\0\0*\0h\0m\0i\0s\0t\0u\0\x64\0i\0o\0_\0\x64\0o\0\x63\0k\0_\0s\0\x63\0r\0i\0p\0t\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\xff\0\0\0\xff\xfb\0\0\0.\0h\0m\0i\0s\0t\0u\0\x64\0i\0o\0_\0\x64\0o\0\x63\0k\0_\0k\0\x65\0y\0\x62\0o\0\x61\0r\0\x64\x1\0\0\0\0\xff\xff\xff\xff\0\0\0x\0\0\0x\0\0\x4\x82\0\0\x3z\0\0\0\x4\0\0\0\x4\0\0\0\b\0\0\0\b\xfc\0\0\0\0)
+windowGeom=@ByteArray(\x1\xd9\xd0\xcb\0\x1\0\0\0\0\0\0\0\0\0\0\0\0\x4\x81\0\0\x3\x96\0\0\0\0\0\0\0\0\xff\xff\xff\xff\xff\xff\xff\xff\0\0\0\x1\0\0)
 hmistudio_dock_keyboard=@ByteArray(\x1\0\0\0x\0\0\0\x19)
 hmistudio_dock_script=@ByteArray(\x1\0\0\0\xff\0\0\0\x19)
 
 [Licht]
-windowState=@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\x1\0\0\0\x3\0\0\x5Z\0\0\0\x19\xfc\x1\0\0\0\x1\xfc\0\0\0\0\0\0\x5Z\0\0\0\xff\0\0\0x\xfa\0\0\0\0\x1\0\0\0\x2\xfb\0\0\0*\0h\0m\0i\0s\0t\0u\0\x64\0i\0o\0_\0\x64\0o\0\x63\0k\0_\0s\0\x63\0r\0i\0p\0t\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\xff\0\0\0\xff\xfb\0\0\0.\0h\0m\0i\0s\0t\0u\0\x64\0i\0o\0_\0\x64\0o\0\x63\0k\0_\0k\0\x65\0y\0\x62\0o\0\x61\0r\0\x64\x1\0\0\0\0\xff\xff\xff\xff\0\0\0x\0\0\0x\0\0\x5Z\0\0\x3z\0\0\0\x4\0\0\0\x4\0\0\0\b\0\0\0\b\xfc\0\0\0\0)
-windowGeom=@ByteArray(\x1\xd9\xd0\xcb\0\x1\0\0\0\0\0\0\0\0\0\0\0\0\x5Y\0\0\x3\x96\0\0\0\0\0\0\0\0\xff\xff\xff\xff\xff\xff\xff\xff\0\0\0\x1\0\0)
+windowState=@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\x1\0\0\0\x3\0\0\x4\x82\0\0\0\x19\xfc\x1\0\0\0\x1\xfc\0\0\0\0\0\0\x4\x82\0\0\0\xff\0\0\0x\xfa\0\0\0\0\x1\0\0\0\x2\xfb\0\0\0*\0h\0m\0i\0s\0t\0u\0\x64\0i\0o\0_\0\x64\0o\0\x63\0k\0_\0s\0\x63\0r\0i\0p\0t\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\xff\0\0\0\xff\xfb\0\0\0.\0h\0m\0i\0s\0t\0u\0\x64\0i\0o\0_\0\x64\0o\0\x63\0k\0_\0k\0\x65\0y\0\x62\0o\0\x61\0r\0\x64\x1\0\0\0\0\xff\xff\xff\xff\0\0\0x\0\0\0x\0\0\x4\x82\0\0\x3z\0\0\0\x4\0\0\0\x4\0\0\0\b\0\0\0\b\xfc\0\0\0\0)
+windowGeom=@ByteArray(\x1\xd9\xd0\xcb\0\x1\0\0\0\0\0\0\0\0\0\0\0\0\x4\x81\0\0\x3\x96\0\0\0\0\0\0\0\0\xff\xff\xff\xff\xff\xff\xff\xff\0\0\0\x1\0\0)
+hmistudio_dock_keyboard=@ByteArray(\x1\0\0\0x\0\0\0\x19)
+hmistudio_dock_script=@ByteArray(\x1\0\0\0\xff\0\0\0\x19)
+
+[WaterOntharder]
+windowState=@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\x1\0\0\0\x3\0\0\x4\x82\0\0\0\x19\xfc\x1\0\0\0\x1\xfc\0\0\0\0\0\0\x4\x82\0\0\0\xff\0\0\0x\xfa\0\0\0\0\x1\0\0\0\x2\xfb\0\0\0*\0h\0m\0i\0s\0t\0u\0\x64\0i\0o\0_\0\x64\0o\0\x63\0k\0_\0s\0\x63\0r\0i\0p\0t\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\xff\0\0\0\xff\xfb\0\0\0.\0h\0m\0i\0s\0t\0u\0\x64\0i\0o\0_\0\x64\0o\0\x63\0k\0_\0k\0\x65\0y\0\x62\0o\0\x61\0r\0\x64\x1\0\0\0\0\xff\xff\xff\xff\0\0\0x\0\0\0x\0\0\x4\x82\0\0\x3z\0\0\0\x4\0\0\0\x4\0\0\0\b\0\0\0\b\xfc\0\0\0\0)
+windowGeom=@ByteArray(\x1\xd9\xd0\xcb\0\x1\0\0\0\0\0\0\0\0\0\0\0\0\x4\x81\0\0\x3\x96\0\0\0\0\0\0\0\0\xff\xff\xff\xff\xff\xff\xff\xff\0\0\0\x1\0\0)
+hmistudio_dock_keyboard=@ByteArray(\x1\0\0\0x\0\0\0\x19)
+hmistudio_dock_script=@ByteArray(\x1\0\0\0\xff\0\0\0\x19)
+
+[Alarm]
+windowState=@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\x1\0\0\0\x3\0\0\x4\x82\0\0\0\x19\xfc\x1\0\0\0\x1\xfc\0\0\0\0\0\0\x4\x82\0\0\0\xff\0\0\0x\xfa\0\0\0\0\x1\0\0\0\x2\xfb\0\0\0*\0h\0m\0i\0s\0t\0u\0\x64\0i\0o\0_\0\x64\0o\0\x63\0k\0_\0s\0\x63\0r\0i\0p\0t\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\xff\0\0\0\xff\xfb\0\0\0.\0h\0m\0i\0s\0t\0u\0\x64\0i\0o\0_\0\x64\0o\0\x63\0k\0_\0k\0\x65\0y\0\x62\0o\0\x61\0r\0\x64\x1\0\0\0\0\xff\xff\xff\xff\0\0\0x\0\0\0x\0\0\x4\x82\0\0\x3z\0\0\0\x4\0\0\0\x4\0\0\0\b\0\0\0\b\xfc\0\0\0\0)
+windowGeom=@ByteArray(\x1\xd9\xd0\xcb\0\x1\0\0\0\0\0\0\0\0\0\0\0\0\x4\x81\0\0\x3\x96\0\0\0\0\0\0\0\0\xff\xff\xff\xff\xff\xff\xff\xff\0\0\0\x1\0\0)
+hmistudio_dock_keyboard=@ByteArray(\x1\0\0\0x\0\0\0\x19)
+hmistudio_dock_script=@ByteArray(\x1\0\0\0\xff\0\0\0\x19)
+
+[System]
+windowState=@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\x1\0\0\0\x3\0\0\x4\x82\0\0\0\x19\xfc\x1\0\0\0\x1\xfc\0\0\0\0\0\0\x4\x82\0\0\0\xff\0\0\0x\xfa\0\0\0\0\x1\0\0\0\x2\xfb\0\0\0*\0h\0m\0i\0s\0t\0u\0\x64\0i\0o\0_\0\x64\0o\0\x63\0k\0_\0s\0\x63\0r\0i\0p\0t\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\xff\0\0\0\xff\xfb\0\0\0.\0h\0m\0i\0s\0t\0u\0\x64\0i\0o\0_\0\x64\0o\0\x63\0k\0_\0k\0\x65\0y\0\x62\0o\0\x61\0r\0\x64\x1\0\0\0\0\xff\xff\xff\xff\0\0\0x\0\0\0x\0\0\x4\x82\0\0\x3z\0\0\0\x4\0\0\0\x4\0\0\0\b\0\0\0\b\xfc\0\0\0\0)
+windowGeom=@ByteArray(\x1\xd9\xd0\xcb\0\x1\0\0\0\0\0\0\0\0\0\0\0\0\x4\x81\0\0\x3\x96\0\0\0\0\0\0\0\0\xff\xff\xff\xff\xff\xff\xff\xff\0\0\0\x1\0\0)
 hmistudio_dock_keyboard=@ByteArray(\x1\0\0\0x\0\0\0\x19)
 hmistudio_dock_script=@ByteArray(\x1\0\0\0\xff\0\0\0\x19)

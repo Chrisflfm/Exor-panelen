@@ -10,4 +10,61 @@
   <active>false</active>
   <tag>System Time</tag>
  </group>
+ <group Type="Auto">
+  <name>HVAC overview@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>ctV1Dicht</tag>
+ </group>
+ <group Type="Auto">
+  <name>Licht@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>ctSchemer</tag>
+  <tag>hrLampenPlatina</tag>
+  <tag>hrLampenTom</tag>
+ </group>
+ <group Type="Auto">
+  <name>OpenCloseVelux@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>regVensterNr</tag>
+ </group>
+ <group Type="Auto">
+  <name>System@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>ctRegen1</tag>
+  <tag>ctRegen2</tag>
+  <tag>ctV10Dicht</tag>
+  <tag>ctV11Dicht</tag>
+  <tag>ctV12Dicht</tag>
+  <tag>ctV13Dicht</tag>
+  <tag>ctV14Dicht</tag>
+  <tag>ctV15Dicht</tag>
+  <tag>ctV16Dicht</tag>
+  <tag>ctV17Dicht</tag>
+  <tag>ctV18Dicht</tag>
+  <tag>ctV1Dicht</tag>
+  <tag>ctV2Dicht</tag>
+  <tag>ctV3Dicht</tag>
+  <tag>ctV4Dicht</tag>
+  <tag>ctV5Dicht</tag>
+  <tag>ctV6Dicht</tag>
+  <tag>ctV7Dicht</tag>
+  <tag>ctV8Dicht</tag>
+  <tag>ctV9Dicht</tag>
+  <tag>hrVenster1</tag>
+  <tag>regMinLampAan</tag>
+  <tag>regMinLampUit</tag>
+  <tag>regUurLampAan</tag>
+  <tag>regUurLampUit</tag>
+ </group>
+ <group Type="Auto">
+  <name>Velux@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>blRegen</tag>
+ </group>
+ <group Type="Auto">
+  <name>WaterOntharder@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>ctZoutLaag</tag>
+  <tag>ctZoutVatLek</tag>
+ </group>
 </groups>
