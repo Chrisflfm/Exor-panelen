@@ -23,7 +23,7 @@
     <links>
      <action BitIndex="0" class="SetBitAction" attribute="onMouseClick" event="onMouseClick" actionID="1" actionWgt="_TagMgr">
       <dataLinks>
-       <dataLink readWrite="R" tagType="boolean" attribute="tagSrc" tag="blDoeVensterOpen" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+       <dataLink readWrite="R" tagType="boolean" attribute="tagSrc" tag="blVensterOpen" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
       </dataLinks>
      </action>
     </links>
@@ -42,7 +42,7 @@
     <links>
      <action BitIndex="0" class="SetBitAction" attribute="onMouseClick" event="onMouseClick" actionID="1" actionWgt="_TagMgr">
       <dataLinks>
-       <dataLink readWrite="R" tagType="boolean" attribute="tagSrc" tag="blDoeVensterToe" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+       <dataLink readWrite="R" tagType="boolean" attribute="tagSrc" tag="blVensterDicht" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
       </dataLinks>
      </action>
     </links>
@@ -59,14 +59,14 @@
    <object class="ButtonWgt" hmiStyle="hmi-filltype:none; hmi-name:kbd1; hmi-shape:custom; hmi-type:btn; type:btn" id="BtnComp9.btn">
     <wgtStyle width="67" x="0" y="0" fill="rgb(150,150,150)" dx="1" form="standard" dy="-1" height="58.50" releasePath="images\btn_gray_up_rev1.svg" needlePath="images\btn_gray_down_rev2.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
     <links>
-     <action BitIndex="0" class="ResetBitAction" attribute="onMousePress" event="onMouseDown" actionID="0" actionWgt="_TagMgr">
+     <action BitIndex="0" class="ResetBitAction" attribute="onMousePress" event="onMouseDown" actionID="2" actionWgt="_TagMgr">
       <dataLinks>
-       <dataLink readWrite="R" tagType="boolean" attribute="tagSrc" tag="blDoeVensterOpen" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+       <dataLink readWrite="R" tagType="boolean" attribute="tagSrc" tag="blVensterDicht" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
       </dataLinks>
      </action>
      <action BitIndex="0" class="ResetBitAction" attribute="onMouseRelease" event="onMouseUp" actionID="1" actionWgt="_TagMgr">
       <dataLinks>
-       <dataLink readWrite="R" tagType="boolean" attribute="tagSrc" tag="blDoeVensterToe" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+       <dataLink readWrite="R" tagType="boolean" attribute="tagSrc" tag="blVensterOpen" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
       </dataLinks>
      </action>
     </links>
@@ -88,7 +88,7 @@
     <links>
      <action BitIndex="0" class="SetBitAction" attribute="onMouseClick" event="onMouseClick" actionID="1" actionWgt="_TagMgr">
       <dataLinks>
-       <dataLink readWrite="R" tagType="boolean" attribute="tagSrc" tag="blDoeZonweerOpen" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+       <dataLink readWrite="R" tagType="boolean" attribute="tagSrc" tag="blZonweerOpen" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
       </dataLinks>
      </action>
     </links>
@@ -105,9 +105,9 @@
    <object class="ButtonWgt" hmiStyle="hmi-filltype:none; hmi-name:kbd1; hmi-shape:custom; hmi-type:btn; type:btn" id="BtnComp2.btn">
     <wgtStyle width="62" x="0" y="0" fill="rgb(110,110,110)" dx="1" form="standard" dy="-1" height="59" releasePath="images\btn_gray_up_rev1.svg" needlePath="images\btn_gray_down_rev2.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
     <links>
-     <action BitIndex="0" class="SetBitAction" attribute="onMouseClick" event="onMouseClick" actionID="0" actionWgt="_TagMgr">
+     <action BitIndex="0" class="SetBitAction" attribute="onMouseClick" event="onMouseClick" actionID="1" actionWgt="_TagMgr">
       <dataLinks>
-       <dataLink readWrite="R" tagType="boolean" attribute="tagSrc" tag="blDoeZonweerToe" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+       <dataLink readWrite="R" tagType="boolean" attribute="tagSrc" tag="blZonweerDicht" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
       </dataLinks>
      </action>
     </links>
@@ -124,14 +124,14 @@
    <object class="ButtonWgt" hmiStyle="hmi-filltype:none; hmi-name:kbd1; hmi-shape:custom; hmi-type:btn; type:btn" id="BtnComp3.btn">
     <wgtStyle width="67" x="0" y="0" fill="rgb(150,150,150)" dx="1" form="standard" dy="-1" height="58.50" releasePath="images\btn_gray_up_rev1.svg" needlePath="images\btn_gray_down_rev2.svg" type="momentary" value="0" pushColor="rgb(128,128,0)"/>
     <links>
-     <action BitIndex="0" class="ResetBitAction" attribute="onMousePress" event="onMouseDown" actionID="0" actionWgt="_TagMgr">
+     <action BitIndex="0" class="ResetBitAction" attribute="onMousePress" event="onMouseDown" actionID="2" actionWgt="_TagMgr">
       <dataLinks>
-       <dataLink readWrite="R" tagType="boolean" attribute="tagSrc" tag="blDoeZonweerOpen" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+       <dataLink readWrite="R" tagType="boolean" attribute="tagSrc" tag="blZonweerDicht" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
       </dataLinks>
      </action>
      <action BitIndex="0" class="ResetBitAction" attribute="onMouseRelease" event="onMouseUp" actionID="1" actionWgt="_TagMgr">
       <dataLinks>
-       <dataLink readWrite="R" tagType="boolean" attribute="tagSrc" tag="blDoeZonweerToe" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+       <dataLink readWrite="R" tagType="boolean" attribute="tagSrc" tag="blZonweerOpen" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
       </dataLinks>
      </action>
     </links>

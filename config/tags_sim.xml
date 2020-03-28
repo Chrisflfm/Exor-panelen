@@ -22,7 +22,7 @@
     <refreshTime>500</refreshTime>
     <accessMode>READ-WRITE</accessMode>
     <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <resourceLocator>VRBL://ctV3Dicht?boolean</resourceLocator>
     <enableScaling>false</enableScaling>
     <enableAudit subT="1" eventT="18">false</enableAudit>
 </tag>
@@ -31,7 +31,7 @@
     <refreshTime>500</refreshTime>
     <accessMode>READ-WRITE</accessMode>
     <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <resourceLocator>VRBL://ctV4Dicht?boolean</resourceLocator>
     <enableScaling>false</enableScaling>
     <enableAudit subT="1" eventT="18">false</enableAudit>
 </tag>
@@ -40,7 +40,7 @@
     <refreshTime>500</refreshTime>
     <accessMode>READ-WRITE</accessMode>
     <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <resourceLocator>VRBL://ctV5Dicht?boolean</resourceLocator>
     <enableScaling>false</enableScaling>
     <enableAudit subT="1" eventT="18">false</enableAudit>
 </tag>
@@ -49,7 +49,7 @@
     <refreshTime>500</refreshTime>
     <accessMode>READ-WRITE</accessMode>
     <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <resourceLocator>VRBL://ctV6Dicht?boolean</resourceLocator>
     <enableScaling>false</enableScaling>
     <enableAudit subT="1" eventT="18">false</enableAudit>
 </tag>
@@ -58,7 +58,7 @@
     <refreshTime>500</refreshTime>
     <accessMode>READ-WRITE</accessMode>
     <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <resourceLocator>VRBL://ctV7Dicht?boolean</resourceLocator>
     <enableScaling>false</enableScaling>
     <enableAudit subT="1" eventT="18">false</enableAudit>
 </tag>
@@ -67,7 +67,7 @@
     <refreshTime>500</refreshTime>
     <accessMode>READ-WRITE</accessMode>
     <active>false</active>
-    <resourceLocator>VRBL://Tag2?boolean</resourceLocator>
+    <resourceLocator>VRBL://ctV8Dicht?boolean</resourceLocator>
     <enableScaling>false</enableScaling>
     <enableAudit subT="1" eventT="18">false</enableAudit>
 </tag>
@@ -76,7 +76,7 @@
     <refreshTime>500</refreshTime>
     <accessMode>READ-WRITE</accessMode>
     <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <resourceLocator>VRBL://ctV9Dicht?boolean</resourceLocator>
     <enableScaling>false</enableScaling>
     <enableAudit subT="1" eventT="18">false</enableAudit>
 </tag>
@@ -85,7 +85,7 @@
     <refreshTime>500</refreshTime>
     <accessMode>READ-WRITE</accessMode>
     <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <resourceLocator>VRBL://ctV10Dicht?boolean</resourceLocator>
     <enableScaling>false</enableScaling>
     <enableAudit subT="1" eventT="18">false</enableAudit>
 </tag>
@@ -94,7 +94,7 @@
     <refreshTime>500</refreshTime>
     <accessMode>READ-WRITE</accessMode>
     <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <resourceLocator>VRBL://ctV11Dicht?boolean</resourceLocator>
     <enableScaling>false</enableScaling>
     <enableAudit subT="1" eventT="18">false</enableAudit>
 </tag>
@@ -103,7 +103,7 @@
     <refreshTime>500</refreshTime>
     <accessMode>READ-WRITE</accessMode>
     <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <resourceLocator>VRBL://ctV12Dicht?boolean</resourceLocator>
     <enableScaling>false</enableScaling>
     <enableAudit subT="1" eventT="18">false</enableAudit>
 </tag>
@@ -112,7 +112,7 @@
     <refreshTime>500</refreshTime>
     <accessMode>READ-WRITE</accessMode>
     <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <resourceLocator>VRBL://ctV13Dicht?boolean</resourceLocator>
     <enableScaling>false</enableScaling>
     <enableAudit subT="1" eventT="18">false</enableAudit>
 </tag>
@@ -121,7 +121,7 @@
     <refreshTime>500</refreshTime>
     <accessMode>READ-WRITE</accessMode>
     <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <resourceLocator>VRBL://ctV14Dicht?boolean</resourceLocator>
     <enableScaling>false</enableScaling>
     <enableAudit subT="1" eventT="18">false</enableAudit>
 </tag>
@@ -130,7 +130,7 @@
     <refreshTime>500</refreshTime>
     <accessMode>READ-WRITE</accessMode>
     <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <resourceLocator>VRBL://ctV15Dicht?boolean</resourceLocator>
     <enableScaling>false</enableScaling>
     <enableAudit subT="1" eventT="18">false</enableAudit>
 </tag>
@@ -139,7 +139,7 @@
     <refreshTime>500</refreshTime>
     <accessMode>READ-WRITE</accessMode>
     <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <resourceLocator>VRBL://ctV16Dicht?boolean</resourceLocator>
     <enableScaling>false</enableScaling>
     <enableAudit subT="1" eventT="18">false</enableAudit>
 </tag>
@@ -166,7 +166,7 @@
     <refreshTime>500</refreshTime>
     <accessMode>READ-WRITE</accessMode>
     <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <resourceLocator>VRBL://ctRegen1?boolean</resourceLocator>
     <enableScaling>false</enableScaling>
     <enableAudit subT="1" eventT="18">false</enableAudit>
 </tag>
@@ -175,7 +175,7 @@
     <refreshTime>500</refreshTime>
     <accessMode>READ-WRITE</accessMode>
     <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <resourceLocator>VRBL://ctRegen2?boolean</resourceLocator>
     <enableScaling>false</enableScaling>
     <enableAudit subT="1" eventT="18">false</enableAudit>
 </tag>
@@ -184,75 +184,318 @@
     <refreshTime>500</refreshTime>
     <accessMode>READ-WRITE</accessMode>
     <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
-    <enableScaling>false</enableScaling>
-    <enableAudit subT="1" eventT="18">false</enableAudit>
-</tag>
-<tag>
-    <name>ctAlarmAan</name>
-    <refreshTime>500</refreshTime>
-    <accessMode>READ-WRITE</accessMode>
-    <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
-    <enableScaling>false</enableScaling>
-    <enableAudit subT="1" eventT="18">false</enableAudit>
-</tag>
-<tag>
-    <name>ctAlarmUit</name>
-    <refreshTime>500</refreshTime>
-    <accessMode>READ-WRITE</accessMode>
-    <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
-    <enableScaling>false</enableScaling>
-    <enableAudit subT="1" eventT="18">false</enableAudit>
-</tag>
-<tag>
-    <name>ctBrand</name>
-    <refreshTime>500</refreshTime>
-    <accessMode>READ-WRITE</accessMode>
-    <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
-    <enableScaling>false</enableScaling>
-    <enableAudit subT="1" eventT="18">false</enableAudit>
-</tag>
-<tag>
-    <name>ctInbraak</name>
-    <refreshTime>500</refreshTime>
-    <accessMode>READ-WRITE</accessMode>
-    <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
-    <enableScaling>false</enableScaling>
-    <enableAudit subT="1" eventT="18">false</enableAudit>
-</tag>
-<tag>
-    <name>ctDeurPlatina</name>
-    <refreshTime>500</refreshTime>
-    <accessMode>READ-WRITE</accessMode>
-    <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
-    <enableScaling>false</enableScaling>
-    <enableAudit subT="1" eventT="18">false</enableAudit>
-</tag>
-<tag>
-    <name>ctPoortDicht</name>
-    <refreshTime>500</refreshTime>
-    <accessMode>READ-WRITE</accessMode>
-    <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
-    <enableScaling>false</enableScaling>
-    <enableAudit subT="1" eventT="18">false</enableAudit>
-</tag>
-<tag>
-    <name>ctZoutLaag</name>
-    <refreshTime>500</refreshTime>
-    <accessMode>READ-WRITE</accessMode>
-    <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <resourceLocator>VRBL://ctSchemer?boolean</resourceLocator>
     <enableScaling>false</enableScaling>
     <enableAudit subT="1" eventT="18">false</enableAudit>
 </tag>
 <tag>
     <name>ctZoutVatLek</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ctZoutVatLek?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>hrOpenDicht</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://hrOpenDicht?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>hrLampenTom</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://hrLampenTom?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>hrLampenPlatina</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://hrLampenPlatina?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>hrPoortTom</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://hrPoortTom?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>regUurLampAan</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://regUurLampAan?unsignedInt</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>regUurLampUit</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://regUurLampUit?unsignedInt</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>regMinLampAan</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://regMinLampAan?unsignedInt</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>regMinLampUit</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://regMinLampUit?unsignedInt</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>regVensterNr</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://regVensterNr?unsignedInt</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>regZonweerNr</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://regZonweerNr?unsignedInt</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>blLampenAan</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://blLampen1Aan?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>blLampen1Aan</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>blLampen2Aan</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag2?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>blLampen3Aan</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>blAlleVenstersDicht</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>blAlleVenstersOpen</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>blAlleZonweerDicht</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>blAlleZonweerOpen</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>blPulsPoort</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>blPoortOpen</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>blPoortToe</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>Ft01_ZoutniveauLaag</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Ft01_ZoutniveauLaag?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>Ft02_GeenComunicatie</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>Ft03_Brand</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>Ft04_Inbraak</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>Ft05_DeurPlatinaOpen</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>Ft06_WaterlekZoutvat</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>blRegen</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://blRegen?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>regUurPoortOpen</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://regUurPoortOpen?unsignedInt</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>regMinPoortOpen</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?unsignedInt</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>blVensterDicht</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://blVensterDicht?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>blVensterOpen</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>blZonweerDicht</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>blZonweerOpen</name>
     <refreshTime>500</refreshTime>
     <accessMode>READ-WRITE</accessMode>
     <active>false</active>
@@ -418,7 +661,7 @@
     <refreshTime>500</refreshTime>
     <accessMode>READ-WRITE</accessMode>
     <active>false</active>
-    <resourceLocator>VRBL://hrVenster18?boolean</resourceLocator>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
     <enableScaling>false</enableScaling>
     <enableAudit subT="1" eventT="18">false</enableAudit>
 </tag>
@@ -427,7 +670,7 @@
     <refreshTime>500</refreshTime>
     <accessMode>READ-WRITE</accessMode>
     <active>false</active>
-    <resourceLocator>VRBL://hrZonnewering1?boolean</resourceLocator>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
     <enableScaling>false</enableScaling>
     <enableAudit subT="1" eventT="18">false</enableAudit>
 </tag>
@@ -513,290 +756,11 @@
     <enableAudit subT="1" eventT="18">false</enableAudit>
 </tag>
 <tag>
-    <name>hrOpenDicht</name>
+    <name>ctZoutLaag</name>
     <refreshTime>500</refreshTime>
     <accessMode>READ-WRITE</accessMode>
     <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
-    <enableScaling>false</enableScaling>
-    <enableAudit subT="1" eventT="18">false</enableAudit>
-</tag>
-<tag>
-    <name>hrLampenTom</name>
-    <refreshTime>500</refreshTime>
-    <accessMode>READ-WRITE</accessMode>
-    <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
-    <enableScaling>false</enableScaling>
-    <enableAudit subT="1" eventT="18">false</enableAudit>
-</tag>
-<tag>
-    <name>hrLampenPlatina</name>
-    <refreshTime>500</refreshTime>
-    <accessMode>READ-WRITE</accessMode>
-    <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
-    <enableScaling>false</enableScaling>
-    <enableAudit subT="1" eventT="18">false</enableAudit>
-</tag>
-<tag>
-    <name>hrPoortTom</name>
-    <refreshTime>500</refreshTime>
-    <accessMode>READ-WRITE</accessMode>
-    <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
-    <enableScaling>false</enableScaling>
-    <enableAudit subT="1" eventT="18">false</enableAudit>
-</tag>
-<tag>
-    <name>regUurLampAan</name>
-    <refreshTime>500</refreshTime>
-    <accessMode>READ-WRITE</accessMode>
-    <active>false</active>
-    <resourceLocator>VRBL://regUurLampAan?unsignedInt</resourceLocator>
-    <enableScaling>false</enableScaling>
-    <enableAudit subT="1" eventT="18">false</enableAudit>
-</tag>
-<tag>
-    <name>regUurLampUit</name>
-    <refreshTime>500</refreshTime>
-    <accessMode>READ-WRITE</accessMode>
-    <active>false</active>
-    <resourceLocator>VRBL://regUurLampUit?unsignedInt</resourceLocator>
-    <enableScaling>false</enableScaling>
-    <enableAudit subT="1" eventT="18">false</enableAudit>
-</tag>
-<tag>
-    <name>regMinLampAan</name>
-    <refreshTime>500</refreshTime>
-    <accessMode>READ-WRITE</accessMode>
-    <active>false</active>
-    <resourceLocator>VRBL://regMinLampAan?unsignedInt</resourceLocator>
-    <enableScaling>false</enableScaling>
-    <enableAudit subT="1" eventT="18">false</enableAudit>
-</tag>
-<tag>
-    <name>regMinLampUit</name>
-    <refreshTime>500</refreshTime>
-    <accessMode>READ-WRITE</accessMode>
-    <active>false</active>
-    <resourceLocator>VRBL://regMinLampUit?unsignedInt</resourceLocator>
-    <enableScaling>false</enableScaling>
-    <enableAudit subT="1" eventT="18">false</enableAudit>
-</tag>
-<tag>
-    <name>regVensterNr</name>
-    <refreshTime>500</refreshTime>
-    <accessMode>READ-WRITE</accessMode>
-    <active>false</active>
-    <resourceLocator>VRBL://regVensterNr?unsignedInt</resourceLocator>
-    <enableScaling>false</enableScaling>
-    <enableAudit subT="1" eventT="18">false</enableAudit>
-</tag>
-<tag>
-    <name>regZonweerNr</name>
-    <refreshTime>500</refreshTime>
-    <accessMode>READ-WRITE</accessMode>
-    <active>false</active>
-    <resourceLocator>VRBL://regZonweerNr?unsignedInt</resourceLocator>
-    <enableScaling>false</enableScaling>
-    <enableAudit subT="1" eventT="18">false</enableAudit>
-</tag>
-<tag>
-    <name>blDoeVensterOpen</name>
-    <refreshTime>500</refreshTime>
-    <accessMode>READ-WRITE</accessMode>
-    <active>false</active>
-    <resourceLocator>VRBL://blDoeZonweerOpen?boolean</resourceLocator>
-    <enableScaling>false</enableScaling>
-    <enableAudit subT="1" eventT="18">false</enableAudit>
-</tag>
-<tag>
-    <name>blDoeVensterToe</name>
-    <refreshTime>500</refreshTime>
-    <accessMode>READ-WRITE</accessMode>
-    <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
-    <enableScaling>false</enableScaling>
-    <enableAudit subT="1" eventT="18">false</enableAudit>
-</tag>
-<tag>
-    <name>blDoeZonweerOpen</name>
-    <refreshTime>500</refreshTime>
-    <accessMode>READ-WRITE</accessMode>
-    <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
-    <enableScaling>false</enableScaling>
-    <enableAudit subT="1" eventT="18">false</enableAudit>
-</tag>
-<tag>
-    <name>blDoeZonweerToe</name>
-    <refreshTime>500</refreshTime>
-    <accessMode>READ-WRITE</accessMode>
-    <active>false</active>
-    <resourceLocator>VRBL://Tag2?boolean</resourceLocator>
-    <enableScaling>false</enableScaling>
-    <enableAudit subT="1" eventT="18">false</enableAudit>
-</tag>
-<tag>
-    <name>blLampenAan</name>
-    <refreshTime>500</refreshTime>
-    <accessMode>READ-WRITE</accessMode>
-    <active>false</active>
-    <resourceLocator>VRBL://blLampen1Aan?boolean</resourceLocator>
-    <enableScaling>false</enableScaling>
-    <enableAudit subT="1" eventT="18">false</enableAudit>
-</tag>
-<tag>
-    <name>blLampen1Aan</name>
-    <refreshTime>500</refreshTime>
-    <accessMode>READ-WRITE</accessMode>
-    <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
-    <enableScaling>false</enableScaling>
-    <enableAudit subT="1" eventT="18">false</enableAudit>
-</tag>
-<tag>
-    <name>blLampen2Aan</name>
-    <refreshTime>500</refreshTime>
-    <accessMode>READ-WRITE</accessMode>
-    <active>false</active>
-    <resourceLocator>VRBL://Tag2?boolean</resourceLocator>
-    <enableScaling>false</enableScaling>
-    <enableAudit subT="1" eventT="18">false</enableAudit>
-</tag>
-<tag>
-    <name>blLampen3Aan</name>
-    <refreshTime>500</refreshTime>
-    <accessMode>READ-WRITE</accessMode>
-    <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
-    <enableScaling>false</enableScaling>
-    <enableAudit subT="1" eventT="18">false</enableAudit>
-</tag>
-<tag>
-    <name>blAlleVenstersDicht</name>
-    <refreshTime>500</refreshTime>
-    <accessMode>READ-WRITE</accessMode>
-    <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
-    <enableScaling>false</enableScaling>
-    <enableAudit subT="1" eventT="18">false</enableAudit>
-</tag>
-<tag>
-    <name>blAlleVenstersOpen</name>
-    <refreshTime>500</refreshTime>
-    <accessMode>READ-WRITE</accessMode>
-    <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
-    <enableScaling>false</enableScaling>
-    <enableAudit subT="1" eventT="18">false</enableAudit>
-</tag>
-<tag>
-    <name>blAlleZonweerDicht</name>
-    <refreshTime>500</refreshTime>
-    <accessMode>READ-WRITE</accessMode>
-    <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
-    <enableScaling>false</enableScaling>
-    <enableAudit subT="1" eventT="18">false</enableAudit>
-</tag>
-<tag>
-    <name>blAlleZonweerOpen</name>
-    <refreshTime>500</refreshTime>
-    <accessMode>READ-WRITE</accessMode>
-    <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
-    <enableScaling>false</enableScaling>
-    <enableAudit subT="1" eventT="18">false</enableAudit>
-</tag>
-<tag>
-    <name>blPulsPoort</name>
-    <refreshTime>500</refreshTime>
-    <accessMode>READ-WRITE</accessMode>
-    <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
-    <enableScaling>false</enableScaling>
-    <enableAudit subT="1" eventT="18">false</enableAudit>
-</tag>
-<tag>
-    <name>blPoortOpen</name>
-    <refreshTime>500</refreshTime>
-    <accessMode>READ-WRITE</accessMode>
-    <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
-    <enableScaling>false</enableScaling>
-    <enableAudit subT="1" eventT="18">false</enableAudit>
-</tag>
-<tag>
-    <name>blPoortToe</name>
-    <refreshTime>500</refreshTime>
-    <accessMode>READ-WRITE</accessMode>
-    <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
-    <enableScaling>false</enableScaling>
-    <enableAudit subT="1" eventT="18">false</enableAudit>
-</tag>
-<tag>
-    <name>Ft01_ZoutniveauLaag</name>
-    <refreshTime>500</refreshTime>
-    <accessMode>READ-WRITE</accessMode>
-    <active>false</active>
-    <resourceLocator>VRBL://Ft01_ZoutniveauLaag?boolean</resourceLocator>
-    <enableScaling>false</enableScaling>
-    <enableAudit subT="1" eventT="18">false</enableAudit>
-</tag>
-<tag>
-    <name>Ft02_GeenComunicatie</name>
-    <refreshTime>500</refreshTime>
-    <accessMode>READ-WRITE</accessMode>
-    <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
-    <enableScaling>false</enableScaling>
-    <enableAudit subT="1" eventT="18">false</enableAudit>
-</tag>
-<tag>
-    <name>Ft03_Brand</name>
-    <refreshTime>500</refreshTime>
-    <accessMode>READ-WRITE</accessMode>
-    <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
-    <enableScaling>false</enableScaling>
-    <enableAudit subT="1" eventT="18">false</enableAudit>
-</tag>
-<tag>
-    <name>Ft04_Inbraak</name>
-    <refreshTime>500</refreshTime>
-    <accessMode>READ-WRITE</accessMode>
-    <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
-    <enableScaling>false</enableScaling>
-    <enableAudit subT="1" eventT="18">false</enableAudit>
-</tag>
-<tag>
-    <name>Ft05_DeurPlatinaOpen</name>
-    <refreshTime>500</refreshTime>
-    <accessMode>READ-WRITE</accessMode>
-    <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
-    <enableScaling>false</enableScaling>
-    <enableAudit subT="1" eventT="18">false</enableAudit>
-</tag>
-<tag>
-    <name>Ft06_WaterlekZoutvat</name>
-    <refreshTime>500</refreshTime>
-    <accessMode>READ-WRITE</accessMode>
-    <active>false</active>
-    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
-    <enableScaling>false</enableScaling>
-    <enableAudit subT="1" eventT="18">false</enableAudit>
-</tag>
-<tag>
-    <name>blRegen</name>
-    <refreshTime>500</refreshTime>
-    <accessMode>READ-WRITE</accessMode>
-    <active>false</active>
-    <resourceLocator>VRBL://blRegen?boolean</resourceLocator>
+    <resourceLocator>VRBL://ctZoutLaag?boolean</resourceLocator>
     <enableScaling>false</enableScaling>
     <enableAudit subT="1" eventT="18">false</enableAudit>
 </tag>
