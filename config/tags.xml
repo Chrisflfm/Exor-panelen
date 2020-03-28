@@ -2,7 +2,7 @@
 <tags>
     <tag>
         <name>ctV1Dicht</name>
-        <resourceLocator>prot1://0?IN?101?boolean</resourceLocator>
+        <resourceLocator>prot1://0?IN?100000201?boolean</resourceLocator>
         <refreshTime>500</refreshTime>
         <accessMode>READ-WRITE</accessMode>
         <active>false</active>
@@ -12,7 +12,7 @@
     </tag>
     <tag>
         <name>ctV2Dicht</name>
-        <resourceLocator>prot1://0?IN?102?boolean</resourceLocator>
+        <resourceLocator>prot1://0?IN?100000202?boolean</resourceLocator>
         <refreshTime>500</refreshTime>
         <accessMode>READ-WRITE</accessMode>
         <active>false</active>
@@ -22,7 +22,7 @@
     </tag>
     <tag>
         <name>ctV3Dicht</name>
-        <resourceLocator>prot1://0?IN?103?boolean</resourceLocator>
+        <resourceLocator>prot1://0?IN?100000203?boolean</resourceLocator>
         <refreshTime>500</refreshTime>
         <accessMode>READ-WRITE</accessMode>
         <active>false</active>
@@ -32,7 +32,7 @@
     </tag>
     <tag>
         <name>ctV4Dicht</name>
-        <resourceLocator>prot1://0?IN?104?boolean</resourceLocator>
+        <resourceLocator>prot1://0?IN?100000204?boolean</resourceLocator>
         <refreshTime>500</refreshTime>
         <accessMode>READ-WRITE</accessMode>
         <active>false</active>
@@ -42,7 +42,7 @@
     </tag>
     <tag>
         <name>ctV5Dicht</name>
-        <resourceLocator>prot1://0?IN?105?boolean</resourceLocator>
+        <resourceLocator>prot1://0?IN?100000205?boolean</resourceLocator>
         <refreshTime>500</refreshTime>
         <accessMode>READ-WRITE</accessMode>
         <active>false</active>
@@ -52,7 +52,7 @@
     </tag>
     <tag>
         <name>ctV6Dicht</name>
-        <resourceLocator>prot1://0?IN?106?boolean</resourceLocator>
+        <resourceLocator>prot1://0?IN?100000206?boolean</resourceLocator>
         <refreshTime>500</refreshTime>
         <accessMode>READ-WRITE</accessMode>
         <active>false</active>
@@ -62,7 +62,7 @@
     </tag>
     <tag>
         <name>ctV7Dicht</name>
-        <resourceLocator>prot1://0?IN?107?boolean</resourceLocator>
+        <resourceLocator>prot1://0?IN?100000207?boolean</resourceLocator>
         <refreshTime>500</refreshTime>
         <accessMode>READ-WRITE</accessMode>
         <active>false</active>
@@ -72,7 +72,7 @@
     </tag>
     <tag>
         <name>ctV8Dicht</name>
-        <resourceLocator>prot1://0?IN?108?boolean</resourceLocator>
+        <resourceLocator>prot1://0?IN?100000208?boolean</resourceLocator>
         <refreshTime>500</refreshTime>
         <accessMode>READ-WRITE</accessMode>
         <active>false</active>
@@ -82,7 +82,7 @@
     </tag>
     <tag>
         <name>ctV9Dicht</name>
-        <resourceLocator>prot1://0?IN?109?boolean</resourceLocator>
+        <resourceLocator>prot1://0?IN?100000209?boolean</resourceLocator>
         <refreshTime>500</refreshTime>
         <accessMode>READ-WRITE</accessMode>
         <active>false</active>
@@ -92,7 +92,7 @@
     </tag>
     <tag>
         <name>ctV10Dicht</name>
-        <resourceLocator>prot1://0?IN?110?boolean</resourceLocator>
+        <resourceLocator>prot1://0?IN?100000210?boolean</resourceLocator>
         <refreshTime>500</refreshTime>
         <accessMode>READ-WRITE</accessMode>
         <active>false</active>
@@ -102,7 +102,7 @@
     </tag>
     <tag>
         <name>ctV11Dicht</name>
-        <resourceLocator>prot1://0?IN?111?boolean</resourceLocator>
+        <resourceLocator>prot1://0?IN?100000211?boolean</resourceLocator>
         <refreshTime>500</refreshTime>
         <accessMode>READ-WRITE</accessMode>
         <active>false</active>
@@ -112,7 +112,7 @@
     </tag>
     <tag>
         <name>ctV12Dicht</name>
-        <resourceLocator>prot1://0?IN?112?boolean</resourceLocator>
+        <resourceLocator>prot1://0?IN?100000212?boolean</resourceLocator>
         <refreshTime>500</refreshTime>
         <accessMode>READ-WRITE</accessMode>
         <active>false</active>
@@ -122,7 +122,7 @@
     </tag>
     <tag>
         <name>ctV13Dicht</name>
-        <resourceLocator>prot1://0?IN?113?boolean</resourceLocator>
+        <resourceLocator>prot1://0?IN?100000213?boolean</resourceLocator>
         <refreshTime>500</refreshTime>
         <accessMode>READ-WRITE</accessMode>
         <active>false</active>
@@ -132,7 +132,7 @@
     </tag>
     <tag>
         <name>ctV14Dicht</name>
-        <resourceLocator>prot1://0?IN?114?boolean</resourceLocator>
+        <resourceLocator>prot1://0?IN?100000214?boolean</resourceLocator>
         <refreshTime>500</refreshTime>
         <accessMode>READ-WRITE</accessMode>
         <active>false</active>
@@ -142,7 +142,7 @@
     </tag>
     <tag>
         <name>ctV15Dicht</name>
-        <resourceLocator>prot1://0?IN?115?boolean</resourceLocator>
+        <resourceLocator>prot1://0?IN?100000215?boolean</resourceLocator>
         <refreshTime>500</refreshTime>
         <accessMode>READ-WRITE</accessMode>
         <active>false</active>
@@ -152,7 +152,7 @@
     </tag>
     <tag>
         <name>ctV16Dicht</name>
-        <resourceLocator>prot1://0?IN?116?boolean</resourceLocator>
+        <resourceLocator>prot1://0?IN?100000216?boolean</resourceLocator>
         <refreshTime>500</refreshTime>
         <accessMode>READ-WRITE</accessMode>
         <active>false</active>
@@ -162,7 +162,7 @@
     </tag>
     <tag>
         <name>ctV17Dicht</name>
-        <resourceLocator>prot1://0?IN?100000201?boolean</resourceLocator>
+        <resourceLocator>prot1://0?IN?100000301?boolean</resourceLocator>
         <refreshTime>500</refreshTime>
         <accessMode>READ-WRITE</accessMode>
         <active>false</active>
@@ -172,7 +172,7 @@
     </tag>
     <tag>
         <name>ctV18Dicht</name>
-        <resourceLocator>prot1://0?IN?100000202?boolean</resourceLocator>
+        <resourceLocator>prot1://0?IN?100000302?boolean</resourceLocator>
         <refreshTime>500</refreshTime>
         <accessMode>READ-WRITE</accessMode>
         <active>false</active>
@@ -182,7 +182,7 @@
     </tag>
     <tag>
         <name>ctRegen1</name>
-        <resourceLocator>prot1://0?IN?100000203?boolean</resourceLocator>
+        <resourceLocator>prot1://0?IN?100000303?boolean</resourceLocator>
         <refreshTime>500</refreshTime>
         <accessMode>READ-WRITE</accessMode>
         <active>false</active>
@@ -192,7 +192,7 @@
     </tag>
     <tag>
         <name>ctRegen2</name>
-        <resourceLocator>prot1://0?IN?100000204?boolean</resourceLocator>
+        <resourceLocator>prot1://0?IN?100000304?boolean</resourceLocator>
         <refreshTime>500</refreshTime>
         <accessMode>READ-WRITE</accessMode>
         <active>false</active>
@@ -202,7 +202,7 @@
     </tag>
     <tag>
         <name>ctSchemer</name>
-        <resourceLocator>prot1://0?IN?100000205?boolean</resourceLocator>
+        <resourceLocator>prot1://0?IN?100000305?boolean</resourceLocator>
         <refreshTime>500</refreshTime>
         <accessMode>READ-WRITE</accessMode>
         <active>false</active>
@@ -212,7 +212,7 @@
     </tag>
     <tag>
         <name>ctZoutVatLek</name>
-        <resourceLocator>prot1://0?IN?100000213?boolean</resourceLocator>
+        <resourceLocator>prot1://0?IN?100000313?boolean</resourceLocator>
         <refreshTime>500</refreshTime>
         <accessMode>READ-WRITE</accessMode>
         <active>false</active>
@@ -222,7 +222,7 @@
     </tag>
     <tag>
         <name>hrOpenDicht</name>
-        <resourceLocator>prot1://0?OUT?413?boolean</resourceLocator>
+        <resourceLocator>prot1://0?OUT?100000513?boolean</resourceLocator>
         <refreshTime>500</refreshTime>
         <accessMode>READ-WRITE</accessMode>
         <active>false</active>
@@ -232,7 +232,7 @@
     </tag>
     <tag>
         <name>hrLampenTom</name>
-        <resourceLocator>prot1://0?OUT?414?boolean</resourceLocator>
+        <resourceLocator>prot1://0?OUT?100000514?boolean</resourceLocator>
         <refreshTime>500</refreshTime>
         <accessMode>READ-WRITE</accessMode>
         <active>false</active>
@@ -242,7 +242,7 @@
     </tag>
     <tag>
         <name>hrLampenPlatina</name>
-        <resourceLocator>prot1://0?OUT?415?boolean</resourceLocator>
+        <resourceLocator>prot1://0?OUT?100000515?boolean</resourceLocator>
         <refreshTime>500</refreshTime>
         <accessMode>READ-WRITE</accessMode>
         <active>false</active>
@@ -252,7 +252,7 @@
     </tag>
     <tag>
         <name>hrPoortTom</name>
-        <resourceLocator>prot1://0?OUT?416?boolean</resourceLocator>
+        <resourceLocator>prot1://0?OUT?100000516?boolean</resourceLocator>
         <refreshTime>500</refreshTime>
         <accessMode>READ-WRITE</accessMode>
         <active>false</active>
@@ -561,288 +561,8 @@
         <enableAudit subT="1" eventT="18">false</enableAudit>
     </tag>
     <tag>
-        <name>hrVenster1</name>
-        <resourceLocator>prot1://0?OUT?100000301?boolean</resourceLocator>
-        <refreshTime>500</refreshTime>
-        <accessMode>READ-WRITE</accessMode>
-        <active>false</active>
-        <simulator>VRBL://hrVenster1?boolean</simulator>
-        <enableScaling>false</enableScaling>
-        <enableAudit subT="1" eventT="18">false</enableAudit>
-    </tag>
-    <tag>
-        <name>hrVenster2</name>
-        <resourceLocator>prot1://0?OUT?100000302?boolean</resourceLocator>
-        <refreshTime>500</refreshTime>
-        <accessMode>READ-WRITE</accessMode>
-        <active>false</active>
-        <simulator>VRBL://Tag1?boolean</simulator>
-        <enableScaling>false</enableScaling>
-        <enableAudit subT="1" eventT="18">false</enableAudit>
-    </tag>
-    <tag>
-        <name>hrVenster3</name>
-        <resourceLocator>prot1://0?OUT?100000303?boolean</resourceLocator>
-        <refreshTime>500</refreshTime>
-        <accessMode>READ-WRITE</accessMode>
-        <active>false</active>
-        <simulator>VRBL://Tag1?boolean</simulator>
-        <enableScaling>false</enableScaling>
-        <enableAudit subT="1" eventT="18">false</enableAudit>
-    </tag>
-    <tag>
-        <name>hrVenster4</name>
-        <resourceLocator>prot1://0?OUT?100000304?boolean</resourceLocator>
-        <refreshTime>500</refreshTime>
-        <accessMode>READ-WRITE</accessMode>
-        <active>false</active>
-        <simulator>VRBL://Tag1?boolean</simulator>
-        <enableScaling>false</enableScaling>
-        <enableAudit subT="1" eventT="18">false</enableAudit>
-    </tag>
-    <tag>
-        <name>hrVenster5</name>
-        <resourceLocator>prot1://0?OUT?100000305?boolean</resourceLocator>
-        <refreshTime>500</refreshTime>
-        <accessMode>READ-WRITE</accessMode>
-        <active>false</active>
-        <simulator>VRBL://Tag1?boolean</simulator>
-        <enableScaling>false</enableScaling>
-        <enableAudit subT="1" eventT="18">false</enableAudit>
-    </tag>
-    <tag>
-        <name>hrVenster6</name>
-        <resourceLocator>prot1://0?OUT?100000306?boolean</resourceLocator>
-        <refreshTime>500</refreshTime>
-        <accessMode>READ-WRITE</accessMode>
-        <active>false</active>
-        <simulator>VRBL://Tag1?boolean</simulator>
-        <enableScaling>false</enableScaling>
-        <enableAudit subT="1" eventT="18">false</enableAudit>
-    </tag>
-    <tag>
-        <name>hrVenster7</name>
-        <resourceLocator>prot1://0?OUT?100000307?boolean</resourceLocator>
-        <refreshTime>500</refreshTime>
-        <accessMode>READ-WRITE</accessMode>
-        <active>false</active>
-        <simulator>VRBL://Tag1?boolean</simulator>
-        <enableScaling>false</enableScaling>
-        <enableAudit subT="1" eventT="18">false</enableAudit>
-    </tag>
-    <tag>
-        <name>hrVenster8</name>
-        <resourceLocator>prot1://0?OUT?100000308?boolean</resourceLocator>
-        <refreshTime>500</refreshTime>
-        <accessMode>READ-WRITE</accessMode>
-        <active>false</active>
-        <simulator>VRBL://Tag1?boolean</simulator>
-        <enableScaling>false</enableScaling>
-        <enableAudit subT="1" eventT="18">false</enableAudit>
-    </tag>
-    <tag>
-        <name>hrVenster9</name>
-        <resourceLocator>prot1://0?OUT?100000309?boolean</resourceLocator>
-        <refreshTime>500</refreshTime>
-        <accessMode>READ-WRITE</accessMode>
-        <active>false</active>
-        <simulator>VRBL://Tag1?boolean</simulator>
-        <enableScaling>false</enableScaling>
-        <enableAudit subT="1" eventT="18">false</enableAudit>
-    </tag>
-    <tag>
-        <name>hrVenster10</name>
-        <resourceLocator>prot1://0?OUT?100000310?boolean</resourceLocator>
-        <refreshTime>500</refreshTime>
-        <accessMode>READ-WRITE</accessMode>
-        <active>false</active>
-        <simulator>VRBL://Tag1?boolean</simulator>
-        <enableScaling>false</enableScaling>
-        <enableAudit subT="1" eventT="18">false</enableAudit>
-    </tag>
-    <tag>
-        <name>hrVenster11</name>
-        <resourceLocator>prot1://0?OUT?100000311?boolean</resourceLocator>
-        <refreshTime>500</refreshTime>
-        <accessMode>READ-WRITE</accessMode>
-        <active>false</active>
-        <simulator>VRBL://Tag1?boolean</simulator>
-        <enableScaling>false</enableScaling>
-        <enableAudit subT="1" eventT="18">false</enableAudit>
-    </tag>
-    <tag>
-        <name>hrVenster12</name>
-        <resourceLocator>prot1://0?OUT?100000312?boolean</resourceLocator>
-        <refreshTime>500</refreshTime>
-        <accessMode>READ-WRITE</accessMode>
-        <active>false</active>
-        <simulator>VRBL://Tag1?boolean</simulator>
-        <enableScaling>false</enableScaling>
-        <enableAudit subT="1" eventT="18">false</enableAudit>
-    </tag>
-    <tag>
-        <name>hrVenster13</name>
-        <resourceLocator>prot1://0?OUT?100000313?boolean</resourceLocator>
-        <refreshTime>500</refreshTime>
-        <accessMode>READ-WRITE</accessMode>
-        <active>false</active>
-        <simulator>VRBL://Tag1?boolean</simulator>
-        <enableScaling>false</enableScaling>
-        <enableAudit subT="1" eventT="18">false</enableAudit>
-    </tag>
-    <tag>
-        <name>hrVenster14</name>
-        <resourceLocator>prot1://0?OUT?100000314?boolean</resourceLocator>
-        <refreshTime>500</refreshTime>
-        <accessMode>READ-WRITE</accessMode>
-        <active>false</active>
-        <simulator>VRBL://Tag1?boolean</simulator>
-        <enableScaling>false</enableScaling>
-        <enableAudit subT="1" eventT="18">false</enableAudit>
-    </tag>
-    <tag>
-        <name>hrVenster15</name>
-        <resourceLocator>prot1://0?OUT?100000315?boolean</resourceLocator>
-        <refreshTime>500</refreshTime>
-        <accessMode>READ-WRITE</accessMode>
-        <active>false</active>
-        <simulator>VRBL://Tag1?boolean</simulator>
-        <enableScaling>false</enableScaling>
-        <enableAudit subT="1" eventT="18">false</enableAudit>
-    </tag>
-    <tag>
-        <name>hrVenster16</name>
-        <resourceLocator>prot1://0?OUT?100000316?boolean</resourceLocator>
-        <refreshTime>500</refreshTime>
-        <accessMode>READ-WRITE</accessMode>
-        <active>false</active>
-        <simulator>VRBL://Tag1?boolean</simulator>
-        <enableScaling>false</enableScaling>
-        <enableAudit subT="1" eventT="18">false</enableAudit>
-    </tag>
-    <tag>
-        <name>hrVenster17</name>
-        <resourceLocator>prot1://0?OUT?100000401?boolean</resourceLocator>
-        <refreshTime>500</refreshTime>
-        <accessMode>READ-WRITE</accessMode>
-        <active>false</active>
-        <simulator>VRBL://hrVenster17?boolean</simulator>
-        <enableScaling>false</enableScaling>
-        <enableAudit subT="1" eventT="18">false</enableAudit>
-    </tag>
-    <tag>
-        <name>hrVenster18</name>
-        <resourceLocator>prot1://0?OUT?100000402?boolean</resourceLocator>
-        <refreshTime>500</refreshTime>
-        <accessMode>READ-WRITE</accessMode>
-        <active>false</active>
-        <simulator>VRBL://Tag1?boolean</simulator>
-        <enableScaling>false</enableScaling>
-        <enableAudit subT="1" eventT="18">false</enableAudit>
-    </tag>
-    <tag>
-        <name>hrZonnewering1</name>
-        <resourceLocator>prot1://0?OUT?100000403?boolean</resourceLocator>
-        <refreshTime>500</refreshTime>
-        <accessMode>READ-WRITE</accessMode>
-        <active>false</active>
-        <simulator>VRBL://Tag1?boolean</simulator>
-        <enableScaling>false</enableScaling>
-        <enableAudit subT="1" eventT="18">false</enableAudit>
-    </tag>
-    <tag>
-        <name>hrZonnewering3</name>
-        <resourceLocator>prot1://0?OUT?100000404?boolean</resourceLocator>
-        <refreshTime>500</refreshTime>
-        <accessMode>READ-WRITE</accessMode>
-        <active>false</active>
-        <simulator>VRBL://Tag1?boolean</simulator>
-        <enableScaling>false</enableScaling>
-        <enableAudit subT="1" eventT="18">false</enableAudit>
-    </tag>
-    <tag>
-        <name>hrZonnewering4</name>
-        <resourceLocator>prot1://0?OUT?100000405?boolean</resourceLocator>
-        <refreshTime>500</refreshTime>
-        <accessMode>READ-WRITE</accessMode>
-        <active>false</active>
-        <simulator>VRBL://Tag1?boolean</simulator>
-        <enableScaling>false</enableScaling>
-        <enableAudit subT="1" eventT="18">false</enableAudit>
-    </tag>
-    <tag>
-        <name>hrZonnewering5</name>
-        <resourceLocator>prot1://0?OUT?100000406?boolean</resourceLocator>
-        <refreshTime>500</refreshTime>
-        <accessMode>READ-WRITE</accessMode>
-        <active>false</active>
-        <simulator>VRBL://Tag1?boolean</simulator>
-        <enableScaling>false</enableScaling>
-        <enableAudit subT="1" eventT="18">false</enableAudit>
-    </tag>
-    <tag>
-        <name>hrZonnewering6</name>
-        <resourceLocator>prot1://0?OUT?100000407?boolean</resourceLocator>
-        <refreshTime>500</refreshTime>
-        <accessMode>READ-WRITE</accessMode>
-        <active>false</active>
-        <simulator>VRBL://Tag1?boolean</simulator>
-        <enableScaling>false</enableScaling>
-        <enableAudit subT="1" eventT="18">false</enableAudit>
-    </tag>
-    <tag>
-        <name>hrZonnewering12</name>
-        <resourceLocator>prot1://0?OUT?100000408?boolean</resourceLocator>
-        <refreshTime>500</refreshTime>
-        <accessMode>READ-WRITE</accessMode>
-        <active>false</active>
-        <simulator>VRBL://Tag1?boolean</simulator>
-        <enableScaling>false</enableScaling>
-        <enableAudit subT="1" eventT="18">false</enableAudit>
-    </tag>
-    <tag>
-        <name>hrZonnewering13</name>
-        <resourceLocator>prot1://0?OUT?100000409?boolean</resourceLocator>
-        <refreshTime>500</refreshTime>
-        <accessMode>READ-WRITE</accessMode>
-        <active>false</active>
-        <simulator>VRBL://Tag1?boolean</simulator>
-        <enableScaling>false</enableScaling>
-        <enableAudit subT="1" eventT="18">false</enableAudit>
-    </tag>
-    <tag>
-        <name>hrZonnewering15</name>
-        <resourceLocator>prot1://0?OUT?100000410?boolean</resourceLocator>
-        <refreshTime>500</refreshTime>
-        <accessMode>READ-WRITE</accessMode>
-        <active>false</active>
-        <simulator>VRBL://Tag1?boolean</simulator>
-        <enableScaling>false</enableScaling>
-        <enableAudit subT="1" eventT="18">false</enableAudit>
-    </tag>
-    <tag>
-        <name>hrZonnewering16</name>
-        <resourceLocator>prot1://0?OUT?100000411?boolean</resourceLocator>
-        <refreshTime>500</refreshTime>
-        <accessMode>READ-WRITE</accessMode>
-        <active>false</active>
-        <simulator>VRBL://Tag1?boolean</simulator>
-        <enableScaling>false</enableScaling>
-        <enableAudit subT="1" eventT="18">false</enableAudit>
-    </tag>
-    <tag>
-        <name>hrZonnewering17</name>
-        <resourceLocator>prot1://0?OUT?100000412?boolean</resourceLocator>
-        <refreshTime>500</refreshTime>
-        <accessMode>READ-WRITE</accessMode>
-        <active>false</active>
-        <simulator>VRBL://Tag1?boolean</simulator>
-        <enableScaling>false</enableScaling>
-        <enableAudit subT="1" eventT="18">false</enableAudit>
-    </tag>
-    <tag>
         <name>ctZoutLaag</name>
-        <resourceLocator>prot1://0?IN?100000212?boolean</resourceLocator>
+        <resourceLocator>prot1://0?IN?100000312?boolean</resourceLocator>
         <refreshTime>500</refreshTime>
         <accessMode>READ-WRITE</accessMode>
         <active>false</active>

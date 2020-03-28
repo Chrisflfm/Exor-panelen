@@ -11,6 +11,11 @@
    </langs>
    <MLTexts>
     <MLText L1="Venster nr:" id="0"/>
+    <MLText L1="Open" id="3"/>
+    <MLText L1="Dicht" id="4"/>
+    <MLText L1="Dicht" id="5"/>
+    <MLText L1="Stop" id="6"/>
+    <MLText L1="Stop" id="7"/>
    </MLTexts>
   </object>
   <object class="GroupWgt" id="BtnComp21" customType="Button Computer">
@@ -188,6 +193,42 @@
   </object>
   <object class="GroupSubscribeWgt" id="OpenCloseVelux@$GroupSubscrWgt@$0">
    <wgtStyle width="0" x="0" y="0" height="0"/>
+  </object>
+  <object class="LabelWgt" id="label2" static="true">
+   <wgtStyle width="52" font-color="rgb(23,30,40)" x="565" font-sizepx="21" y="278" font-family="Tahoma" wrapping="true" cx="26" cy="18" height="38" vert-align="top" marker="true" keypad-type="None" font-size="16"/>
+   <links>
+    <lang class="MLTextLink" textid="3"/>
+   </links>
+  </object>
+  <object class="LabelWgt" id="label3" static="true">
+   <wgtStyle width="52" font-color="rgb(23,30,40)" x="1065.83" font-sizepx="21" y="278" font-family="Tahoma" wrapping="true" cx="26" cy="18" height="38" vert-align="top" marker="true" keypad-type="None" font-size="16"/>
+   <links>
+    <lang class="MLTextLink" textid="3"/>
+   </links>
+  </object>
+  <object class="LabelWgt" id="label4" static="true">
+   <wgtStyle width="52" font-color="rgb(23,30,40)" x="565" font-sizepx="21" y="454.84" font-family="Tahoma" wrapping="true" cx="26" cy="18" height="38" vert-align="top" marker="true" keypad-type="None" font-size="16"/>
+   <links>
+    <lang class="MLTextLink" textid="4"/>
+   </links>
+  </object>
+  <object class="LabelWgt" id="label5" static="true">
+   <wgtStyle width="52" font-color="rgb(23,30,40)" x="1065.83" font-sizepx="21" y="454.84" font-family="Tahoma" wrapping="true" cx="26" cy="18" height="38" vert-align="top" marker="true" keypad-type="None" font-size="16"/>
+   <links>
+    <lang class="MLTextLink" textid="5"/>
+   </links>
+  </object>
+  <object class="LabelWgt" id="label6" static="true">
+   <wgtStyle width="52" font-color="rgb(23,30,40)" x="565" font-sizepx="21" y="367.20" font-family="Tahoma" wrapping="true" cx="26" cy="18" height="38" vert-align="top" marker="true" keypad-type="None" font-size="16"/>
+   <links>
+    <lang class="MLTextLink" textid="6"/>
+   </links>
+  </object>
+  <object class="LabelWgt" id="label7" static="true">
+   <wgtStyle width="52" font-color="rgb(23,30,40)" x="1065.83" font-sizepx="21" y="367.20" font-family="Tahoma" wrapping="true" cx="26" cy="18" height="38" vert-align="top" marker="true" keypad-type="None" font-size="16"/>
+   <links>
+    <lang class="MLTextLink" textid="7"/>
+   </links>
   </object>
  </object>
 </wgtPage>
