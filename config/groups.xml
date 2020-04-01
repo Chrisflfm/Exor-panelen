@@ -16,15 +16,23 @@
   <tag>ctV1Dicht</tag>
  </group>
  <group Type="Auto">
+  <name>Home@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>blnoAlarm</tag>
+ </group>
+ <group Type="Auto">
   <name>Licht@$GroupSubscrWgt@$0</name>
   <active>false</active>
-  <tag>ctSchemer</tag>
+  <tag>blDonker</tag>
+  <tag>blLicht</tag>
   <tag>hrLampenPlatina</tag>
   <tag>hrLampenTom</tag>
  </group>
  <group Type="Auto">
   <name>OpenCloseVelux@$GroupSubscrWgt@$0</name>
   <active>false</active>
+  <tag>blDroog</tag>
+  <tag>blRegen</tag>
   <tag>regVensterNr</tag>
  </group>
  <group Type="Auto">
@@ -42,6 +50,7 @@
  <group Type="Auto">
   <name>Velux@$GroupSubscrWgt@$0</name>
   <active>false</active>
+  <tag>blDroog</tag>
   <tag>blRegen</tag>
   <tag>ctV10Dicht</tag>
   <tag>ctV11Dicht</tag>
@@ -65,6 +74,7 @@
  <group Type="Auto">
   <name>WaterOntharder@$GroupSubscrWgt@$0</name>
   <active>false</active>
+  <tag>Ft06_WaterlekZoutvat</tag>
   <tag>ctZoutLaag</tag>
   <tag>ctZoutVatLek</tag>
  </group>

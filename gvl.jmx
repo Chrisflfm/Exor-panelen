@@ -2,7 +2,7 @@
  <object pageName="GVL" pageSize="1280,800" class="PageWgt" dataWndSize="0,70" downloadPrepDone="true" staticFile="opt/gvl.png" id="GVL" staticOptEnable="true">
   <wgtStyle width="1280" x="0" y="0" height="800" ver="020801314" v="02.08.01.314"/>
   <object class="ImageWgt" id="image1" static="true">
-   <wgtStyle width="1151" imagePath="images/gelijkvloers.png" x="0" y="42" cx="639.50" cy="400" height="707"/>
+   <wgtStyle width="1206" imagePath="images/gelijkvloers.png" x="56.86" y="24.12" cx="603" cy="338" height="676"/>
   </object>
   <object class="PageMLTextMgrWgt" id="_PageMLTextMgrWgt" mgrType="Page" mlFileName="">
    <wgtStyle width="0" x="0" y="0" height="0"/>
@@ -36,7 +36,7 @@
    </object>
   </object>
   <object class="ImageWgt" id="image2" static="true">
-   <wgtStyle width="492" imagePath="images/under construction.jpg" x="394" y="248" cx="246" cy="147.50" height="295"/>
+   <wgtStyle width="246" imagePath="images/under construction.jpg" x="923.97" y="248.60" cx="123" cy="76" height="152"/>
   </object>
  </object>
 </wgtPage>

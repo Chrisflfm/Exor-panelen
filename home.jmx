@@ -1,9 +1,6 @@
 <wgtPage rev="1" projectType="HMI Project">
- <object pageName="Home" pageSize="1280,800" class="PageWgt" dataWndSize="0,70" downloadPrepDone="true" usedFonts="Arial,Tahoma" staticFile="opt/home.png" id="Home" staticOptEnable="true">
+ <object pageName="Home" pageSize="1280,800" class="PageWgt" dataWndSize="0,70" downloadPrepDone="true" usedFonts="Tahoma,Arial" staticFile="opt/home.png" id="Home" staticOptEnable="true">
   <wgtStyle width="1280" x="0" y="0" height="800" ver="020801314" color="none" v="02.08.01.314"/>
-  <links>
-   <action class="SendEmailAction" attribute="onActivate" event="onActivate" actionID="1" EmailConfig="eMailServer1" actionWgt="MailActionWgt" EmailInfo="eMail1"/>
-  </links>
   <object class="ImageWgt" id="image2" static="true">
    <wgtStyle width="133" imagePath="images/velux.jpg" x="42.50" y="354" cx="66.50" cy="61" height="122"/>
   </object>
@@ -126,6 +123,12 @@
    <links>
     <action pageName="alarm.jmx" class="LoadPageAction" attribute="onMouseClick" event="onMouseClick" actionID="1" actionWgt="_PageMgr"/>
    </links>
+  </object>
+  <object class="ShapeWgt" id="roundrect1">
+   <wgtStyle width="135" x="1117.50" forcePaint="9" y="9.50" fill="rgb(152,251,152)" cx="65.45" cy="59.03" rx="20" height="122" nodeName="rect" ry="20" stroke="rgb(60,179,113)" fill-opacity="0.5" stroke-width="3"/>
+   <dataLinks>
+    <dataLink readWrite="R" tagType="boolean" attribute="visibility" tag="blnoAlarm" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+   </dataLinks>
   </object>
  </object>
 </wgtPage>

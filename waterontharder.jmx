@@ -99,5 +99,37 @@
   <object class="GroupSubscribeWgt" id="WaterOntharder@$GroupSubscrWgt@$0">
    <wgtStyle width="0" x="0" y="0" height="0"/>
   </object>
+  <object class="GroupWgt" id="BarStd1" customType="Bargraph">
+   <wgtStyle width="26" x="507" y="311" cx="66.19" cy="118.13" height="72" fill-opacity="0.5" mtx="5.34615,0,0,0,3.31944,0,0,0,1" groupStyle="xform-scaling"/>
+   <links>
+    <attr attrName="min" alias="BargraphWgt.min;ScaleWgt.min;LabelsWgt.min"/>
+    <attr attrName="max" alias="BargraphWgt.max;ScaleWgt.max;LabelsWgt.max"/>
+    <attr attrName="visibility2" alias="TicksWgt.visibility2;ScaleWgt.visibility2;LabelsWgt.visibility2"/>
+    <attr attrName="align" alias="TicksWgt.align;ScaleWgt.align;LabelsWgt.align"/>
+    <attr attrName="reverseScale" alias="BargraphWgt.reverseScale;ScaleWgt.reverseScale;LabelsWgt.reverseScale;TicksWgt.reverseScale"/>
+    <attr attrName="labelFreq" alias="TicksWgt.labelFreq;LabelsWgt.labelFreq"/>
+   </links>
+   <object class="LabelsWgt" id="BarStd1.lbl" static="true">
+    <wgtStyle font-family="Tahoma" font-sizepx="10" cx="40" startAngle="-20" cy="38" timeSpec="local" reverseScale="true" endAngle="185" x="-29" y="-4" visibility="false" rotated="true" vert-align="top" align="1" font-color="rgb(128,128,128)" min="1" width="84" labelNames="" tickFreq="5" height="79" labelFreq="6" form="vertical" font-size="8"/>
+   </object>
+   <object class="ScaleWgt" id="BarStd1.scale" static="true">
+    <wgtStyle alarmMin="0.2" cx="23" startAngle="-20" cy="32" reverseScale="yes" endAngle="185" x="-13" y="0" visibility="false" autoAdjust="true" align="1" stroke-width="12" width="53" Color="none" fill="none" size="99" height="72" stroke="rgb(255,0,0)" form="vertical"/>
+   </object>
+   <object class="TicksWgt" id="BarStd1.ticks" static="true">
+    <wgtStyle cx="24" startAngle="-10" cy="35" endAngle="200" reverseScale="true" tickSize2="12" x="-13" y="0" visibility="false" max="10" align="1" stroke-width="2" width="53" stroke-linecap="butt" tickSize="8" tickFreq="1" height="72" labelFreq="6" stroke="rgb(128,128,128)" form="vertical"/>
+   </object>
+   <object class="BargraphWgt" hmiStyle="hmi-type:*barv" id="BarStd1.bar">
+    <wgtStyle width="26" reverseScale="false" x="0" forcePaint="8" y="0" fill="rgb(255,255,255)" cx="13" form="vertical" cy="36" height="72" value="10" min="1"/>
+    <dataLinks>
+     <dataLink readWrite="R" tagType="boolean" attribute="value" tag="ctZoutLaag" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+    </dataLinks>
+   </object>
+  </object>
+  <object class="ShapeWgt" id="roundrect1">
+   <wgtStyle width="311" x="365" forcePaint="73" y="546" fill="rgb(0,0,255)" cx="150.79" cy="9.68" rx="20" height="20" nodeName="rect" ry="20" stroke="rgb(0,0,255)"/>
+   <dataLinks>
+    <dataLink readWrite="R" tagType="boolean" attribute="visibility" tag="Ft06_WaterlekZoutvat" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+   </dataLinks>
+  </object>
  </object>
 </wgtPage>

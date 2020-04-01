@@ -190,15 +190,6 @@
     <action pageName="verd.jmx" class="LoadPageAction" attribute="onMouseClick" event="onMouseClick" actionID="1" actionWgt="_PageMgr"/>
    </links>
   </object>
-  <object class="ImageWgt" id="wthrImg41" static="true">
-   <wgtStyle width="79" imagePath="images/IC_fo1_031.svg" x="1056" y="505.25" cx="39.50" cy="32.75" height="65.50"/>
-  </object>
-  <object class="ImageWgt" id="wthrImg42" static="true">
-   <wgtStyle width="71.50" imagePath="images/IC_fo1_032.svg" x="1059.75" y="614" cx="35.75" cy="39" height="78"/>
-  </object>
-  <object class="ImageWgt" id="wthrImg43" static="true">
-   <wgtStyle width="86" imagePath="images/IC_fo1_025.svg" x="1052.50" y="388" cx="43" cy="40.50" height="81"/>
-  </object>
   <object class="GroupSubscribeWgt" id="HVAC overview@$GroupSubscrWgt@$0">
    <wgtStyle width="0" x="0" y="0" height="0"/>
   </object>
