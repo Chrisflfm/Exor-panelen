@@ -620,4 +620,74 @@
         <enableScaling>false</enableScaling>
         <enableAudit subT="1" eventT="18">false</enableAudit>
     </tag>
+    <tag>
+        <name>regAantDagPoortToe</name>
+        <resourceLocator>prot1://0?REG?1000012?unsignedInt</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://regAantDagPoortToe?unsignedInt</simulator>
+        <enableScaling>false</enableScaling>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+    </tag>
+    <tag>
+        <name>ctAlarmAan</name>
+        <resourceLocator>prot1://0?IN?100000306?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://ctAlarmAan?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+    </tag>
+    <tag>
+        <name>ctAlarmUit</name>
+        <resourceLocator>prot1://0?IN?100000307?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://Tag1?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+    </tag>
+    <tag>
+        <name>ctBrand</name>
+        <resourceLocator>prot1://0?IN?100000308?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://Tag1?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+    </tag>
+    <tag>
+        <name>ctInbraak</name>
+        <resourceLocator>prot1://0?IN?100000309?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://Tag1?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+    </tag>
+    <tag>
+        <name>ctDeurPlatina</name>
+        <resourceLocator>prot1://0?IN?100000310?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://Tag1?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+    </tag>
+    <tag>
+        <name>Ft07_OpenDichtRelais</name>
+        <resourceLocator>prot1://0?FLAG?106?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://Ft07_OpenDichtRelais?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+    </tag>
 </tags>

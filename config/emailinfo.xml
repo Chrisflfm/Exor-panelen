@@ -70,4 +70,16 @@ De deur tussen Platina en TOM is geopend.</message>
 Er is water in de lakbak, mogelijk lekt de ontharder.</message>
   <taglist></taglist>
  </emailInfo>
+ <emailInfo>
+  <id>eMail1</id>
+  <enable>true</enable>
+  <name>Ft07_OpenDichtRelais</name>
+  <description>Ft07_OpenDichtRelais</description>
+  <from>Pannel@heimdall.nl</from>
+  <to>chris.dries@posteo.net</to>
+  <subject>Ft07_OpenDichtRelais</subject>
+  <message>Ft07_OpenDichtRelais:
+de aansturing van het relais klopt niet</message>
+  <taglist></taglist>
+ </emailInfo>
 </emailInfos>

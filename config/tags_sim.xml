@@ -557,3 +557,66 @@
     <enableScaling>false</enableScaling>
     <enableAudit subT="1" eventT="18">false</enableAudit>
 </tag>
+<tag>
+    <name>regAantDagPoortToe</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://regAantDagPoortToe?unsignedInt</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>ctAlarmAan</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://ctAlarmAan?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>ctAlarmUit</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>ctBrand</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>ctInbraak</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>ctDeurPlatina</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>Ft07_OpenDichtRelais</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Ft07_OpenDichtRelais?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>

@@ -12,6 +12,7 @@
             <MLText id="4" L1="Not Triggered Acked"/>
             <MLText id="5" L1="Not Triggered Not Acked"/>
             <MLText id="6" L1="Triggered Acked"/>
+            <MLText id="8" L1="fout in aansturing uitgang ompool relais"/>
             <MLText id="9" L1="Zout niveau in ontharder laag"/>
             <MLText id="10" L1="Brand alarm"/>
             <MLText id="11" L1="Inbraak alarm"/>
@@ -184,6 +185,43 @@
         <useractions/>
         <description>[13@Alarm]Lek aan de ontharder</description>
         <severity>5</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1></customField_1>
+            <customField_2></customField_2>
+        </customFields>
+        <bitMask>1</bitMask>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </bitMaskAlarm>
+    <bitMaskAlarm alarmId="7" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>Ft07_OpenDichtRelais</name>
+        <groups></groups>
+        <source>Ft07_OpenDichtRelais</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>true</blinkTxt>
+        <requireReset>true</requireReset>
+        <triggeredTxtColor>#000000</triggeredTxtColor>
+        <triggeredBgColor>#ffffff</triggeredBgColor>
+        <triggeredNotAckedTxtColor>#000000</triggeredNotAckedTxtColor>
+        <triggeredNotAckedBgColor>#ffffff</triggeredNotAckedBgColor>
+        <notTriggeredAckedBgColor>#ffffff</notTriggeredAckedBgColor>
+        <notTriggeredNotAckedBgColor>#ffffff</notTriggeredNotAckedBgColor>
+        <triggeredAckedTxtColor>#000000</triggeredAckedTxtColor>
+        <triggeredAckedBgColor>#ffffff</triggeredAckedBgColor>
+        <actions>
+            <macroAction actionFunction="SendMailAction" parameters="eMailServer1;eMail1" actionID="6" actionType="onClick"/>
+        </actions>
+        <useractions/>
+        <description>[8@Alarm]fout in aansturing uitgang ompool relais</description>
+        <severity>6</severity>
         <priority>3</priority>
         <customFields>
             <customField_1></customField_1>

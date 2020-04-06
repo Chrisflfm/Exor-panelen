@@ -19,6 +19,11 @@
   <name>Home@$GroupSubscrWgt@$0</name>
   <active>false</active>
   <tag>blnoAlarm</tag>
+  <tag>ctAlarmAan</tag>
+  <tag>ctAlarmUit</tag>
+  <tag>ctBrand</tag>
+  <tag>ctDeurPlatina</tag>
+  <tag>ctInbraak</tag>
  </group>
  <group Type="Auto">
   <name>Licht@$GroupSubscrWgt@$0</name>
@@ -27,12 +32,15 @@
   <tag>blLicht</tag>
   <tag>hrLampenPlatina</tag>
   <tag>hrLampenTom</tag>
+  <tag>regAantDagPoortToe</tag>
  </group>
  <group Type="Auto">
   <name>OpenCloseVelux@$GroupSubscrWgt@$0</name>
   <active>false</active>
   <tag>blDroog</tag>
   <tag>blRegen</tag>
+  <tag>ctAlarmAan</tag>
+  <tag>ctAlarmUit</tag>
   <tag>regVensterNr</tag>
  </group>
  <group Type="Auto">
@@ -52,6 +60,8 @@
   <active>false</active>
   <tag>blDroog</tag>
   <tag>blRegen</tag>
+  <tag>ctAlarmAan</tag>
+  <tag>ctAlarmUit</tag>
   <tag>ctV10Dicht</tag>
   <tag>ctV11Dicht</tag>
   <tag>ctV12Dicht</tag>
