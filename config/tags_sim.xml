@@ -620,3 +620,48 @@
     <enableScaling>false</enableScaling>
     <enableAudit subT="1" eventT="18">false</enableAudit>
 </tag>
+<tag>
+    <name>blNotAlarmAan</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://blNotAlarmAan?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>blNotAlarmUit</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>blNotBrand</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>blNotInbraak</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>
+<tag>
+    <name>blNotDeurPlatina</name>
+    <refreshTime>500</refreshTime>
+    <accessMode>READ-WRITE</accessMode>
+    <active>false</active>
+    <resourceLocator>VRBL://Tag1?boolean</resourceLocator>
+    <enableScaling>false</enableScaling>
+    <enableAudit subT="1" eventT="18">false</enableAudit>
+</tag>

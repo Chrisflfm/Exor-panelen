@@ -256,7 +256,7 @@
    </dataLinks>
   </object>
   <object class="ImageWgt" id="audImg21">
-   <wgtStyle width="32" imagePath="images/ic_ad1_021.svg" x="45" forcePaint="9" y="30" cx="16" cy="16" height="32"/>
+   <wgtStyle width="32" imagePath="images/ic_ad1_021.svg" x="83.50" forcePaint="8" y="30" cx="16" cy="16" height="32"/>
    <dataLinks>
     <dataLink readWrite="R" tagType="boolean" attribute="visibility" tag="ctAlarmUit" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
    </dataLinks>

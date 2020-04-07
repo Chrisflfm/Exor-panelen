@@ -145,19 +145,19 @@
   <object class="ImageWgt" id="altImg18">
    <wgtStyle width="32" imagePath="images/ic_al1_018.svg" x="126.59" forcePaint="8" y="752.90" cx="16" cy="16" height="32"/>
    <dataLinks>
-    <dataLink readWrite="R" tagType="boolean" attribute="visibility" tag="ctBrand" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+    <dataLink readWrite="R" tagType="boolean" attribute="visibility" tag="blNotBrand" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
    </dataLinks>
   </object>
   <object class="ImageWgt" id="altImg83">
    <wgtStyle width="32" imagePath="images/ic_al1_083.svg" x="179.30" forcePaint="8" y="752.90" cx="16" cy="16" height="32"/>
    <dataLinks>
-    <dataLink readWrite="R" tagType="boolean" attribute="visibility" tag="ctInbraak" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+    <dataLink readWrite="R" tagType="boolean" attribute="visibility" tag="blNotInbraak" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
    </dataLinks>
   </object>
   <object class="ImageWgt" id="bldgImg81">
    <wgtStyle width="32" imagePath="images/13-5.svg" x="232" forcePaint="8" y="752.90" cx="16" cy="16" height="32"/>
    <dataLinks>
-    <dataLink readWrite="R" tagType="boolean" attribute="visibility" tag="ctDeurPlatina" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+    <dataLink readWrite="R" tagType="boolean" attribute="visibility" tag="blNotDeurPlatina" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
    </dataLinks>
   </object>
  </object>

@@ -690,4 +690,54 @@
         <enableScaling>false</enableScaling>
         <enableAudit subT="1" eventT="18">false</enableAudit>
     </tag>
+    <tag>
+        <name>blNotAlarmAan</name>
+        <resourceLocator>prot1://0?FLAG?64?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://blNotAlarmAan?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+    </tag>
+    <tag>
+        <name>blNotAlarmUit</name>
+        <resourceLocator>prot1://0?FLAG?65?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://Tag1?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+    </tag>
+    <tag>
+        <name>blNotBrand</name>
+        <resourceLocator>prot1://0?FLAG?66?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://Tag1?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+    </tag>
+    <tag>
+        <name>blNotInbraak</name>
+        <resourceLocator>prot1://0?FLAG?67?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://Tag1?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+    </tag>
+    <tag>
+        <name>blNotDeurPlatina</name>
+        <resourceLocator>prot1://0?FLAG?68?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://Tag1?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+    </tag>
 </tags>

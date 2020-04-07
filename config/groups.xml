@@ -18,12 +18,12 @@
  <group Type="Auto">
   <name>Home@$GroupSubscrWgt@$0</name>
   <active>false</active>
+  <tag>blNotBrand</tag>
+  <tag>blNotDeurPlatina</tag>
+  <tag>blNotInbraak</tag>
   <tag>blnoAlarm</tag>
   <tag>ctAlarmAan</tag>
   <tag>ctAlarmUit</tag>
-  <tag>ctBrand</tag>
-  <tag>ctDeurPlatina</tag>
-  <tag>ctInbraak</tag>
  </group>
  <group Type="Auto">
   <name>Licht@$GroupSubscrWgt@$0</name>
