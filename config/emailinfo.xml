@@ -5,7 +5,7 @@
   <name>Ft01 Zoutniveau laag</name>
   <description>Ft01 Zoutniveau laag</description>
   <from>Pannel@heimdall.nl</from>
-  <to>chris.dries@posteo.net; Thijs@platinabv.nl</to>
+  <to>chris.dries@posteo.net, Thijs@platinabv.nl</to>
   <subject>Heimdall Ft01 Zoutniveau laag</subject>
   <message>Ft01 Zoutniveau laag:
 Vul het zout in de ontharder bij aub.</message>
@@ -40,8 +40,8 @@ Kijk wat er aan de hand kan zijn.</message>
   <enable>true</enable>
   <name>Inbraak alarm TOM</name>
   <description>Inbraak alarm TOM</description>
-  <from></from>
-  <to>chris.dries@posteo.net</to>
+  <from>Pannel@heimdall.nl</from>
+  <to>Thijs@platinabv.nl</to>
   <subject>Heimdall Inbraak alarm TOM</subject>
   <message>Inbraak alarm bij TOM !!</message>
   <taglist></taglist>

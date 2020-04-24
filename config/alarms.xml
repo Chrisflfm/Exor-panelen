@@ -213,7 +213,6 @@
         <triggeredNotAckedTxtColor>#000000</triggeredNotAckedTxtColor>
         <triggeredNotAckedBgColor>#ffffff</triggeredNotAckedBgColor>
         <notTriggeredAckedBgColor>#ffffff</notTriggeredAckedBgColor>
-        <notTriggeredNotAckedBgColor>#ffffff</notTriggeredNotAckedBgColor>
         <triggeredAckedTxtColor>#000000</triggeredAckedTxtColor>
         <triggeredAckedBgColor>#ffffff</triggeredAckedBgColor>
         <actions>
